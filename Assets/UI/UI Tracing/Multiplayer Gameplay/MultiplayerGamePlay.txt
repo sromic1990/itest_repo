@@ -1,0 +1,11 @@
+GAMEPLAY
+========
+
+Brown Text : 632c10
+
+Font Family: Berlin Sans FB Demi, Bold
+
+Green text: 25862c
+
+Red Text: c93015
+----------------------------------------

@@ -1,0 +1,1947 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c46a5bc49a64d729040718cc3a15ce, type: 3}
+  m_Name: QuestionHolder_Backup_Sourav_10.05
+  m_EditorClassIdentifier: 
+  Questions:
+  - Question: What is North of South?
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 5
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: 
+      Sprite: 55
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: North
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.53676474, g: 0, b: 0, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: South
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5372549, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: East
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5372549, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: West
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5372549, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch the tape when the monkey is between 3 and 5
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 1
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 0
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float:
+    - 3
+    - 4.5
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: 
+      Sprite: 23
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 80
+      SecondarySprites: 
+      TextColor: {r: 1, g: 1, b: 1, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Choose 'Desert'
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 2
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 42
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 43
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Quick! If 'Meat' appears last, touch 'Sweet Potato', if 'Sweet Potato'
+      appears last, touch 'Waist'
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 3
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: 
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    - IntroText: 
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 3
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 65
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 79
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 83
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 1
+      IfFirst: 1
+      IfSecond: 2
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Quick! Pay Attention.
+    SecondaryQuestion:
+    - Which picture was on the previous screen?
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 4
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 5
+    QuestionSprite:
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Hungary is a...?
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 6
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: Country
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.4852941, g: 0, b: 0, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: State
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.4852941, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: Feeling
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.4852941, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: Craving
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.4852941, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 0
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch the monkeys from Slowest to Fastest.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 7
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 32
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 31
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 30
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch the Smallest Blue Ball
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 8
+    QuestionType: 0
+    TimeForQuestion: 6
+    IntrosForQuestion: []
+    QuestionData_Float:
+    - 0.8
+    - 1.1
+    - 0.9
+    - 1.2
+    QuestionData_Int: 04000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 1
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 33
+      SequenceInfo: []
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 34
+      SequenceInfo: []
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 35
+      SequenceInfo: []
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 35
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Count the number of 'i's in this screen
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 11
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: if i fail this test, i am a moron.
+      Sprite: 86
+      SecondarySprites: 
+      TextColor: {r: 0.5661765, g: 0, b: 0, a: 1}
+    Options:
+    - text: nine
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5647059, g: 0, b: 0, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: five
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5647059, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 7
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5647059, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 8
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.5647059, g: 0, b: 0, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch The Eyes in the order they appeared.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 12
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 5
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 3
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 4
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 5
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch The Eyes in the order they appeared.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 13
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 5
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 3
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 4
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 5
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 6
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 74
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 7
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: 'Memorize this order: ''Confused Man'', ''Loser'', ''Strong Man'', ''Weak
+      Man'', ''Winner''.'
+    SecondaryQuestion:
+    - Now Click them in that order.
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 14
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: Next question requires your quick attention. Get ready and touch
+        play.
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 5
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 5
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 31
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 8
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 35
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 10
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 39
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 11
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 40
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 12
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 41
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 9
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: When Men appear touch Rich man Quickly.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 15
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 5
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 36
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 18
+      SequenceInfo: []
+    - text: 
+      Sprite: 35
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 10
+      SequenceInfo: []
+    - text: 
+      Sprite: 39
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 11
+      SequenceInfo: []
+    - text: 
+      Sprite: 40
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 12
+      SequenceInfo: []
+    - text: 
+      Sprite: 41
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 9
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Time between 11 AM and 1 AM is 2 Hrs
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 16
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 2
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 73
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 72
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch Monkeys from smallest to biggest at 5, 8, 11 seconds
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 0
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 17
+    QuestionType: 0
+    TimeForQuestion: 20
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 05000000080000000b000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 2
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 21
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 19
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 5
+    - text: 
+      Sprite: 21
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 20
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 8
+    - text: 
+      Sprite: 21
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 21
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 11
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Track the Monkey
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 10
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float:
+    - 0.3
+    QuestionData_Int: 05000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 10
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 2
+      SecondarySprites: 040000000300000011000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 000000000000000000000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 000000000000000000000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 000000000000000000000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 000000000000000000000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Burst 10 balloons in 20 seconds. Tap to continue.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 1
+    RepeatValue: 10
+    Pattern: 9
+    QuestionType: 0
+    TimeForQuestion: 10
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 02000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 10
+    QuestionSprite: []
+    Options: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Burst 10 balloons in 20 seconds. Tap to continue.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 1
+    RepeatValue: 10
+    Pattern: 1
+    QuestionType: 0
+    TimeForQuestion: 10
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 02000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 10
+    QuestionSprite: []
+    Options: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  UniqueQuestions:
+  - Question: Quick! When Giraffe appears, touch within a second.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 18
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 0500000007000000
+    ReturnValue_Bool: 1
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 54
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 53
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Hey, how are you? Give me a hifi on my lefthand to continue.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 0
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 19
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 17
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 17
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Quick, when the key appears, touch the lock within 2 seconds.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 1
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 20
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 0500000007000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 60
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 59
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Knock the door until it opens.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 21
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 29
+      SecondarySprites: 1e000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 5
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Use your left hand to touch the thumb of the lady's right hand.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 0
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 22
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 61
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 61
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Memorize Quickly. Touch Green ball twice, red once, blue thrice.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 23
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 25
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 2
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 23
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 1
+        ClickOnTime: 0
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 22
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 3
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 24
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch red ball thrice after touching red ball once and blue ball twice
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 24
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 23
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 1
+        ClickOnTime: 0
+      - SequenceNumber: 3
+        RequiredClicks: 3
+        ClickOnTime: 0
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 22
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 2
+        ClickOnTime: 0
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 25
+      SequenceInfo: []
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 24
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Next Question Requitres Quick reaction.. get ready and click ok
+    SecondaryQuestion:
+    - Quick burst the next five baloons
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 25
+    QuestionType: 1
+    TimeForQuestion: 20
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 020000000100000005000000040000000200000006000000020000000100000005000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 9
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 9
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Next Question Requitres Quick reaction.. get ready and click ok
+    SecondaryQuestion:
+    - Quick! Burst Next three balloons
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 26
+    QuestionType: 1
+    TimeForQuestion: 30
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 03000000060000000300000004000000020000000500000006000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Close a door but Open it first.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 0
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 27
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 30
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 29
+      SecondarySprites: 1e0000001d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 5
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Burst the third balloon.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 28
+    QuestionType: 1
+    TimeForQuestion: 10
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch Green ball 13 times after touching Red and Blue Balls 3 times
+      each
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 29
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 25
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 13
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 23
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 3
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 24
+      SequenceInfo: []
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 22
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 3
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Quick! Touch everything except yellow ball.
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 30
+    QuestionType: 1
+    TimeForQuestion: 20
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 04000000050000000700000006000000090000000a0000000500000008000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 9
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch Umbrellas from right to left
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 31
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 2d000000
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 6
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch Umbrellas from left to right
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 33
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 44
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 45
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 47
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: To continue playing this round, Simply touch outside the play button
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 32
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 69
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    sortOrder: -1
+    ObjectsInPreviousData:
+      Mode: 0

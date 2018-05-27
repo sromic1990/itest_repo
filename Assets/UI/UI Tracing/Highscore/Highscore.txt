@@ -1,0 +1,18 @@
+Multiplayer
+==================
+
+Brown patch :69330c
+
+Light Brown patch : e2813a
+
+Tab Text color (If Not selected): e3b741
+
+Selected Tab Text color:632c10
+
+Name heading color: f9efba
+
+Player list bg color: fde6a9
+
+saperator line: ca9357
+------------------------------------------------
+

@@ -1,0 +1,910 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1817440163135180}
+  m_IsPrefabParent: 1
+--- !u!1 &1817440163135180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4876039028221546}
+  - component: {fileID: 33204678838375630}
+  - component: {fileID: 23789431075786092}
+  - component: {fileID: 114284491511510032}
+  - component: {fileID: 114497424934626638}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4876039028221546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817440163135180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 42.5, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23789431075786092
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817440163135180}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9c1535044a4884b88bae8a6489b3d730, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33204678838375630
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817440163135180}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114284491511510032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817440163135180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc54de3ea09ac4430ac1034cb9d1cefc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  qHolder: {fileID: 11400000, guid: a2e8c74d7e5e44488a93397f450bf485, type: 2}
+  testHold: {fileID: 11400000, guid: 8899a8b6328ff4dcea13cefae1084e5c, type: 2}
+  insertAt: 44
+--- !u!114 &114497424934626638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1817440163135180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ded8bc58c4a64e7aaa201b7cb8e4638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  qData: {fileID: 11400000, guid: a2e8c74d7e5e44488a93397f450bf485, type: 2}
+  AnotherHolder: {fileID: 11400000, guid: 8899a8b6328ff4dcea13cefae1084e5c, type: 2}
+  Buckets: {fileID: 11400000, guid: bb0f17555624741858f1f0d7777ad524, type: 2}
+  test: {fileID: 11400000, guid: 69cd48a912d3c43d1bb75df83b140539, type: 2}
+  Qand4A: 04000000030000000c0000000d0000000e000000010000001c0000001d0000001e0000000f0000000b000000100000001b0000000a000000110000001f0000002000000002000000050000001a0000001900000018000000120000002100000009000000170000001300000006000000070000001400000008000000150000001600000022000000230000002400000025000000
+  Homofon: 01000000030000000d0000000400000006000000050000000700000002000000080000000c000000090000000a0000000b0000000e000000
+  Picand4A: 010000001f0000001d00000018000000030000001e000000040000001c000000050000001b00000021000000160000001700000020000000190000001a000000150000001400000006000000130000000e0000000f000000100000001100000012000000070000000d0000000c000000080000000a0000000b000000020000000900000021000000
+  TrueFalse: 130000000700000012000000020000000d00000001000000080000000300000015000000090000001400000005000000060000000a0000000f0000000e00000010000000110000000b000000040000000c0000001600000017000000
+  uniqueIndex: 0900000001000000140000000a0000000b0000000d000000100000000c000000030000000e00000008000000110000000f00000012000000140000000200000006000000050000000400000007000000
+  indexes:
+  - U
+  - P
+  - T
+  - Q
+  - A
+  - T
+  - Q
+  - B
+  - P
+  - Y
+  - U
+  - Q
+  - M
+  - T
+  - H
+  - F
+  - O
+  - P
+  - TA
+  - U
+  - Q
+  - TO
+  - T
+  - X
+  - P
+  - A
+  - S
+  - T
+  - Y
+  - U
+  - TF
+  - Q
+  - Q
+  - O
+  - T
+  - C
+  - B
+  - U
+  - F
+  - E
+  - T
+  - TA
+  - M
+  - Y
+  - P
+  - Q
+  - T
+  - Q
+  - U
+  - M
+  - T
+  - S
+  - Q
+  - O
+  - TO
+  - P
+  - Y
+  - U
+  - H
+  - TF
+  - Q
+  - C
+  - T
+  - P
+  - TAf
+  - Q
+  - U
+  - X
+  - P
+  - TO
+  - Q
+  - Y
+  - T
+  - A
+  - M
+  - P
+  - S
+  - U
+  - H
+  - F
+  - Q
+  - P
+  - Y
+  - T
+  - TO
+  - P
+  - C
+  - Q
+  - O
+  - T
+  - TAf
+  - U
+  - M
+  - P
+  - H
+  - Y
+  - Q
+  - TF
+  - P
+  - F
+  - T
+  - B
+  - Q
+  - Y
+  - S
+  - P
+  - E
+  - T
+  - TA
+  - U
+  - O
+  - Y
+  - P
+  - H
+  - C
+  - T
+  - TO
+  - Q
+  - M
+  - P
+  - U
+  - TA
+  - Q
+  - H
+  - Y
+  - P
+  - TF
+  - T
+  - S
+  - B
+  - Q
+  - X
+  - P
+  - Y
+  - U
+  - Q
+  - TF
+  - P
+  - C
+  - T
+  - H
+  - TO
+  - Q
+  - A
+  - M
+  - U
+  - B
+  - T
+  - Y
+  - O
+  - Q
+  - S
+  - E
+  - Q
+  - TA
+  - Q
+  - H
+  - M
+  - U
+  - TF
+  - P
+  - C
+  - T
+  - H
+  - Y
+  - Q
+  - TAf
+  - P
+  - Q
+  - F
+  - U
+  - TF
+  - O
+  - S
+  - P
+  - M
+  - Q
+  - Y
+  - B
+  - U
+  - TO
+  - O
+  - P
+  - C
+  - T
+  - TF
+  - P
+  - TAf
+  - U
+  - H
+  - M
+  - P
+  - Y
+  - E
+  - T
+  - S
+  - U
+  - O
+  - TO
+  - P
+  - Y
+  - Q
+  - B
+  - P
+  - X
+  - C
+  - H
+  - H
+  - T
+  - Q
+  - Q
+  - U
+  - Y
+  - B
+  - P
+  - TAf
+  - F
+  - S
+  - O
+  - P
+  - X
+  - 'Q '
+  - TF
+  - P
+  - Y
+  - B
+  - Q
+  - C
+  - P
+  - E
+  - Q
+  - TO
+  - Q
+  - H
+  - Y
+  - Q
+  - Q
+  - TF
+  - P
+  - S
+  - Q
+  - B
+  - P
+  - A
+  - P
+  - TO
+  - F
+  - H
+  - Y
+  - C
+  mCodesList:
+  - code: M
+    mCodePattern: 0
+  - code: C
+    mCodePattern: 1
+  - code: H
+    mCodePattern: 2
+  - code: E
+    mCodePattern: 3
+  - code: O
+    mCodePattern: 4
+  - code: P
+    mCodePattern: 5
+  - code: Q
+    mCodePattern: 6
+  - code: F
+    mCodePattern: 7
+  - code: S
+    mCodePattern: 9
+  - code: Y
+    mCodePattern: 10
+  - code: TA
+    mCodePattern: 12
+  - code: TAf
+    mCodePattern: 13
+  - code: TF
+    mCodePattern: 14
+  - code: TO
+    mCodePattern: 15
+  - code: X
+    mCodePattern: 17
+  - code: T
+    mCodePattern: 16
+  - code: B
+    mCodePattern: 8
+  - code: A
+    mCodePattern: 11
+  pIndex:
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  - mPattern: 0
+    Qindex: 0
+  QuestionOrder: 

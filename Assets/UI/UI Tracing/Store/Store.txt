@@ -1,0 +1,10 @@
+Store
+======
+
+Lives energy image: get it from "GetMoreLives"
+
+Tab energy icon: use this from Gameplay foler.
+
+
+
+------------------------------------------------

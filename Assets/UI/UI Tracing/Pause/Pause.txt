@@ -1,0 +1,12 @@
+Pause
+=========
+
+Black tint:50% opacity
+
+On text: ffffff
+
+Off tet: 602d10
+
+Note: Get PopupBg from Setting folder
+
+---------------------------------------

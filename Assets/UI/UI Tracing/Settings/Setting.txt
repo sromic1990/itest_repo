@@ -1,0 +1,10 @@
+Setting
+=========
+
+Black tint:50% opacity
+
+Setting Heading color codes: Bottom:fbb50d, Top:fce82e, font size:80
+
+
+
+------------------------

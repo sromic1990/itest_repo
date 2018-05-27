@@ -1,0 +1,10 @@
+Level Cleared
+==============
+
+Red color Text: b80000
+
+Remaining text: ffefa4
+
+
+
+------------------------------

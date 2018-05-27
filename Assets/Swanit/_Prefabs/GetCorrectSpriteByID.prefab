@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1194816171277610}
+  m_IsPrefabParent: 1
+--- !u!1 &1194816171277610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4059215104910092}
+  - component: {fileID: 114226689485906282}
+  m_Layer: 0
+  m_Name: GetCorrectSpriteByID
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4059215104910092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194816171277610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114226689485906282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194816171277610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db87cec818f4249cfbfd769dde211718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteHolders:
+  - ID: DummySprite
+    SpriteID: 0
+    Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
+  - ID: AnswerBackGround
+    SpriteID: 1
+    Sprite: {fileID: 21300000, guid: f2ccb3d631cfd431c95a20ecfa24851d, type: 3}
+  - ID: Babushka
+    SpriteID: 2
+    Sprite: {fileID: 21300000, guid: 286562ae2c77d41f18b712f46903f34c, type: 3}
+  - ID: Babushka_Bottom
+    SpriteID: 3
+    Sprite: {fileID: 21300000, guid: 6d00ffe13065d46398cbac585a5b8498, type: 3}
+  - ID: Babushka_Top
+    SpriteID: 4
+    Sprite: {fileID: 21300000, guid: d360c093c31be4e45ae3a45363ae69a2, type: 3}
+  - ID: Ball_Blue
+    SpriteID: 5
+    Sprite: {fileID: 21300000, guid: 717aae7b102314bd4af9568eba9cb93a, type: 3}
+  - ID: Ball_Green
+    SpriteID: 6
+    Sprite: {fileID: 21300000, guid: ff1b7ef6546cd4b08ad4718a37ca11cf, type: 3}
+  - ID: Ball_Yellow
+    SpriteID: 7
+    Sprite: {fileID: 21300000, guid: ffa3bde001c4a42a1802db7d4a1946c2, type: 3}
+  - ID: Ball_Red
+    SpriteID: 8
+    Sprite: {fileID: 21300000, guid: 62da48f5963524824a6173b65a77a64f, type: 3}
+  - ID: Balloon_Blue
+    SpriteID: 9
+    Sprite: {fileID: 21300000, guid: 5ca485bdee140443787c6d22635be8c7, type: 3}
+  - ID: Balloon_Green
+    SpriteID: 10
+    Sprite: {fileID: 21300000, guid: 3780ece22489f4861bec579074357274, type: 3}
+  - ID: Balloon_Yellow
+    SpriteID: 11
+    Sprite: {fileID: 21300000, guid: 6158deb936db14ae7b22fa48dc65331a, type: 3}
+  - ID: Balloon_Red
+    SpriteID: 12
+    Sprite: {fileID: 21300000, guid: 8f414fc46378146adb33f2c58be95e42, type: 3}
+  - ID: Board
+    SpriteID: 13
+    Sprite: {fileID: 21300000, guid: 15ab34bb6ec164911bdb06882711fcf4, type: 3}
+  - ID: Cube
+    SpriteID: 14
+    Sprite: {fileID: 21300000, guid: c10131c8deae5474c9bb9d7c3b003c55, type: 3}
+  - ID: Monkey_Boxing
+    SpriteID: 15
+    Sprite: {fileID: 21300000, guid: 0a88aec46f72f45d4991f1d83f997b81, type: 3}
+  - ID: Monkey_Goggles
+    SpriteID: 16
+    Sprite: {fileID: 21300000, guid: 746bfef805e414e32ae362c886a8f477, type: 3}
+  - ID: Monkey_Hifi
+    SpriteID: 17
+    Sprite: {fileID: 21300000, guid: 617e9f9247f8b486dbc7f7e8a002b17b, type: 3}
+  - ID: Monkey_Hint
+    SpriteID: 18
+    Sprite: {fileID: 21300000, guid: 65de911af88f7454c804db834d14000f, type: 3}
+  - ID: Monkey_Luggage
+    SpriteID: 19
+    Sprite: {fileID: 21300000, guid: dbafbe8ef6ff94e68bc95d139a654131, type: 3}
+  - ID: Monkey_Orangutan
+    SpriteID: 20
+    Sprite: {fileID: 21300000, guid: 9ed557b737ea3475f8c3dab4f15b228b, type: 3}
+  - ID: Monkey_Santa
+    SpriteID: 21
+    Sprite: {fileID: 21300000, guid: 2825bdc4cbde14f59b28e71bc7db3acc, type: 3}
+  - ID: Monkey_Thumbsup
+    SpriteID: 22
+    Sprite: {fileID: 21300000, guid: df7c8995766cd474fb9ef43927ca3199, type: 3}
+  - ID: Monkey_Whatever
+    SpriteID: 23
+    Sprite: {fileID: 21300000, guid: c944ee276331d46b8841eb5ff0b73aed, type: 3}
+  - ID: Monkey_Relax
+    SpriteID: 24
+    Sprite: {fileID: 21300000, guid: 990a0c0ae2a2d4c7bb47acef334cc7e7, type: 3}
+  - ID: Monkey_Thinking1
+    SpriteID: 25
+    Sprite: {fileID: 21300000, guid: ee14abc4f84dd40b394ad3fe60fb6622, type: 3}
+  - ID: Monkey_Thinking2
+    SpriteID: 26
+    Sprite: {fileID: 21300000, guid: 6f4929279605a45d8a67897f0f45be91, type: 3}
+  - ID: Monkey_Thinking3
+    SpriteID: 27
+    Sprite: {fileID: 21300000, guid: 6301379e6da544845becfd04ad366d5a, type: 3}
+  - ID: Monkey_Buy
+    SpriteID: 28
+    Sprite: {fileID: 21300000, guid: 8a82c662c1bb5459e978fe744c2bcaac, type: 3}
+  - ID: Door_Closed
+    SpriteID: 29
+    Sprite: {fileID: 21300000, guid: 7a0a015bfaa5b48e49a8e65574dcc441, type: 3}
+  - ID: Door_Opened
+    SpriteID: 30
+    Sprite: {fileID: 21300000, guid: 3b20012933c284ac0ab7bfca95b9601f, type: 3}
+  - ID: Man_Confused
+    SpriteID: 31
+    Sprite: {fileID: 21300000, guid: 0675a1705889e46209039a4cc5ff4d96, type: 3}
+  - ID: Man_Greedy
+    SpriteID: 32
+    Sprite: {fileID: 21300000, guid: 573aae2ed548d49229b6fe6d579988b5, type: 3}
+  - ID: Man_Handy
+    SpriteID: 33
+    Sprite: {fileID: 21300000, guid: 8989db59a0fea4d2d8c3fcb874f3666f, type: 3}
+  - ID: Man_Happy
+    SpriteID: 34
+    Sprite: {fileID: 21300000, guid: 7b957cc4406304b5e8910ed612df9b7d, type: 3}
+  - ID: Man_Loser
+    SpriteID: 35
+    Sprite: {fileID: 21300000, guid: 486507b26feab4cecac4ae779aaa9ea4, type: 3}
+  - ID: Man_Rich
+    SpriteID: 36
+    Sprite: {fileID: 21300000, guid: 2199d48013d5d44aa8c81e53c4d54fad, type: 3}
+  - ID: Man_SportsFan
+    SpriteID: 37
+    Sprite: {fileID: 21300000, guid: 4f33d77fa4d374a8da2e538d13934aa1, type: 3}
+  - ID: Man_Sports
+    SpriteID: 38
+    Sprite: {fileID: 21300000, guid: 9392f1d34730346568ebc7564eb75e9a, type: 3}
+  - ID: Man_Strong
+    SpriteID: 39
+    Sprite: {fileID: 21300000, guid: 2fe0a990dd0e74b18b6ea2f6bd1d7f52, type: 3}
+  - ID: Man_Weak
+    SpriteID: 40
+    Sprite: {fileID: 21300000, guid: d037788c1775a4a53a8fb29386c7a1a1, type: 3}
+  - ID: Man_Winner
+    SpriteID: 41
+    Sprite: {fileID: 21300000, guid: ef46fc7d22f4d49d6a9c5fc9d9ed2ac2, type: 3}
+  - ID: Desert
+    SpriteID: 42
+    Sprite: {fileID: 21300000, guid: b3823be6165754bdf819e670dc6b23b2, type: 3}
+  - ID: Dessert
+    SpriteID: 43
+    Sprite: {fileID: 21300000, guid: 4fa359a4e2b7146d1a0f06fa3a56595c, type: 3}
+  - ID: Umbrella_Drink
+    SpriteID: 44
+    Sprite: {fileID: 21300000, guid: 6660b72b7190f4b65bbd12d3c2f2bb97, type: 3}
+  - ID: Umbrella_Folded
+    SpriteID: 45
+    Sprite: {fileID: 21300000, guid: e0d64c890d9ab4d23a9c1cbe06e66615, type: 3}
+  - ID: Umbrella_Open
+    SpriteID: 46
+    Sprite: {fileID: 21300000, guid: f5ba15adfe58b4637bae8845838e2d1f, type: 3}
+  - ID: Umbrella_WithMan
+    SpriteID: 47
+    Sprite: {fileID: 21300000, guid: 2f7dc16c6c2e147159c0e49128119f59, type: 3}
+  - ID: Email
+    SpriteID: 48
+    Sprite: {fileID: 21300000, guid: 99d7aea07b70e4f7ab849911f2245cf4, type: 3}
+  - ID: Feet
+    SpriteID: 49
+    Sprite: {fileID: 21300000, guid: 8fa7315c2ee694896a65ece6ae1c6152, type: 3}
+  - ID: Feat
+    SpriteID: 50
+    Sprite: {fileID: 21300000, guid: cc470d0b8206045c5a095c006b6c948f, type: 3}
+  - ID: Beer_Full
+    SpriteID: 51
+    Sprite: {fileID: 21300000, guid: 203341a07a4f04471a3042623498057e, type: 3}
+  - ID: Beer_Empty
+    SpriteID: 52
+    Sprite: {fileID: 21300000, guid: 564bc1498bca54f849310f4738078407, type: 3}
+  - ID: Giraffe
+    SpriteID: 53
+    Sprite: {fileID: 21300000, guid: 95c35233e2a884725ae3264b22b71645, type: 3}
+  - ID: Zebra
+    SpriteID: 54
+    Sprite: {fileID: 21300000, guid: ce389340025d3493a88e06012a2d4f6c, type: 3}
+  - ID: Globe
+    SpriteID: 55
+    Sprite: {fileID: 21300000, guid: 04ddc36cf351d431397d029cae18a003, type: 3}
+  - ID: HandShake
+    SpriteID: 56
+    Sprite: {fileID: 21300000, guid: 823645e9910a5458796a920b042271a5, type: 3}
+  - ID: Jeans
+    SpriteID: 57
+    Sprite: {fileID: 21300000, guid: d1b7c8d22baca4863a45e92275a1f81a, type: 3}
+  - ID: Genes
+    SpriteID: 58
+    Sprite: {fileID: 21300000, guid: 83bb17fccbac341e7a9220b2209b6e75, type: 3}
+  - ID: Key
+    SpriteID: 59
+    Sprite: {fileID: 21300000, guid: 6dfe8cac1cb3d4d03a37e69f1cf40320, type: 3}
+  - ID: Lock
+    SpriteID: 60
+    Sprite: {fileID: 21300000, guid: 26a5cfdfecd6a482a8f8a496e44a94d0, type: 3}
+  - ID: LadyHands
+    SpriteID: 61
+    Sprite: {fileID: 21300000, guid: 9f6acfc8be8c94e02b4cf5157d57a35e, type: 3}
+  - ID: Lungs
+    SpriteID: 62
+    Sprite: {fileID: 21300000, guid: a1fa47b1bc0b74b40bf60941d9cdc04d, type: 3}
+  - ID: Mail
+    SpriteID: 63
+    Sprite: {fileID: 21300000, guid: 7128aaa813de34d8b9ed539a74393d67, type: 3}
+  - ID: MatchSticks
+    SpriteID: 64
+    Sprite: {fileID: 21300000, guid: 7e4e0c88d7530490eaf5e4b06028d5eb, type: 3}
+  - ID: Meat
+    SpriteID: 65
+    Sprite: {fileID: 21300000, guid: 3736e614975b34cdb9d787fe5e1450ab, type: 3}
+  - ID: MultiFingers
+    SpriteID: 66
+    Sprite: {fileID: 21300000, guid: 12738189a001c4a23b67df5b32f07ca4, type: 3}
+  - ID: NotSleepingCat
+    SpriteID: 67
+    Sprite: {fileID: 21300000, guid: 496100c2cb916421b88119682e9b6e08, type: 3}
+  - ID: Pencil
+    SpriteID: 68
+    Sprite: {fileID: 21300000, guid: fdeba491c1a3540df91877d1a3defafe, type: 3}
+  - ID: PlayButton
+    SpriteID: 69
+    Sprite: {fileID: 21300000, guid: a33d0931868f049ce9142707a9096923, type: 3}
+  - ID: PokerCards
+    SpriteID: 70
+    Sprite: {fileID: 21300000, guid: 327e1f5c500bd4d3a9f18ae37a4265c5, type: 3}
+  - ID: Queue
+    SpriteID: 71
+    Sprite: {fileID: 21300000, guid: 20b94e395ebfb41a8be59e93f68bf108, type: 3}
+  - ID: Right
+    SpriteID: 72
+    Sprite: {fileID: 21300000, guid: bc42f7cb57628448e94c7eda2dd0f1b9, type: 3}
+  - ID: Wrong
+    SpriteID: 73
+    Sprite: {fileID: 21300000, guid: 498728025e79947bb9acf352e69955fd, type: 3}
+  - ID: See
+    SpriteID: 74
+    Sprite: {fileID: 21300000, guid: 2129597def6a844c589780a233d8de78, type: 3}
+  - ID: Sea
+    SpriteID: 75
+    Sprite: {fileID: 21300000, guid: 6100dd1679ab74da8b41834908805398, type: 3}
+  - ID: Seats
+    SpriteID: 76
+    Sprite: {fileID: 21300000, guid: 927094df6b08643a4bfd61ad2acee14f, type: 3}
+  - ID: Skull
+    SpriteID: 77
+    Sprite: {fileID: 21300000, guid: 7044580ec427343ecbc441d209833e7e, type: 3}
+  - ID: Staircase
+    SpriteID: 78
+    Sprite: {fileID: 21300000, guid: 7b426e89d68c44c84917e2e20e31f85c, type: 3}
+  - ID: SweetPotato
+    SpriteID: 79
+    Sprite: {fileID: 21300000, guid: 71e92e34e2f86403f91b966d4e6c7467, type: 3}
+  - ID: Tape
+    SpriteID: 80
+    Sprite: {fileID: 21300000, guid: 58abed7cfb14d4b2d99a37d98790fff3, type: 3}
+  - ID: ThreeColors
+    SpriteID: 81
+    Sprite: {fileID: 21300000, guid: 8118d07b4c10a458e8b2bdaa8e981eaf, type: 3}
+  - ID: UsainBolt
+    SpriteID: 82
+    Sprite: {fileID: 21300000, guid: b26a5454fe927486d971f3b6a09787b4, type: 3}
+  - ID: Waist
+    SpriteID: 83
+    Sprite: {fileID: 21300000, guid: afda225f489f249c4b28a5151c51e230, type: 3}
+  - ID: Waste
+    SpriteID: 84
+    Sprite: {fileID: 21300000, guid: 1725b4e4218a14f8da7eee43094756ec, type: 3}
+  - ID: Weight
+    SpriteID: 85
+    Sprite: {fileID: 21300000, guid: f404dde926636402e9fc947da196bb4c, type: 3}
+  - ID: WhiteBoard
+    SpriteID: 86
+    Sprite: {fileID: 21300000, guid: 3af54aaaa955f4680ae9729fb99e3266, type: 3}
+  - ID: Witch
+    SpriteID: 87
+    Sprite: {fileID: 21300000, guid: ec6eac5842a3f43d29e7db92d1d617e4, type: 3}
+  - ID: Hen
+    SpriteID: 88
+    Sprite: {fileID: 21300000, guid: b4ad124df42de4757b6d6fb8d7ad5067, type: 3}
+  - ID: Handshake
+    SpriteID: 89
+    Sprite: {fileID: 21300000, guid: 823645e9910a5458796a920b042271a5, type: 3}
+  - ID: Elephant_Legs
+    SpriteID: 90
+    Sprite: {fileID: 21300000, guid: da16e07c4f6a54f1483aa927cdbd75bf, type: 3}
+  - ID: DialPad
+    SpriteID: 91
+    Sprite: {fileID: 21300000, guid: ec1b5f700d4af493793feba79ebd7f14, type: 3}
+  - ID: Deer
+    SpriteID: 92
+    Sprite: {fileID: 21300000, guid: a5d2f247750014b298800f866714135b, type: 3}
+  - ID: Cereals
+    SpriteID: 93
+    Sprite: {fileID: 21300000, guid: d8d741806a5b040b4a4c22333bb7debc, type: 3}
+  - ID: CatOverBooks
+    SpriteID: 94
+    Sprite: {fileID: 21300000, guid: 7c7af9588c48d4152819734c195968cf, type: 3}
+  - ID: Candles_On
+    SpriteID: 95
+    Sprite: {fileID: 21300000, guid: c0b7a57b247d64c0fb7f425c6f514a3e, type: 3}
+  - ID: Candles_Off
+    SpriteID: 96
+    Sprite: {fileID: 21300000, guid: f7dcfc99772e64a9fad150d463646475, type: 3}
+  - ID: Calender
+    SpriteID: 97
+    Sprite: {fileID: 21300000, guid: 11f8a6af03bdc4a4da19dd942c434e2d, type: 3}
+  - ID: Background
+    SpriteID: 98
+    Sprite: {fileID: 21300000, guid: 80c8b233ba1b146b7b975c0964a9199e, type: 3}
+  - ID: Bear
+    SpriteID: 99
+    Sprite: {fileID: 21300000, guid: 212b343b0b81148709ed915c92944554, type: 3}
+  - ID: Banana
+    SpriteID: 100
+    Sprite: {fileID: 21300000, guid: bbd4de5fa04624232ba5ea1a17261221, type: 3}
+  - ID: Balance
+    SpriteID: 101
+    Sprite: {fileID: 21300000, guid: 24f2f99d2f03a440cbfda8c86a4ab386, type: 3}
+  - ID: TornTShirt
+    SpriteID: 102
+    Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
+  - ID: Triangles
+    SpriteID: 103
+    Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
+  - ID: Monkey_New_Front
+    SpriteID: 104
+    Sprite: {fileID: 21300000, guid: bb25c1dde4b68415a8eddd2f98dfa3ff, type: 3}
+  - ID: Monkey_New_Tease
+    SpriteID: 105
+    Sprite: {fileID: 21300000, guid: 57c8f13be6aa9438a8e2800b13e7f835, type: 3}
+  - ID: Monkey_New_Surprized
+    SpriteID: 106
+    Sprite: {fileID: 21300000, guid: c7aa6411a06d54c2cb2ed2aaf77b1856, type: 3}
+  - ID: Monkey_New_Dream
+    SpriteID: 107
+    Sprite: {fileID: 21300000, guid: 9e010eff343a54163a3b23e6a04013a5, type: 3}
+  - ID: Monkey_New_EarClose
+    SpriteID: 108
+    Sprite: {fileID: 21300000, guid: b976cd638f4874ca795931ed3b62c36b, type: 3}
+  - ID: Monkey_New_Hand
+    SpriteID: 109
+    Sprite: {fileID: 21300000, guid: 359237d04ced1493aa99c3ded3f2dbd7, type: 3}
+  - ID: Monkey_New_TwoHands
+    SpriteID: 110
+    Sprite: {fileID: 21300000, guid: 52000b02c6b0741afad2e128a00eca9b, type: 3}
+  - ID: Monkey_New_Taunt
+    SpriteID: 111
+    Sprite: {fileID: 21300000, guid: 3617d1ef53626441da75d37309a29cfa, type: 3}
+  - ID: Monkey_New_Yak
+    SpriteID: 112
+    Sprite: {fileID: 21300000, guid: 8710b29ee5ee841a0874f9c46904282b, type: 3}
+  - ID: Monkey_New_HandStand
+    SpriteID: 113
+    Sprite: {fileID: 21300000, guid: c78d9e269609d4f1cac212d3e3d7c351, type: 3}
+  - ID: Monkey_New_HeadScrach
+    SpriteID: 114
+    Sprite: {fileID: 21300000, guid: 8fd9cc145d9394229b774b938d135987, type: 3}
+  - ID: Monkey_New_Frustrated
+    SpriteID: 115
+    Sprite: {fileID: 21300000, guid: 77026266064654d60b2bd2a73ff5a988, type: 3}
+  - ID: Monkey_New_Confused
+    SpriteID: 116
+    Sprite: {fileID: 21300000, guid: ffbefd28b91584f40891b03e58b213da, type: 3}
+  - ID: Monkey_New_Thinking
+    SpriteID: 117
+    Sprite: {fileID: 21300000, guid: 5dfb480de36c746abb2df8fe9b38ede5, type: 3}
+  - ID: Monkey_New_Idea
+    SpriteID: 118
+    Sprite: {fileID: 21300000, guid: 57db18609fdfd43dbacedeecbc0a43bb, type: 3}
+  - ID: Monkey_New_ThumbsUp
+    SpriteID: 119
+    Sprite: {fileID: 21300000, guid: 4045bb94bc5104890924347e49fda855, type: 3}
+  - ID: Monkey_New_ThumbsUpSide
+    SpriteID: 120
+    Sprite: {fileID: 21300000, guid: 0c072bff2e9574b7cbb28aaf2e33b3b4, type: 3}
+  - ID: Monkey_New_Side
+    SpriteID: 121
+    Sprite: {fileID: 21300000, guid: 9f3dc94333f684cfd99cd5275dc2de58, type: 3}

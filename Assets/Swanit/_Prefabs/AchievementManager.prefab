@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1593373316829604}
+  m_IsPrefabParent: 1
+--- !u!1 &1593373316829604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4219454049947298}
+  - component: {fileID: 114016259985383414}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4219454049947298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593373316829604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114016259985383414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1593373316829604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aff2f351092419f8d728c07d533e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mAchievements:
+  - AchievementTag: Singleplayer_WinStreak_RookieStudent
+    AchievemnetImg: {fileID: 21300000, guid: 8e06b03968db645b787a755a0d4c41fa, type: 3}
+    AchievementName: 0
+    Type: 0
+    Value: 10
+    CurrencyType: 0
+    Reward: 5
+  - AchievementTag: Singleplayer_WinStreak_TinyBrains
+    AchievemnetImg: {fileID: 21300000, guid: d83b0f9bae44542c5a334712f2b78c82, type: 3}
+    AchievementName: 1
+    Type: 0
+    Value: 30
+    CurrencyType: 0
+    Reward: 10
+  - AchievementTag: Singleplayer_WinStreak_PeckyHead
+    AchievemnetImg: {fileID: 21300000, guid: 72fe3afbce34640b0944826f0c5034d1, type: 3}
+    AchievementName: 2
+    Type: 0
+    Value: 45
+    CurrencyType: 0
+    Reward: 15
+  - AchievementTag: Singleplayer_WinStreak_TrickPrick
+    AchievemnetImg: {fileID: 21300000, guid: d1218cf997c97443d9c95c87e99489c8, type: 3}
+    AchievementName: 3
+    Type: 0
+    Value: 60
+    CurrencyType: 0
+    Reward: 20
+  - AchievementTag: Multiplayer_LoseStreak_RiseAndShine
+    AchievemnetImg: {fileID: 21300000, guid: b7156893907174de78ebbcc856000f1a, type: 3}
+    AchievementName: 4
+    Type: 2
+    Value: 100
+    CurrencyType: 0
+    Reward: 25
+  - AchievementTag: Multiplayer_LoseStreak_GoodGoing
+    AchievemnetImg: {fileID: 21300000, guid: c7854236a2a274af78d99dd6bae5d47b, type: 3}
+    AchievementName: 5
+    Type: 2
+    Value: 150
+    CurrencyType: 0
+    Reward: 30
+  - AchievementTag: Multiplayer_LoseStreak_KeepItUp
+    AchievemnetImg: {fileID: 21300000, guid: 74f4f48619ccc455db69f29d17abcbe9, type: 3}
+    AchievementName: 6
+    Type: 2
+    Value: 200
+    CurrencyType: 0
+    Reward: 35
+  - AchievementTag: Multiplayer_LoseStreak_YouRock
+    AchievemnetImg: {fileID: 21300000, guid: 4041e7b5fb8664c659e574de56d5102c, type: 3}
+    AchievementName: 7
+    Type: 2
+    Value: 250
+    CurrencyType: 0
+    Reward: 40
+  - AchievementTag: Multiplayer_LoseStreak_IsThatAll
+    AchievemnetImg: {fileID: 21300000, guid: 5e692d95d74084b97b0e34cc2ae92b32, type: 3}
+    AchievementName: 8
+    Type: 2
+    Value: 1
+    CurrencyType: 1
+    Reward: 2
+  - AchievementTag: Multiplayer_WinStreak_Struggler
+    AchievemnetImg: {fileID: 21300000, guid: 36c92b1bebcb644a38642316022e63e6, type: 3}
+    AchievementName: 9
+    Type: 1
+    Value: 1
+    CurrencyType: 1
+    Reward: 5
+  - AchievementTag: Multiplayer_LoseStreak_JustGiveUp
+    AchievemnetImg: {fileID: 21300000, guid: 101999ed79b8749db8efcf2b5ce8c145, type: 3}
+    AchievementName: 10
+    Type: 2
+    Value: 2
+    CurrencyType: 1
+    Reward: 10
+  - AchievementTag: TotalDoubleScoreLose_JustMissed
+    AchievemnetImg: {fileID: 21300000, guid: ca9935ad58c38458eb4c4ca36849fe20, type: 3}
+    AchievementName: 11
+    Type: 7
+    Value: 0
+    CurrencyType: 1
+    Reward: 15
+  - AchievementTag: TotlDoubleScoreWin_Opportunist
+    AchievemnetImg: {fileID: 21300000, guid: ca9935ad58c38458eb4c4ca36849fe20, type: 3}
+    AchievementName: 12
+    Type: 8
+    Value: 0
+    CurrencyType: 1
+    Reward: 25
+  - AchievementTag: Multiplayer_WinStreak_ThatsTheSpirit
+    AchievemnetImg: {fileID: 21300000, guid: 1f99a2eaf3927410291a3abbb7cf51ab, type: 3}
+    AchievementName: 13
+    Type: 1
+    Value: 5
+    CurrencyType: 1
+    Reward: 100
+  - AchievementTag: Singleplayer_WinStreak_VictoryInName
+    AchievemnetImg: {fileID: 21300000, guid: 3e9913824277449fd8694f9a679b8080, type: 3}
+    AchievementName: 14
+    Type: 0
+    Value: 10
+    CurrencyType: 1
+    Reward: 200
+  - AchievementTag: Multiplayer_WinStreak_ToughGetsGoing
+    AchievemnetImg: {fileID: 21300000, guid: cd728f4f22fdf44c783089a864600ae9, type: 3}
+    AchievementName: 15
+    Type: 1
+    Value: 20
+    CurrencyType: 1
+    Reward: 500

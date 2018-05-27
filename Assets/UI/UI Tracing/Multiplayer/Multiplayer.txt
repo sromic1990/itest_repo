@@ -1,0 +1,9 @@
+Multiplayer
+==============
+
+Black Tint Opacity : keep 70%
+
+when room image comes in center: size will be bigger 20 % 
+
+
+----------------------------------------------------------

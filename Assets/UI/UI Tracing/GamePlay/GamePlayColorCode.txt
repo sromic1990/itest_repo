@@ -1,0 +1,9 @@
+GAMEPLAY
+========
+
+Brown Text : 632c10
+
+Font Family: Berlin Sans FB Demi, Bold
+
+Timer font Color : f72e24
+----------------------------------------

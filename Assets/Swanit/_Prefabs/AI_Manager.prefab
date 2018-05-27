@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1682899016328386}
+  m_IsPrefabParent: 1
+--- !u!1 &1682899016328386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965602348317414}
+  - component: {fileID: 114414664658240650}
+  m_Layer: 0
+  m_Name: AI_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4965602348317414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682899016328386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114414664658240650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682899016328386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f963cb1808dd427c9bf57d92dfa1202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AInames: []
+  ai_units:
+  - AIType: One
+    m_BetAmount: 0
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 1
+      MaxQuestionsToBeAnswered: 2
+    MinTimeToAnswer: 5
+    MaxTimeToAnswer: 8
+  - AIType: Five
+    m_BetAmount: 1
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 1
+      MaxQuestionsToBeAnswered: 2
+    MinTimeToAnswer: 4
+    MaxTimeToAnswer: 6
+  - AIType: Fifty
+    m_BetAmount: 2
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 2
+      MaxQuestionsToBeAnswered: 2
+    MinTimeToAnswer: 3
+    MaxTimeToAnswer: 5
+  - AIType: Hundred
+    m_BetAmount: 3
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 2
+      MaxQuestionsToBeAnswered: 3
+    MinTimeToAnswer: 3
+    MaxTimeToAnswer: 5
+  - AIType: FiveHundred
+    m_BetAmount: 4
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 3
+      MaxQuestionsToBeAnswered: 3
+    MinTimeToAnswer: 2
+    MaxTimeToAnswer: 4
+  - AIType: OneThousand
+    m_BetAmount: 5
+    m_QuestionToAnswer:
+      MinQuestionsToBeAnswered: 3
+      MaxQuestionsToBeAnswered: 4
+    MinTimeToAnswer: 1
+    MaxTimeToAnswer: 3
+  mAIstate: 0
+  MULTIPLAYER_QUESTION_NUMBER: 0
+  mInfo: []
+  CurrentQuestionIndex: 0

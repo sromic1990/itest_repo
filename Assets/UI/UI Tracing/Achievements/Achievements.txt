@@ -1,0 +1,11 @@
+Achievements
+============
+
+Achievements names in creame color:f9efba, drop shadow:730b00
+
+Achievements names font: use BRLNSDB font
+
+For Details browon font: use BarlowCondensed-SemiBold font
+
+Selected tab and Bg : e2813a
+--------------------------------------------------------------
