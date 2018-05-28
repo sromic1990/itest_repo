@@ -20,6 +20,7 @@ public class BaseSpriteHolder
     public List<SpriteID> SecondarySprites;
     //Color of the Text if the sprite has a text field.
     public Color TextColor;
+    
 }
 
 [Serializable]

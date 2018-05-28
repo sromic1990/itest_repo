@@ -24,7 +24,7 @@ public class UI_TextAndFourAnswers : UI_Base
 
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
-            mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
+            mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i], true);
         }
     }
 }

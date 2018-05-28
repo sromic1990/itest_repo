@@ -31,10 +31,19 @@ public class UI_Popup_Updated : MonoBehaviour
         {
             StopCoroutine(HideAfterTime);
         }
+        ResetPopUp();
+    }
+
+    private void ResetPopUp()
+    {
+        for (int i = 0; i < Buttons.Count; i++)
+        {
+            Buttons[i].ButtonText.text = Buttons[i].ButtonType.ToString();
+        }
     }
 
     //TODO setup popup
-    public void SetupPopUp(string popupText, List<Text> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
+    public void SetupPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
     {
         PopUpText.text = popupText;
         if(ButtonTexts != null)
@@ -47,11 +56,11 @@ public class UI_Popup_Updated : MonoBehaviour
                     {
                         if(Buttons[i].ButtonType == PopUpButtons.Yes || Buttons[i].ButtonType == PopUpButtons.Ok)
                         {
-                            Buttons[i].ButtonText = ButtonTexts[0];
+                            Buttons[i].ButtonText.text = ButtonTexts[0];
                         }
                         else if(Buttons[i].ButtonType == PopUpButtons.No)
                         {
-                            Buttons[i].ButtonText = ButtonTexts[1];
+                            Buttons[i].ButtonText.text = ButtonTexts[1];
                         }
                     }
                 }
@@ -61,7 +70,7 @@ public class UI_Popup_Updated : MonoBehaviour
                     {
                         if (Buttons[i].ButtonType == PopUpButtons.Yes || Buttons[i].ButtonType == PopUpButtons.Ok)
                         {
-                            Buttons[i].ButtonText = ButtonTexts[0];
+                            Buttons[i].ButtonText.text = ButtonTexts[0];
                         }
                     }
                 }
@@ -190,7 +199,10 @@ public enum TypeOfPopUp
     Timed = 1,
     Buttoned = 1<<1,
     Evented = 1<<2,
-    TimedAndButtoned = Timed | Buttoned 
+    TimedAndButtoned = Timed | Buttoned,
+    ButtonedAndEvented = Buttoned | Evented,
+    TimedAndEvented = Timed | Evented,
+    TimedAndButtonedAndEvented = Timed | Buttoned | Evented
 }
 
 [Serializable]

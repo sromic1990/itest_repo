@@ -68,10 +68,11 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
 
     public void CreateChallengeRoom(string roomID)
     {
+        RoomType = RoomType.Challenge;
         CreateRoom(true, roomID);
     }
 
-    public void LeaveRoom()
+    public void LeaveRoom(bool leaveRoomOnJoin = true)
     {
         if(PhotonNetwork.room != null)
         {
@@ -79,7 +80,10 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
         }
         else
         {
-            disconnectOnJoinRoom = true;
+            if(leaveRoomOnJoin)
+            {
+                disconnectOnJoinRoom = true;
+            }
         }
     }
 
@@ -431,6 +435,7 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
     public void OnDisconnectedFromPhoton()
     {
         Debug.Log(System.Reflection.MethodBase.GetCurrentMethod().Name);
+        disconnectOnJoinRoom = false;
         Status = ConnectionStatus.Disconnected;
         //throw new System.NotImplementedException();
     }

@@ -71,7 +71,12 @@ public class ScreenManager : Singleton<ScreenManager>
         if (screens.Screen == ScreensEnum.GamePlay)
         {
             //ShowQuestionPanel();
-//            GameManager.Instance.Resume();
+            GameManager.Instance.Resume();
+            if(GameManager.Instance.ToStoreFromGameplayDueToLackOfFunds)
+            {
+                GameManager.Instance.ToStoreFromGameplayDueToLackOfFunds = false;
+                GameManager.Instance.PlayGame();
+            }
         }
         else
         {
@@ -161,5 +166,6 @@ public enum ScreensEnum
     MultiplayerGamePanel = 1 << 14,
     MultiplayerWin = 1 << 15,
     MultiplayerLose = 1 << 16,
-    Achievements = 1 << 17
+    Achievements = 1 << 17,
+    MultiplayerDrawn = 1 << 18
 }

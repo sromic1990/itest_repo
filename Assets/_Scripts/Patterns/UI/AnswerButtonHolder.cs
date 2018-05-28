@@ -57,6 +57,9 @@ public class AnswerButtonHolder : MonoBehaviour
             this.image = GetCorrectSpriteByID.Instance.GetSpriteFromID(SpriteID.DummySprite);
         }
         this.ButtonText = buttonProperties.ButtonText;
+
+        Debug.Log("BUtton Text COlor = " + buttonProperties.ButtonTextColor.ToString());
+
         this.ButtonTextColor = buttonProperties.ButtonTextColor;
         this.ID = buttonProperties.ID;
         this.isCorrect = buttonProperties.isCorrect;
@@ -70,7 +73,7 @@ public class AnswerButtonHolder : MonoBehaviour
     private void InitializeAnswerButton()
     {
 
-//        Debug.Log("Initializing answer button");
+        Debug.Log("Initializing answer button");
 
         m_Image = GetComponent<Image>();
         if (m_Image == null)
@@ -89,6 +92,7 @@ public class AnswerButtonHolder : MonoBehaviour
         if (m_ButtonText != null)
         {
             m_ButtonText.text = ButtonText;
+            Debug.Log(ButtonTextColor.r + "   " + ButtonTextColor.g + "   " + ButtonTextColor.b + "   " + ButtonTextColor.a);
             m_ButtonText.color = ButtonTextColor;
         }
 
@@ -118,13 +122,13 @@ public class AnswerButtonHolder : MonoBehaviour
 
         if (Time.time - lastClickTime < debounceDelay)
         {
-                     Debug.Log("Debounce dlayy  returning");
+            Debug.Log("Debounce dlayy  returning");
             return;
         }
 
         if (!GameManager.Instance.CanProcessInput)
         {
-                     Debug.Log("Cant process input so returning");
+            Debug.Log("Cant process input so returning");
             return;
         }
 

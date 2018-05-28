@@ -80,6 +80,8 @@ public class UIManager : Singleton<UIManager>
     public List<Text> WonBananasTexts;
     public List<Text> LostBananasTexts;
     public List<Text> PlayerIDTexts;
+    public List<Text> ScoreTexts;
+    public List<Text> RemainingLevelsTexts;
 
     public List<Button> Buttons_ToBe_Enabled_Disabled_On_Room_Occupancy_Change;
     #endregion
@@ -94,7 +96,6 @@ public class UIManager : Singleton<UIManager>
     {
         GameManager.Instance.TimeTicker += SetTimerText;
         GameManager.Instance.MultiplayerTimeTicker += SetMultiplayerTimerText;
-        SetPlayerID();
     }
 
     private void OnValidate()
@@ -311,7 +312,7 @@ public class UIManager : Singleton<UIManager>
 
     #region Popup Related
 
-    public void ShowPopUp(string popupText, List<Text> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
+    public void ShowPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
     {
         Popup_Updated.SetupPopUp(popupText, ButtonTexts, PopUpButtonType, PopUpType, Time, OnYesPressed, OnNoPressed);
         Popup_Updated.gameObject.Show();
@@ -551,11 +552,30 @@ public class UIManager : Singleton<UIManager>
         }
     }
 
-    public void SetPlayerID()
+    public void SetPlayerID(string ID)
     {
         for (int i = 0; i < PlayerIDTexts.Count; i++)
         {
-            PlayerIDTexts[i].text = GameDataManager.Instance.PlayerID;
+            PlayerIDTexts[i].text = ID;
+        }
+    }
+
+    public void ScoreChanged()
+    {
+        int score = GameDataManager.Instance.Score;
+        for (int i = 0; i < ScoreTexts.Count; i++)
+        {
+            ScoreTexts[i].text = score.ToString();
+        }
+    }
+
+    public void TotalLevelsChanged()
+    {
+        int remainingLevels = GameDataManager.Instance.RemainingLevels;
+
+        for (int i = 0; i < RemainingLevelsTexts.Count; i++)
+        {
+            RemainingLevelsTexts[i].text = remainingLevels.ToString();
         }
     }
 

@@ -16,7 +16,7 @@ public class UI_QuestionAndFourAnswer : UI_Base
 
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
-            mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
+            mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i], true);
         }
     }
 

@@ -139,6 +139,26 @@ namespace IdiotTest.Scripts.GameScripts
             }
         }
 
+        public int TotalLevels
+        {
+            get { return data.TotalLevels; }
+            //set
+            //{
+            //    data.TotalLevels = value;
+            //    StateChanged();
+            //}
+        }
+
+        public int RemainingLevels
+        {
+            get { return data.RemainingLevels; }
+            set
+            {
+                data.RemainingLevels = value;
+                StateChanged();
+            }
+        }
+
         public int QuestionsLeft
         {
             get { return data.QuestionsLeft; }
@@ -184,7 +204,7 @@ namespace IdiotTest.Scripts.GameScripts
                     data.TotalLives = 0;
                 }
 
-                //AchievementManager.Instance.OnLivesChanged(data.TotalLives);
+                AchievementManager.Instance.OnLivesChanged(data.TotalLives);
                 StateChanged();
             }
         }
@@ -259,15 +279,15 @@ namespace IdiotTest.Scripts.GameScripts
             }
         }
 
-        public string PlayerID
-        {
-            get { return data.PlayerID; }
-            set
-            {
-                PlayerID = value;
-                UIManager.Instance.SetPlayerID();
-            }
-        }
+        //public string PlayerID
+        //{
+        //    get { return data.PlayerID; }
+        //    set
+        //    {
+        //        PlayerID = value;
+
+        //    }
+        //}
 
         //ACHIEVEMENTS RELATED
         public int WinStreak_Regular
@@ -321,13 +341,24 @@ namespace IdiotTest.Scripts.GameScripts
             }
         }
 
-        //UNLIMITED ADS
+        //UNLIMITED LIVES
         public bool IsUnlimitedLives
         {
             get { return data.IsUnlimitedLives; }
             set
             {
                 data.IsUnlimitedLives = value;
+                StateChanged();
+            }
+        }
+
+        //REWARD RECEIVED FOR VIDEO ADS
+        public bool IsRewardFromReviewReceived
+        {
+            get { return data.IsRewardForReviewReceived; }
+            set
+            {
+                data.IsRewardForReviewReceived = value;
                 StateChanged();
             }
         }
@@ -342,6 +373,7 @@ namespace IdiotTest.Scripts.GameScripts
         {
             if (!RetrieveData())
             {
+                Debug.Log("!RetrieveData()");
                 //ResetData();
                 SaveData();
             }
@@ -352,6 +384,9 @@ namespace IdiotTest.Scripts.GameScripts
 
         private void Start()
         {
+            string PlayerID = RandomAlphaNumeric.GenerateRandomAlpha(3);
+            PlayerID += RandomAlphaNumeric.GenerateRandomNumeric(3);
+            UIManager.Instance.SetPlayerID(PlayerID);
             StateChanged();
         }
 
@@ -380,6 +415,7 @@ namespace IdiotTest.Scripts.GameScripts
         {
             if (data == null)
             {
+                Debug.Log("DATA IS NULL");
                 ResetData();
             }
             string str = JsonUtility.ToJson(data);
@@ -390,6 +426,7 @@ namespace IdiotTest.Scripts.GameScripts
         {
             if (FileIO.FileExists())
             {
+                Debug.Log("FILE EXISTS");
                 string str = FileIO.ReadData();
                 data = JsonUtility.FromJson<GameData>(str);
                 return true;
@@ -418,6 +455,8 @@ namespace IdiotTest.Scripts.GameScripts
             GameManager.Instance.MusicStateChanged();
             GameManager.Instance.SFXStateChanged();
             GameManager.Instance.BetChanged();
+            GameManager.Instance.LevelsChanged();
+            GameManager.Instance.ScoreChanged();
         }
 
         #endregion
@@ -499,6 +538,8 @@ namespace IdiotTest.Scripts.GameScripts
         public int OverallAttemptsTaken;
         public List<Achievement> Achievements;
         public int Score;
+        public int TotalLevels;
+        public int RemainingLevels;
         //RESET AFTER FULL GAME----------------->
         public int TotalLives;
         public int TotalBananas;
@@ -512,7 +553,6 @@ namespace IdiotTest.Scripts.GameScripts
         public OnOffButton MusicButton;
         public OnOffButton SFXButton;
         public string PlayerName;
-        public string PlayerID;
 
         public BetAmount BetAmount;
 
@@ -526,12 +566,11 @@ namespace IdiotTest.Scripts.GameScripts
 
         public bool IsRemoveAds;
         public bool IsUnlimitedLives;
+        public bool IsRewardForReviewReceived;
 
         public GameData()
         {
-            IsRemoveAds = false;
-            IsUnlimitedLives = false;
-            ResetFull();
+            ResetAll();
         }
 
         /// <summary>
@@ -576,7 +615,8 @@ namespace IdiotTest.Scripts.GameScripts
             BetAmount = BetAmount.Five;
             Achievements = new List<Achievement>();
             Score = 0;
-
+            TotalLevels = 25;
+            RemainingLevels = 25;
         }
 
         /// <summary>
@@ -597,6 +637,14 @@ namespace IdiotTest.Scripts.GameScripts
             LoseStreak_Multiplayer = 0;
             TotalQuestionsAnsweredCorrectly = 0;
             QuestionPassed = 0;
+        }
+
+        private void ResetAll()
+        {
+            ResetFull();
+            IsRemoveAds = false;
+            IsUnlimitedLives = false;
+            IsRewardForReviewReceived = false;
         }
 
         private void SetQuestions()

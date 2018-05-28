@@ -91,19 +91,21 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.ResetAttempts:
+                GameDataManager.Instance.ResetData(ResetType.Progress);
                 break;
 
             case ButtonID.ReviewApp:
                 break;
 
             case ButtonID.Share:
+                GameManager.Instance.ShareRegular();
                 break;
 
             case ButtonID.Home:
                 UIManager.Instance.HideQuestionFailed();
                 ScreenManager.Instance.SetANewScreen(ScreensEnum.MainMenu);
                 GameManager.Instance.Status = GameStatus.OutOfSession;
-                if(MultiplayerManager.Instance.Status != ConnectionStatus.Disconnected)
+                if(GameDataManager.Instance.CurrentGameMode == GameMode.Multiplayer && MultiplayerManager.Instance.Status != ConnectionStatus.Disconnected)
                 {
                     MultiplayerManager.Instance.Status = ConnectionStatus.Disconnected;
                 }
@@ -125,6 +127,8 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.DontRidiculeMe:
+                UIManager.Instance.HideQuestionFailed();
+                GameManager.Instance.SkippedQuestion();
                 break;
 
             case ButtonID.HighScore_Back:
@@ -158,7 +162,6 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.Skip_Question:
-                UIManager.Instance.HideQuestionFailed();
                 GameManager.Instance.SkippedQuestion();
                 break;
 
@@ -175,12 +178,18 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.Brain_Pill:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Life, AddDeductAction.Add, 50);
                 break;
 
             case ButtonID.Brain_Operation:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Life, AddDeductAction.Add, 200);
                 break;
 
             case ButtonID.New_Brain:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Life, AddDeductAction.Add, -1);
                 break;
 
             case ButtonID.Store_LifeTab:
@@ -194,18 +203,28 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.Banana_Plate:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Banana, AddDeductAction.Add, 10);
                 break;
 
             case ButtonID.Banana_Basket:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Banana, AddDeductAction.Add, 50);
                 break;
 
             case ButtonID.Banana_Tree:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Banana, AddDeductAction.Add, 250);
                 break;
 
             case ButtonID.Banana_Farm:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Banana, AddDeductAction.Add, 1000);
                 break;
 
             case ButtonID.Banana_Market:
+                GameManager.Instance.RemoveAds();
+                GameManager.Instance.AddDeductCurrency(Currency.Banana, AddDeductAction.Add, 5000);
                 break;
 
             case ButtonID.AchievementPopupButton:
@@ -219,6 +238,7 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.BackFromMultiplayer:
+                MultiplayerManager.Instance.LeaveRoom(false);
                 MultiplayerManager.Instance.Disconnect();
                 break;
 
@@ -241,7 +261,7 @@ public class ButtonScript : Singleton<ButtonScript>
                 GameManager.Instance.CancelFindingmatch();
                 break;
             case ButtonID.BackWithinMultiplayer:
-                GameManager.Instance.CancelFindingmatch(false);
+                GameManager.Instance.GetToMultiplayerPlayMenu();
                 break;
             case ButtonID.Rematch:
                 MultiplayerManager.Instance.RematchRequest();

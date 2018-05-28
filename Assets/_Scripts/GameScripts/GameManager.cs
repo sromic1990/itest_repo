@@ -43,8 +43,10 @@ public class GameManager : Singleton<GameManager>
     public int MultiplayerQuestionsPerRound;
     public int MultiplayerTotalTime;
     public int MultiplayerWaitTimeFor2ndPlayer;
+    public int MultiplayerMaxWaitTimeForResult;
     public int MultiplayerQuestionMultiplier;
     public int MultiplayerLastQuestionMultiplier;
+    public int RewardForReview;
     [Space(10)]
     #endregion
 
@@ -176,13 +178,14 @@ public class GameManager : Singleton<GameManager>
 
         }
     }
+    public bool ToStoreFromGameplayDueToLackOfFunds = false;
+    public ApplicationResumeFrom ResumeFrom;
 
     #endregion
 
     #region Reset after every multiplayer game
 
     public string code = "";
-    public bool IsFromMultiplayerShare = false;
     public int MultiplayerQuestionIndex;
     public int CurrentMultiplayerQuestion;
     public int TimeSinceLastQuestionAnswered = 60;
@@ -191,6 +194,8 @@ public class GameManager : Singleton<GameManager>
     public bool IsMyGameOver;
     public bool IsGameStarted;
     public int CurrentWaitingTimeForMultiplayer;
+    public bool IsWaiting = false;
+    private int waitTime;
     private bool _aloneInRoom;
 
     public bool AmIAloneInRoom
@@ -273,6 +278,7 @@ public class GameManager : Singleton<GameManager>
     {
         SequentialQuestions = new List<BaseQuestion>();
         GameDataManager.Instance.CurrentGameMode = GameMode.SinglePlayer;
+        ResumeFrom = ApplicationResumeFrom.None;
         //OptionsOriginal = new List<AnswerSpriteHolder>();
 
 #if UNITY_ANDROID && !UNITY_EDITOR || UNITY_IOS && !UNITY_EDITOR
@@ -295,11 +301,25 @@ public class GameManager : Singleton<GameManager>
     {
         if(!pause)
         {
-            if(IsFromMultiplayerShare)
+            switch(ResumeFrom)
             {
-                IsFromMultiplayerShare = false;
-                CreateRoomForChallenge();
+                case ApplicationResumeFrom.ReviewApp:
+                    if(!GameDataManager.Instance.IsRewardFromReviewReceived)
+                    {
+                        AddDeductCurrency(Currency.Life, AddDeductAction.Add, RewardForReview);
+                        GameDataManager.Instance.IsRewardFromReviewReceived = true;
+                    }
+                    break;
+
+                case ApplicationResumeFrom.ShareMultiplayer:
+                    CreateRoomForChallenge();
+                    break;
+
+                case ApplicationResumeFrom.ShareRegular:
+                    break;
             }
+
+            ResumeFrom = ApplicationResumeFrom.None;
         }
     }
 
@@ -393,6 +413,13 @@ public class GameManager : Singleton<GameManager>
                 InitiateAIPlay();
                 ActivelyLookingForOpponent = false;
             }
+        }
+
+        if(second > waitTime && IsWaiting)
+        {
+            IsWaiting = false;
+            UIManager.Instance.ShowPopUp("Sorry! No response from the other player", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+            GetToMultiplayerPlayMenu();
         }
     }
 
@@ -1101,54 +1128,103 @@ public class GameManager : Singleton<GameManager>
 
     public void PlayGame()
     {
-        ResetTimer();
-        ResetQuestionSpecificData();
-
-        //Testing Zone
-        if (TestingQuestion.Test)
+        if(CheckForRequisiteLifeOrBananasToPlayGame())
         {
-            if (TestingQuestion.QuestionNumber == 0)
+            ResetTimer();
+            ResetQuestionSpecificData();
+
+            //Testing Zone
+            if (TestingQuestion.Test)
             {
-                CurrentQuestion = GetQuestionBasedOnPattern(TestingQuestion.Question);
-            }
-            else
-            {
-                if (TestingQuestion.FirstTime)
+                if (TestingQuestion.QuestionNumber == 0)
                 {
-                    GameDataManager.Instance.CurrentQuestion = TestingQuestion.QuestionNumber;
-                    CurrentQuestion = Questions.Questions[GameDataManager.Instance.CurrentQuestion];
-                    GameDataManager.Instance.CurrentLevelProgress = TestingQuestion.QuestionNumber % 10;
-                    TestingQuestion.FirstTime = false;
-                    TestingQuestion.Test = false;
+                    CurrentQuestion = GetQuestionBasedOnPattern(TestingQuestion.Question);
+                }
+                else
+                {
+                    if (TestingQuestion.FirstTime)
+                    {
+                        GameDataManager.Instance.CurrentQuestion = TestingQuestion.QuestionNumber;
+                        CurrentQuestion = Questions.Questions[GameDataManager.Instance.CurrentQuestion];
+                        GameDataManager.Instance.CurrentLevelProgress = TestingQuestion.QuestionNumber % 10;
+                        TestingQuestion.FirstTime = false;
+                        TestingQuestion.Test = false;
+                    }
                 }
             }
+            //Testing zone
+            else
+            {
+                switch (GameDataManager.Instance.CurrentGameMode)
+                {
+                    case GameMode.SinglePlayer:
+                        CurrentQuestionIndex = GameDataManager.Instance.CurrentQuestion;
+                        currentQuestion = CurrentQuestionIndex;
+                        levelProgress = GameDataManager.Instance.CurrentLevelProgress;
+                        //ExtractQuestionData();
+                        CurrentQuestion = Questions.Questions[currentQuestion];
+                        break;
+
+                    case GameMode.Multiplayer:
+                        if (MultiplayerQuestionIndex < MultiplayerQuestions.Questions.Count)
+                        {
+                            CurrentQuestion = MultiplayerQuestions.Questions[CurrentMultiplayerQuestion];
+                            Debug.Log("<color=green>Mutiplayer Question Index Type = " + MultiplayerQuestions.Questions[MultiplayerQuestionIndex].Pattern.ToString() + "</color>");
+                        }
+                        break;
+                }
+            }
+
+            SetQuestionVariation();
+            IntroToNext();
         }
-        //Testing zone
         else
         {
-            switch (GameDataManager.Instance.CurrentGameMode)
+            ToStoreFromGameplayDueToLackOfFunds = true;
+
+            switch(GameDataManager.Instance.CurrentGameMode)
             {
                 case GameMode.SinglePlayer:
-                    CurrentQuestionIndex = GameDataManager.Instance.CurrentQuestion;
-                    currentQuestion = CurrentQuestionIndex;
-                    levelProgress = GameDataManager.Instance.CurrentLevelProgress;
-                    //ExtractQuestionData();
-                    CurrentQuestion = Questions.Questions[currentQuestion];
+                    OpenStoreForLives();
                     break;
 
                 case GameMode.Multiplayer:
-                    if (MultiplayerQuestionIndex < MultiplayerQuestions.Questions.Count)
-                    {
-                        CurrentQuestion = MultiplayerQuestions.Questions[CurrentMultiplayerQuestion];
-                        Debug.Log("<color=green>Mutiplayer Question Index Type = "+MultiplayerQuestions.Questions[MultiplayerQuestionIndex].Pattern.ToString()+"</color>");
-                    }
+                    OpenStoreForBananas();
                     break;
             }
         }
+    }
 
-        SetQuestionVariation();
-        IntroToNext();
+    private bool CheckForRequisiteLifeOrBananasToPlayGame()
+    {
+        switch(GameDataManager.Instance.CurrentGameMode)
+        {
+            case GameMode.Multiplayer:
+                if(GameDataManager.Instance.TotalBananas == 0)
+                {
+                    return false;
+                }
+                break;
 
+            case GameMode.SinglePlayer:
+                if(GameDataManager.Instance.TotalLives == 0)
+                {
+                    return false;
+                }
+                break;
+        }
+
+        return true;
+    }
+
+    public void OpenStoreForBananas()
+    {
+        UIManager.Instance.ShowPopUp("Get More Bananas to Continue!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, OpenStore, null);
+    }
+
+    public void OpenStoreForLives()
+    {
+        UIManager.Instance.ShowPopUp("Get More Lives to Continue!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, OpenStore, null);
     }
 
     private void ExtractQuestionData()
@@ -1391,6 +1467,7 @@ public class GameManager : Singleton<GameManager>
     private void LevelCompleted(bool comingFromSkippedQuestion = false)
     {
         GameDataManager.Instance.CurrentLevel++;
+        GameDataManager.Instance.RemainingLevels = GameDataManager.Instance.TotalLevels - GameDataManager.Instance.CurrentLevel;
         GameDataManager.Instance.LevelFallBackQuestion = GameDataManager.Instance.CurrentQuestion;
         GameDataManager.Instance.CurrentLevelProgress = 0;
         if (!comingFromSkippedQuestion)
@@ -1682,10 +1759,21 @@ public class GameManager : Singleton<GameManager>
 
     public void SkippedQuestion()
     {
-        PenaltyForWrongAnswer(true);
+        if(GameDataManager.Instance.TotalLives <= 0)
+        {
+            OpenStoreForLives();
+        }
+        else
+        {
+            UIManager.Instance.HideQuestionFailed();
+            ScreenManager.Instance.SetANewScreen(ScreensEnum.GamePlay);
+            
+            PenaltyForWrongAnswer(true);
+            
+            Result = AnswerResult.Correct;
+            ShowAnswerResult(true);
+        }
 
-        Result = AnswerResult.Correct;
-        ShowAnswerResult(true);
     }
 
     #endregion
@@ -1788,9 +1876,19 @@ public class GameManager : Singleton<GameManager>
     {
         UIManager.Instance.LivesEarnedChanged();
     }
+
+    public void LevelsChanged()
+    {
+        UIManager.Instance.TotalLevelsChanged();
+    }
+
+    public void ScoreChanged()
+    {
+        UIManager.Instance.ScoreChanged();
+    }
     #endregion
 
-    #region InApps and Add Life/Banana Related
+    #region InApps and Add Life/Banana Rewards Related
 
     public void RemoveAds()
     {
@@ -1809,12 +1907,20 @@ public class GameManager : Singleton<GameManager>
         switch (type)
         {
             case Currency.Banana:
+                if(action == AddDeductAction.Add)
+                {
+                    UIManager.Instance.ShowPopUp("Successfully added "+amount+" Bananas!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                }
                 GameDataManager.Instance.TotalBananas += currency;
                 break;
 
             case Currency.Life:
                 if (GameDataManager.Instance.IsUnlimitedLives)
                     return;
+                if (action == AddDeductAction.Add)
+                {
+                    UIManager.Instance.ShowPopUp("Successfully added " + amount + " Life!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                }
                 GameDataManager.Instance.TotalLives += currency;
                 break;
         }
@@ -1842,6 +1948,17 @@ public class GameManager : Singleton<GameManager>
         ScreenManager.Instance.SetANewScreen(ScreensEnum.Store);
     }
 
+    public void ReviewApp()
+    {
+        ResumeFrom = ApplicationResumeFrom.ReviewApp;
+    }
+
+    public void ShareRegular()
+    {
+        ResumeFrom = ApplicationResumeFrom.ShareRegular;
+        ShareManager.Instance.NativeShare(ShareType.FromGameWin);
+    }
+
     #endregion
 
     #region Multiplayer Related
@@ -1853,11 +1970,19 @@ public class GameManager : Singleton<GameManager>
 
     public void StartFindingMatch()
     {
-        UIManager.Instance.SetMultiplayerUI(MultiplayerMode.FindingPlayer);
-        ScreenManager.Instance.SetANewScreen(ScreensEnum.MultiplayerGamePanel);
-        MultiplayerManager.Instance.JoinOnCreateRandomRoom();
-        CurrentMultiplayerGameplay = MultiplayerGameplayType.Person;
-        ActivelyLookingForOpponent = true;
+        if (MultiplayerManager.Instance.GetBetAmount(GameDataManager.Instance.BetAmount) < GameDataManager.Instance.TotalBananas)
+        {
+            OpenStoreForBananas();
+        }
+        else
+        {
+            UIManager.Instance.SetMultiplayerUI(MultiplayerMode.FindingPlayer);
+            ScreenManager.Instance.SetANewScreen(ScreensEnum.MultiplayerGamePanel);
+            MultiplayerManager.Instance.JoinOnCreateRandomRoom();
+            CurrentMultiplayerGameplay = MultiplayerGameplayType.Person;
+            ActivelyLookingForOpponent = true;
+        }
+
     }
 
     public void CancelFindingmatch(bool leaveRoom = true)
@@ -1878,20 +2003,30 @@ public class GameManager : Singleton<GameManager>
 
     public void JoinGame()
     {
+        Debug.Log("Join Game");
         code = UIManager.Instance.MultiplayerJoinGameInput.text;
+        Debug.Log("Code = "+code);
         char[] array = code.ToCharArray();
         int bet = 0;
         int.TryParse(array[0].ToString(), out bet);
+        Debug.Log("BetAmount = "+bet.ToString());
         int betRequired = MultiplayerManager.Instance.GetBetAmount((BetAmount)bet);
+        Debug.Log("Bet Required = " + betRequired.ToString());
         if(betRequired > GameDataManager.Instance.TotalBananas)
         {
-            UIManager.Instance.ShowPopUp("You do not have enough bananas to play this game. Get more bananas.", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, OpenStore, null);
+            OpenStoreForBananas();
         }
         else
         {
-            UIManager.Instance.ShowPopUp("Trying to connect to Challenge game.", null, TypeOfPopUpButtons.NoButton, TypeOfPopUp.Evented, 0, null, null);
+            UIManager.Instance.ShowPopUp("Trying to connect to Challenge game.", new List<string>(){"Cancel"}, TypeOfPopUpButtons.Ok, TypeOfPopUp.ButtonedAndEvented, 0, ChallengeCancelled, null);
             MultiplayerManager.Instance.JoinNamedRoom(code);
         }
+    }
+
+    public void ChallengeCancelled()
+    {
+        MultiplayerManager.Instance.LeaveRoom();
+        MultiplayerManager.Instance.Disconnect();
     }
 
     public void ChallengeRoomJoinFailed()
@@ -1917,6 +2052,7 @@ public class GameManager : Singleton<GameManager>
 
     public void CreatedRoom_Challenge()
     {
+        Debug.Log("CreatedRoom_Challenge");
         AmIAloneInRoom = true;
         CurrentMultiplayerGameplay = MultiplayerGameplayType.Person;
         UIManager.Instance.MultiplayerUI.Mode = MultiplayerMode.ChallengeWaitingForPlayer;
@@ -1949,7 +2085,6 @@ public class GameManager : Singleton<GameManager>
     public void ResetAfterMultiplayerDisconnect()
     {
         code = string.Empty;
-        IsFromMultiplayerShare = false;
         MultiplayerQuestionIndex = 0;
         //CurrentMultiplayerQuestion = 0;
         LastQuestionAnsweredTime = 0;
@@ -2032,12 +2167,19 @@ public class GameManager : Singleton<GameManager>
 
     public void MultiplayerCodeShared()
     {
-        code = ((int)CurrentBetAmount).ToString();
-        code += System.DateTime.Now.ToString("fff");
-        code += RandomAlphaNumeric.GenerateRandomNumeric(3);
-        IsFromMultiplayerShare = true;
-        Debug.Log("Code = " + code);
-        ShareManager.Instance.NativeShare(ShareType.FromMultiplayer, code);
+        if(MultiplayerManager.Instance.GetBetAmount(GameDataManager.Instance.BetAmount) < GameDataManager.Instance.TotalBananas)
+        {
+            OpenStoreForBananas();
+        }
+        else
+        {
+            code = ((int)CurrentBetAmount).ToString();
+            code += System.DateTime.Now.ToString("fff");
+            code += RandomAlphaNumeric.GenerateRandomNumeric(3);
+            ResumeFrom = ApplicationResumeFrom.ShareMultiplayer;
+            Debug.Log("Code = " + code);
+            ShareManager.Instance.NativeShare(ShareType.FromMultiplayer, code);
+        }
     }
 
     private void CreateRoomForChallenge()
@@ -2076,11 +2218,14 @@ public class GameManager : Singleton<GameManager>
 
     public void WaitForOpponentToFinish()
     {
+        IsWaiting = true;
+        waitTime = timerInt + MultiplayerMaxWaitTimeForResult;
         UIManager.Instance.ShowPopUp("Waiting for opponent to finish game", null, TypeOfPopUpButtons.NoButton, TypeOfPopUp.Evented, 0, null, null); 
     }
 
     public void EvaluateAndShowResult(bool opponentLeft = false)
     {
+        IsWaiting = false;
         UIManager.Instance.HidePopUp();
 
         if (GameDataManager.Instance.CurrentGameMode == GameMode.SinglePlayer)
@@ -2134,6 +2279,24 @@ public class GameManager : Singleton<GameManager>
         UIManager.Instance.MultiplayerLose();
     }
 
+    private void MatchDrawn()
+    {
+        Debug.Log("Match Drawn");
+
+        AddDeductCurrency(Currency.Banana, AddDeductAction.Add, (CurrentBetAmount));
+        Status = GameStatus.OutOfSession;
+        ResetAfterMultiplayerDisconnect();
+        //GameDataManager.Instance.WinStreak_Multiplayer++;
+        //GameDataManager.Instance.LoseStreak_Multiplayer = 0;
+        UIManager.Instance.MultiplayerBananasWon(2 * CurrentBetAmount);
+        UIManager.Instance.MultiplayerWin(); 
+    }
+
+    public void GetToMultiplayerPlayMenu()
+    {
+        CancelFindingmatch(false);
+    }
+
     #endregion
 
     #endregion
@@ -2154,4 +2317,12 @@ public struct TestQuestion
     public QPattern Question;
     public int QuestionNumber;
     public bool FirstTime;
+}
+
+public enum ApplicationResumeFrom
+{
+    None,
+    ShareMultiplayer,
+    ShareRegular,
+    ReviewApp
 }

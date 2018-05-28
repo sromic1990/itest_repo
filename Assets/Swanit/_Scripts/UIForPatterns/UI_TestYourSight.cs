@@ -138,15 +138,15 @@ public class UI_TestYourSight : UI_Base
 
         EProz.INSTANCE.WaitAndCall(0.5f, () =>
             {
-                mBabushka[correctIndex].Top.DOAnchorPosY(val + 500.0f, 0.5f, false);
-                mBabushka[correctIndex].Monkey.DOScale(2.0f, 0.5f).SetEase(Ease.InBounce);
+                mBabushka[correctIndex].Top.DOAnchorPosY(val + 400.0f, 0.5f, false);
+                //     mBabushka[correctIndex].Monkey.DOScale(2.0f, 0.5f).SetEase(Ease.InBounce);
 
 
                 EProz.INSTANCE.WaitAndCall(0.8f, () =>
                     {
 
                         mBabushka[correctIndex].Top.DOAnchorPosY(val, 0.5f, false);
-                        mBabushka[correctIndex].Monkey.DOScale(1.0f, 0.5f);
+                        //        mBabushka[correctIndex].Monkey.DOScale(1.0f, 0.5f);
 
                         if (hasAnsweredQuestion)
                             return;

@@ -8,6 +8,7 @@ using IdiotTest.Scripts.GameScripts;
 public class MultiplayerBetSelection : MonoBehaviour
 {
     #region Fields
+    public MultiplayerUI HolderUI;
     public GameObject Holder;
 
     public List<BetListStatus> BetList;
@@ -15,6 +16,7 @@ public class MultiplayerBetSelection : MonoBehaviour
 
     public Button PrevButton;
     public Button NextButton;
+
 
     private BetAmount currentBetAmount;
     public BetAmount CurrentBetAmount
@@ -32,7 +34,17 @@ public class MultiplayerBetSelection : MonoBehaviour
     #region Mono Methods
     private void OnEnable()
     {
-        CurrentBetAmount = GameDataManager.Instance.BetAmount;
+        if(HolderUI.Mode == MultiplayerMode.ChallengeWaitingForPlayer || HolderUI.Mode == MultiplayerMode.FindingPlayer)
+        {
+            CurrentBetAmount = GameDataManager.Instance.BetAmount;
+            EnableDisablePrevNextButton(PrevNextButton.both, EnableDisableAction.Disable);
+        }
+        else if(HolderUI.Mode == MultiplayerMode.Challenge || HolderUI.Mode == MultiplayerMode.FindPlayer)
+        {
+            CurrentBetAmount = BetAmount.Five;
+            EnableDisablePrevNextButton(PrevNextButton.both, EnableDisableAction.Enable);
+        }
+
     }
     #endregion
 

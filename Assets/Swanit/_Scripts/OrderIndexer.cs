@@ -358,8 +358,6 @@ public class OrderIndexer : MonoBehaviour
         Debug.Log(rem.Question);
         Q_list.Remove(rem);
 
-
-
         //Removing Specified Questions
 
         Q_list.RemoveAt(15);
@@ -370,13 +368,11 @@ public class OrderIndexer : MonoBehaviour
         U_list.RemoveAt(3);
 
 
-
         List<BaseQuestion> col1 = new List<BaseQuestion>();
         List<BaseQuestion> col2 = new List<BaseQuestion>();
         List<BaseQuestion> col3 = new List<BaseQuestion>();
         List<BaseQuestion> col4 = new List<BaseQuestion>();
         List<BaseQuestion> col5 = new List<BaseQuestion>();
-
 
         int P_Index = 0;
         int Q_Index = 0;
@@ -625,6 +621,28 @@ public class OrderIndexer : MonoBehaviour
         }
     }
 
+
+    [ContextMenu("Change Text Color")]
+    public void changeTexCol()
+    {
+        Color col = new Color();
+        ColorUtility.TryParseHtmlString("#632C10FF", out col);
+
+        #if UNITY_EDITOR
+        EditorUtility.SetDirty(AnotherHolder);
+        EditorUtility.SetDirty(Buckets);
+        #endif
+
+
+        for (int i = 0; i < AnotherHolder.Questions.Count; i++)
+        {
+            for (int j = 0; j < AnotherHolder.Questions[i].Options.Count; j++)
+            {
+                Debug.Log(AnotherHolder.Questions[i].Pattern.ToString());
+                AnotherHolder.Questions[i].Options[j].TextColor = col;
+            }
+        }
+    }
 
 }
 

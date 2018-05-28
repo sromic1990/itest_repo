@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 222691858115099594}
   - component: {fileID: 114638123499447666}
   m_Layer: 5
-  m_Name: Text_Attempts_Value
+  m_Name: Text_Score_Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,7 +165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1484117120918882
 GameObject:
   m_ObjectHideFlags: 1
@@ -1217,7 +1217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ATTEMPT TAKEN
+  m_Text: SCORE
 --- !u!114 &114978283285911404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1557,8 +1557,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.6254835, y: 0.35356748}
-  m_SizeDelta: {x: 269.69, y: 166.84}
+  m_AnchoredPosition: {x: -3.2435236, y: 3.9105048}
+  m_SizeDelta: {x: 319.4, y: 117.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224394249840446456
 RectTransform:
@@ -1641,8 +1641,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246.81241, y: 8.440426}
-  m_SizeDelta: {x: 196.56, y: 150.67}
+  m_AnchoredPosition: {x: 255.68143, y: 5.452403}
+  m_SizeDelta: {x: 178.8, y: 92.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224569954316951366
 RectTransform:

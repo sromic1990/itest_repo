@@ -20,7 +20,7 @@ public sealed class Setter_PictureAndFourAnswers : BaseSetter
         {
             Action<int, int, bool, List<SequenceOfClick>> actionOnClick = info.Options[i].IsCorrect ? CorrectlyAnswered : WronglyAnswered;
 
-            ButtonProperties button = new ButtonProperties(info.Options[i].Sprite, info.Options[i].SecondarySprites, info.Options[i].text, info.Options[i].ID, actionOnClick, info.Options[i].IsCorrect, info.Options[i].SequenceInfo);
+            ButtonProperties button = new ButtonProperties(info.Options[i].Sprite, info.Options[i].SecondarySprites, info.Options[i].text, info.Options[i].ID, actionOnClick, info.Options[i].IsCorrect, info.Options[i].SequenceInfo, info.Options[i].TextColor);
             buttonProperties.Add(button);
         }
 

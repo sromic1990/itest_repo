@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1150888136476628
 GameObject:
   m_ObjectHideFlags: 1
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 222126833119862656}
   - component: {fileID: 114162915126941770}
   m_Layer: 5
-  m_Name: Text_Attempts_Value
+  m_Name: Text_Score_Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ATTEMPT TAKEN
+  m_Text: SCORE
 --- !u!114 &114162915126941770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2406,7 +2406,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 114238688627807590}
   m_OnClick:
     m_PersistentCalls:
@@ -3984,7 +3984,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224831221844157562}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4170,8 +4170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246.81241, y: 8.440426}
-  m_SizeDelta: {x: 196.56, y: 150.67}
+  m_AnchoredPosition: {x: 257, y: 3}
+  m_SizeDelta: {x: 154, y: 104.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224596108270066108
 RectTransform:
@@ -4421,7 +4421,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224831221844157562}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4456,8 +4456,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 224307446820804268}
   - {fileID: 224750438327293478}
+  - {fileID: 224307446820804268}
   - {fileID: 224517442325776194}
   m_Father: {fileID: 224935476581159134}
   m_RootOrder: 1

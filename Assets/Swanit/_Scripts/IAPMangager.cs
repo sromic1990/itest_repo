@@ -11,26 +11,43 @@ public class IAPMangager : Singleton<IAPMangager>
 
     private List<string> IpaSkus;
 
+    private List<string> NonConsumedSku = new List<string>();
+
+
+    private bool IsRestorePurchase = false;
 
     //TODO Adding Public key to IAP
     void Awake()
     {
-#if UNITY_ANDROID
+        #if UNITY_ANDROID
         GoogleIAB.init("add_pubic_key_here");
-#endif
+        #endif
+
+        #if UNITY_IOS
+
+        #endif
     }
 
 
     void OnEnable()
     {
-#if UNITY_ANDROID
+        #if UNITY_ANDROID
         GoogleIABManager.billingNotSupportedEvent += GoogleIABManager_billingNotSupportedEvent;
         GoogleIABManager.billingSupportedEvent += GoogleIABManager_billingSupportedEvent;
         GoogleIABManager.consumePurchaseSucceededEvent += GoogleIABManager_consumePurchaseSucceededEvent;
         GoogleIABManager.purchaseSucceededEvent += GoogleIABManager_purchaseSucceededEvent;
         GoogleIABManager.consumePurchaseFailedEvent += GoogleIABManager_consumePurchaseFailedEvent;
         GoogleIABManager.purchaseFailedEvent += GoogleIABManager_purchaseFailedEvent;
-#endif
+        #endif
+
+        #if UNITY_IOS
+        StoreKitManager.productListReceivedEvent += OnGetProductList;
+        StoreKitManager.purchaseSuccessfulEvent += OnPurchaseSuccess;
+        StoreKitManager.purchaseFailedEvent += OnPurchaseFail;
+        StoreKitManager.restoreTransactionsFinishedEvent += OnRestoreSuccess;
+        StoreKitManager.restoreTransactionsFailedEvent += OnRestoreFail;
+        StoreKitManager.purchaseCancelledEvent += OnPurchaseCancelled;
+        #endif
     }
 
     #region IAP Functions
@@ -38,10 +55,14 @@ public class IAPMangager : Singleton<IAPMangager>
     public void BuyProduct(IAP iap)
     {
         IAPUnit mIap = mInAppProducts.Find(f => (f.mIap == iap));
-#if UNITY_ANDROID
+       
+        #if UNITY_ANDROID
         GoogleIAB.purchaseProduct(mIap.IAP_Id);
-#endif
+        #endif
 
+        #if UNITY_IOS
+        StoreKitBinding.purchaseProduct(mIap.IAP_Id, 1);
+        #endif
     }
 
     private void ConsumeProduct(string ProdID)
@@ -52,7 +73,6 @@ public class IAPMangager : Singleton<IAPMangager>
     //TODO
     private void QueryInventory()
     {
-#if UNITY_ANDROID
         //Add Original Skus Here
         List<string> prodIDs = new List<string>();
 
@@ -60,19 +80,67 @@ public class IAPMangager : Singleton<IAPMangager>
             prodIDs.Add(mInAppProducts[i].IAP_Id);
 
         string[] skus = prodIDs.ToArray();
-        GoogleIAB.queryInventory(skus);
-#endif
+
+        #if UNITY_ANDROID
+        GoogleIAB.queryInventory(skus); 
+        #endif
+
+        #if UNITY_IOS
+        StoreKitBinding.requestProductData(skus);
+        #endif
+    }
+
+    public void RestorePurchase()
+    {
+        #if UNITY_IOS
+        IsRestorePurchase = true;
+        StoreKitBinding.restoreCompletedTransactions();
+        #endif
+
+
+        #if UNITY_ANDROID
+        if (NonConsumedSku.Count > 0)
+        {
+            for (int i = 0; i < NonConsumedSku.Count; i++)
+            {
+                string prodID = NonConsumedSku[i];
+                IAPUnit iap = mInAppProducts.Find(prod => prod.IAP_Id == prodID);
+
+                if (iap != null)
+                {
+                    if (iap.mIAPtypes == IAP_Type.NonConsumable)
+                    {
+                        UIManager.Instance.ShowPopUp("All purchases have been restored", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                        GameManager.Instance.AddDeductCurrency(iap.mCurrency, AddDeductAction.Add, iap.prodValue);
+                    }
+                    else
+                    {
+                        UIManager.Instance.ShowPopUp("Nothing To Restore", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                    }
+                }
+                else
+                {
+                    UIManager.Instance.ShowPopUp("Nothing To Restore", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                }
+            } 
+        }
+        else
+        {
+            UIManager.Instance.ShowPopUp("Nothing To Restore", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+        }
+        #endif
+
     }
 
     #endregion
 
-    #region IAP Events
+    #region IAP Events Android
 
-#if UNITY_ANDROID
+    #if UNITY_ANDROID
     private void IABQueryInventorySucceeded(List<GooglePurchase> arg1, List<GoogleSkuInfo> arg2)
     {
         List<string> skus = new List<string>();
-
+      
         if (arg1.Count > 1)
         {
             for (int i = 0; i < arg1.Count; i++)
@@ -84,23 +152,27 @@ public class IAPMangager : Singleton<IAPMangager>
                 {
                     skus.Add(iap.IAP_Id);
                 }
+                else
+                {
+                    NonConsumedSku.Add(iap.IAP_Id);
+                }
             }
 
             GoogleIAB.consumeProducts(skus.ToArray());
         }
     }
-#endif
+    #endif
 
     void GoogleIABManager_purchaseFailedEvent(string arg1, int arg2)
     {
-#if UNITY_ANDROID
+        #if UNITY_ANDROID
         //Pop up showing purchase failed with message
         string msg = "Purchase fail with following Error :" + arg1;
 
         UIManager.Instance.ShowPopUp(msg, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
 
         Debug.LogError(msg + "\nCode :" + arg2);
-#endif
+        #endif
     }
 
     void GoogleIABManager_consumePurchaseFailedEvent(string obj)
@@ -108,7 +180,7 @@ public class IAPMangager : Singleton<IAPMangager>
 
     }
 
-#if UNITY_ANDROID
+    #if UNITY_ANDROID
     void GoogleIABManager_purchaseSucceededEvent(GooglePurchase obj)
     {
         string prodId = obj.productId;
@@ -124,11 +196,11 @@ public class IAPMangager : Singleton<IAPMangager>
 
 
     }
-#endif
+    #endif
 
     void UseProduct(IAPUnit mIap)
     {
-#if UNITY_ANDROID
+        #if UNITY_ANDROID
         if (mIap.mIAPtypes == IAP_Type.NonConsumable)
         {
             UIManager.Instance.ShowPopUp("Purchase Success : " + mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
@@ -138,19 +210,19 @@ public class IAPMangager : Singleton<IAPMangager>
             UIManager.Instance.ShowPopUp("Purchase Success : " + mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
             StartCoroutine(OnConsume(mIap));
         }
-#endif
+        #endif
 
     }
 
     private IEnumerator OnConsume(IAPUnit mIap)
     {
-        yield return new WaitForSeconds(2.0f);
-#if UNITY_ANDROID
+        yield return new WaitForSeconds(0.1f);
+        #if UNITY_ANDROID
         GoogleIAB.consumeProduct(mIap.IAP_Id);
-#endif
+        #endif
     }
 
-#if UNITY_ANDROID
+    #if UNITY_ANDROID
     void GoogleIABManager_consumePurchaseSucceededEvent(GooglePurchase obj)
     {
         Debug.Log("Consume Succcess :" + obj.productId + "    " + obj.packageName);
@@ -166,7 +238,56 @@ public class IAPMangager : Singleton<IAPMangager>
     {
         Debug.Log("Billing Not Supported :(");
     }
-#endif
+    #endif
+
+    #endregion
+
+    #region IAP Events iOS
+
+    #if UNITY_IOS
+    public void OnGetProductList(List<StoreKitProduct> productList)
+    {
+        
+    }
+
+    public void OnPurchaseSuccess(StoreKitTransaction obj)
+    {
+        string prodID = obj.productIdentifier;
+        IAPUnit mIap = mInAppProducts.Find(prod => (prod.IAP_Id == prodID));
+
+        if (mIap.isRemoveAds)
+            GameManager.Instance.RemoveAds();
+
+        GameManager.Instance.AddDeductCurrency(mIap.mCurrency, AddDeductAction.Add, mIap.prodValue);
+
+        if (!IsRestorePurchase)
+            UIManager.Instance.ShowPopUp("Purchase Success : " + mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+    }
+
+
+    public void OnPurchaseFail(string msg)
+    {
+        UIManager.Instance.ShowPopUp("Purchase failed", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+    }
+
+    public void OnPurchaseCancelled(string msg)
+    {
+        UIManager.Instance.ShowPopUp("Purchase canceled", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+    }
+
+    public void OnRestoreSuccess()
+    {
+        UIManager.Instance.ShowPopUp("All purchases have been restored", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+        IsRestorePurchase = false;
+    }
+
+    public void OnRestoreFail(string msg)
+    {
+        UIManager.Instance.ShowPopUp("Restore purchase failed", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+        IsRestorePurchase = false;
+    }
+
+    #endif
 
     #endregion
 
@@ -179,6 +300,16 @@ public class IAPMangager : Singleton<IAPMangager>
         GoogleIABManager.purchaseSucceededEvent -= GoogleIABManager_purchaseSucceededEvent;
         GoogleIABManager.consumePurchaseFailedEvent -= GoogleIABManager_consumePurchaseFailedEvent;
         GoogleIABManager.purchaseFailedEvent -= GoogleIABManager_purchaseFailedEvent;
+        #endif
+
+        #if UNITY_IOS
+        StoreKitManager.productListReceivedEvent -= OnGetProductList;
+        StoreKitManager.purchaseSuccessfulEvent -= OnPurchaseSuccess;
+        StoreKitManager.purchaseFailedEvent -= OnPurchaseFail;
+        StoreKitManager.restoreTransactionsFinishedEvent -= OnRestoreSuccess;
+        StoreKitManager.restoreTransactionsFailedEvent -= OnRestoreFail;
+        StoreKitManager.purchaseCancelledEvent -= OnPurchaseCancelled;
+
         #endif
     }
 }

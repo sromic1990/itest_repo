@@ -57,7 +57,7 @@ MonoBehaviour:
     Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
   - ID: AnswerBackGround
     SpriteID: 1
-    Sprite: {fileID: 21300000, guid: f2ccb3d631cfd431c95a20ecfa24851d, type: 3}
+    Sprite: {fileID: 21300000, guid: fe93d4b882ef646ec8f2d644616d463c, type: 3}
   - ID: Babushka
     SpriteID: 2
     Sprite: {fileID: 21300000, guid: 286562ae2c77d41f18b712f46903f34c, type: 3}
@@ -360,10 +360,10 @@ MonoBehaviour:
     Sprite: {fileID: 21300000, guid: 24f2f99d2f03a440cbfda8c86a4ab386, type: 3}
   - ID: TornTShirt
     SpriteID: 102
-    Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
+    Sprite: {fileID: 21300000, guid: c9735b57df29b4195b40792b5af27f18, type: 3}
   - ID: Triangles
     SpriteID: 103
-    Sprite: {fileID: 21300000, guid: a6e16a2021b314bbb9ad47c979f710bd, type: 3}
+    Sprite: {fileID: 21300000, guid: cfac4f2c4db434e9fadd8f69cd1a8ea3, type: 3}
   - ID: Monkey_New_Front
     SpriteID: 104
     Sprite: {fileID: 21300000, guid: bb25c1dde4b68415a8eddd2f98dfa3ff, type: 3}

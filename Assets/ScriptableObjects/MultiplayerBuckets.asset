@@ -38,28 +38,28 @@ MonoBehaviour:
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 11
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -94,28 +94,28 @@ MonoBehaviour:
     - text: Committee
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Commitee
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Commitie
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Comittee
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -150,14 +150,14 @@ MonoBehaviour:
     - text: 
       Sprite: 63
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 48
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -230,35 +230,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -297,28 +297,28 @@ MonoBehaviour:
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -353,28 +353,28 @@ MonoBehaviour:
     - text: Scent
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Dime
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Sent
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cent
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -409,14 +409,14 @@ MonoBehaviour:
     - text: 
       Sprite: 85
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 71
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -489,35 +489,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -557,28 +557,28 @@ MonoBehaviour:
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -613,28 +613,28 @@ MonoBehaviour:
     - text: http://mail
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: b@c.com
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: www.male
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: email.com
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -669,14 +669,14 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 31
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -718,7 +718,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -728,7 +728,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -738,7 +738,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -781,35 +781,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -848,28 +848,28 @@ MonoBehaviour:
     - text: Yeah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: More women
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Can't tell
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -904,28 +904,28 @@ MonoBehaviour:
     - text: 0.90
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 0.09
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0.19
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1.09
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -960,14 +960,14 @@ MonoBehaviour:
     - text: 
       Sprite: 31
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 55
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1009,7 +1009,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1019,7 +1019,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1072,35 +1072,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -1139,28 +1139,28 @@ MonoBehaviour:
     - text: Heart
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Kidney
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Brain
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Lungs
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1195,28 +1195,28 @@ MonoBehaviour:
     - text: Driving
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Weather
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cheating
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cooking
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1251,14 +1251,14 @@ MonoBehaviour:
     - text: 
       Sprite: 49
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 99
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1326,35 +1326,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -1393,28 +1393,28 @@ MonoBehaviour:
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 12
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 16
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1450,28 +1450,28 @@ MonoBehaviour:
     - text: Forty Five
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Fifty
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Can't tell
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Larry
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1511,28 +1511,28 @@ MonoBehaviour:
     - text: five
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nine
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1571,28 +1571,28 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo:
@@ -1602,7 +1602,7 @@ MonoBehaviour:
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
       SequenceInfo:
@@ -1612,7 +1612,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -1622,7 +1622,7 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 28
       SequenceInfo:
@@ -1632,7 +1632,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -1642,7 +1642,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 26
       SequenceInfo: []
@@ -1684,7 +1684,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1723,28 +1723,28 @@ MonoBehaviour:
     - text: Moon
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Planets
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Earth
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: USA
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1779,14 +1779,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -1826,28 +1826,28 @@ MonoBehaviour:
     - text: 3
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 5
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1890,7 +1890,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
       SequenceInfo:
@@ -1900,7 +1900,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 23
       SequenceInfo:
@@ -1910,7 +1910,7 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo:
@@ -1920,7 +1920,7 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -1962,7 +1962,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2001,28 +2001,28 @@ MonoBehaviour:
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2057,14 +2057,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -2104,28 +2104,28 @@ MonoBehaviour:
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 3
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 5
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2160,14 +2160,14 @@ MonoBehaviour:
     - text: 
       Sprite: 30
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 29
       SecondarySprites: 1e0000001d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2212,7 +2212,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2251,28 +2251,28 @@ MonoBehaviour:
     - text: Hossain
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Lewis
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Johnson
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Bolt
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2307,14 +2307,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -2354,28 +2354,28 @@ MonoBehaviour:
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 3
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -2414,63 +2414,63 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo: []
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
       SequenceInfo: []
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
       SequenceInfo: []
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
       SequenceInfo: []
@@ -2512,7 +2512,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2551,28 +2551,28 @@ MonoBehaviour:
     - text: Kissing
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Long Jump
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Discus Throw
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Running
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2607,28 +2607,28 @@ MonoBehaviour:
     - text: White
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Black
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Water
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Green
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -2668,28 +2668,28 @@ MonoBehaviour:
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2728,7 +2728,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 23
       SequenceInfo:
@@ -2741,7 +2741,7 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 24
       SequenceInfo:
@@ -2751,7 +2751,7 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo:
@@ -2761,7 +2761,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 25
       SequenceInfo: []
@@ -2803,7 +2803,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2842,28 +2842,28 @@ MonoBehaviour:
     - text: East
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: West
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: North East
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: North West
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -2898,28 +2898,28 @@ MonoBehaviour:
     - text: You
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Your uncle
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Your brother
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Your father
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2954,14 +2954,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -2997,7 +2997,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
       SequenceInfo:
@@ -3007,7 +3007,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 23
       SequenceInfo:
@@ -3017,14 +3017,14 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 24
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo:
@@ -3067,7 +3067,7 @@ MonoBehaviour:
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3077,7 +3077,7 @@ MonoBehaviour:
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3087,7 +3087,7 @@ MonoBehaviour:
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3129,28 +3129,28 @@ MonoBehaviour:
     - text: 5th
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 2nd
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 8th
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1st
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3185,28 +3185,28 @@ MonoBehaviour:
     - text: Dracula
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Dictator
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Dinosaur
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Dragon
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3241,14 +3241,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3283,7 +3283,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3293,7 +3293,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3303,7 +3303,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3313,7 +3313,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3323,7 +3323,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3333,7 +3333,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3376,7 +3376,7 @@ MonoBehaviour:
     - text: 
       Sprite: 51
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3386,7 +3386,7 @@ MonoBehaviour:
     - text: 
       Sprite: 51
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3396,7 +3396,7 @@ MonoBehaviour:
     - text: 
       Sprite: 52
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3438,28 +3438,28 @@ MonoBehaviour:
     - text: Sometimes
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Never
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Always
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Around Sun
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3494,28 +3494,28 @@ MonoBehaviour:
     - text: Orange
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cocktail
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cantmix
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Green
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3550,14 +3550,14 @@ MonoBehaviour:
     - text: 
       Sprite: 97
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 40
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -3600,14 +3600,14 @@ MonoBehaviour:
     - text: 
       Sprite: 60
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 59
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3647,7 +3647,7 @@ MonoBehaviour:
     - text: 
       Sprite: 69
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3657,7 +3657,7 @@ MonoBehaviour:
     - text: 
       Sprite: 69
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3667,7 +3667,7 @@ MonoBehaviour:
     - text: 
       Sprite: 69
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3709,28 +3709,28 @@ MonoBehaviour:
     - text: Dirty Banana
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Big Carrot
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Sweet Potato
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Small Potato
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3766,28 +3766,28 @@ MonoBehaviour:
     - text: USA
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Mexico
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nowhere
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: On border
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -3822,14 +3822,14 @@ MonoBehaviour:
     - text: 
       Sprite: 50
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 49
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -3864,7 +3864,7 @@ MonoBehaviour:
     - text: 
       Sprite: 44
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3874,7 +3874,7 @@ MonoBehaviour:
     - text: 
       Sprite: 45
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3884,21 +3884,21 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 47
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3908,7 +3908,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3951,7 +3951,7 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3961,7 +3961,7 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3971,7 +3971,7 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3981,7 +3981,7 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -3991,7 +3991,7 @@ MonoBehaviour:
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4033,28 +4033,28 @@ MonoBehaviour:
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4089,28 +4089,28 @@ MonoBehaviour:
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 3
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4145,14 +4145,14 @@ MonoBehaviour:
     - text: 
       Sprite: 56
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 65
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4192,35 +4192,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -4260,7 +4260,7 @@ MonoBehaviour:
     - text: 
       Sprite: 34
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4270,7 +4270,7 @@ MonoBehaviour:
     - text: 
       Sprite: 38
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4280,7 +4280,7 @@ MonoBehaviour:
     - text: 
       Sprite: 41
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4290,7 +4290,7 @@ MonoBehaviour:
     - text: 
       Sprite: 37
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4300,7 +4300,7 @@ MonoBehaviour:
     - text: 
       Sprite: 35
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -4342,28 +4342,28 @@ MonoBehaviour:
     - text: 0.5
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 365
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4398,28 +4398,28 @@ MonoBehaviour:
     - text: Farty
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Forti
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Forty
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Fourty
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4454,14 +4454,14 @@ MonoBehaviour:
     - text: 
       Sprite: 63
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 39
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4501,35 +4501,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -4569,35 +4569,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4636,28 +4636,28 @@ MonoBehaviour:
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4693,28 +4693,28 @@ MonoBehaviour:
     - text: C-A-B-D-E
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: A-B-C-D-E
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: B-C-A-D-E
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: C-B-A-D-E
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4749,14 +4749,14 @@ MonoBehaviour:
     - text: 
       Sprite: 75
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4796,35 +4796,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -4864,35 +4864,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -4931,28 +4931,28 @@ MonoBehaviour:
     - text: Farting
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Digesting
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Thinking
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Breathing
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -4987,28 +4987,28 @@ MonoBehaviour:
     - text: Canada
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: England
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: USA
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: None
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -5043,14 +5043,14 @@ MonoBehaviour:
     - text: 
       Sprite: 78
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -5090,35 +5090,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -5158,35 +5158,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5225,28 +5225,28 @@ MonoBehaviour:
     - text: Saturday
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Sunday
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Monday
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: Tuesday
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5281,28 +5281,28 @@ MonoBehaviour:
     - text: 5
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -5370,35 +5370,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -5438,35 +5438,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5505,28 +5505,28 @@ MonoBehaviour:
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 7
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5562,28 +5562,28 @@ MonoBehaviour:
     - text: 1 hour
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 10 Hours
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 30 minutes
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10 minutes
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5622,7 +5622,7 @@ MonoBehaviour:
     - text: 
       Sprite: 69
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5664,7 +5664,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -5704,35 +5704,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5771,28 +5771,28 @@ MonoBehaviour:
     - text: May be
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Yeah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Nah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Can't tell
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -5827,28 +5827,28 @@ MonoBehaviour:
     - text: Country
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Cop
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Car
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Color
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -5891,28 +5891,28 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 25
       SequenceInfo: []
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 22
       SequenceInfo: []
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
       SequenceInfo:
@@ -5922,7 +5922,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -5932,7 +5932,7 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo:
@@ -5942,7 +5942,7 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
@@ -5984,7 +5984,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -6024,35 +6024,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6091,28 +6091,28 @@ MonoBehaviour:
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6147,28 +6147,28 @@ MonoBehaviour:
     - text: 14
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 13
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 24
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 23
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6211,28 +6211,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6274,7 +6274,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -6314,35 +6314,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6381,28 +6381,28 @@ MonoBehaviour:
     - text: 30
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 31
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 35
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 36
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -6437,28 +6437,28 @@ MonoBehaviour:
     - text: 209
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 211
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 210
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 40
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6501,28 +6501,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6564,7 +6564,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -6604,35 +6604,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6672,28 +6672,28 @@ MonoBehaviour:
     - text: Yeah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Can't tell
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: May be
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6729,14 +6729,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6780,28 +6780,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6843,7 +6843,7 @@ MonoBehaviour:
     - text: 
       Sprite: 80
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -6883,35 +6883,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -6951,28 +6951,28 @@ MonoBehaviour:
     - text: May be
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Yeah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nah
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Can't tell
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7007,14 +7007,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -7058,28 +7058,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7119,7 +7119,7 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7129,7 +7129,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7139,7 +7139,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7182,35 +7182,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7249,28 +7249,28 @@ MonoBehaviour:
     - text: 20
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 24
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 25
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 30
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7305,14 +7305,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -7355,28 +7355,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7416,7 +7416,7 @@ MonoBehaviour:
     - text: 
       Sprite: 99
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7426,7 +7426,7 @@ MonoBehaviour:
     - text: 
       Sprite: 99
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7436,7 +7436,7 @@ MonoBehaviour:
     - text: 
       Sprite: 99
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7480,35 +7480,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -7547,28 +7547,28 @@ MonoBehaviour:
     - text: Left
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Right
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Both
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: None
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7603,28 +7603,28 @@ MonoBehaviour:
     - text: 00999
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 09909
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 09999
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 99999
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7667,28 +7667,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7728,7 +7728,7 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7738,7 +7738,7 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7748,7 +7748,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7758,7 +7758,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7768,7 +7768,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -7812,35 +7812,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -7879,28 +7879,28 @@ MonoBehaviour:
     - text: 4
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7935,14 +7935,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -7986,28 +7986,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8047,7 +8047,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -8057,7 +8057,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -8067,7 +8067,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -8077,7 +8077,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -8087,7 +8087,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -8131,35 +8131,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -8198,28 +8198,28 @@ MonoBehaviour:
     - text: 14
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 15
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 16
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 17
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8254,14 +8254,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8305,28 +8305,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8366,35 +8366,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8435,35 +8435,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -8502,28 +8502,28 @@ MonoBehaviour:
     - text: 60
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 75
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 70
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 61
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -8558,14 +8558,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8609,28 +8609,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8670,35 +8670,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8739,35 +8739,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -8806,28 +8806,28 @@ MonoBehaviour:
     - text: Blue
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Red
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Yellow
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: All Same
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -8862,14 +8862,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8913,28 +8913,28 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -8974,35 +8974,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9074,28 +9074,28 @@ MonoBehaviour:
     - text: South
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: East
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: West
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: North
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -9130,14 +9130,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9172,35 +9172,35 @@ MonoBehaviour:
     - text: CAN YOU
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: SPOT
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: SPOT
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: A MISTAKE HERE
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9240,35 +9240,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9340,28 +9340,28 @@ MonoBehaviour:
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 1, g: 0, b: 0, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 1
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 1, g: 0, b: 0, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 1, g: 0, b: 0, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Not sure
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 1, g: 0, b: 0, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -9396,14 +9396,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -9438,28 +9438,28 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -9499,35 +9499,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9569,7 +9569,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9579,7 +9579,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9589,7 +9589,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9627,28 +9627,28 @@ MonoBehaviour:
     - text: Wrong
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Left
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Right
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Kong
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9683,14 +9683,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9725,7 +9725,7 @@ MonoBehaviour:
     - text: 
       Sprite: 17
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9766,35 +9766,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -9836,7 +9836,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9846,7 +9846,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9856,7 +9856,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -9895,28 +9895,28 @@ MonoBehaviour:
     - text: Father
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Son
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Grandfather
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Wife
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -9951,14 +9951,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -9997,28 +9997,28 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 23
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo: []
@@ -10059,35 +10059,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -10129,7 +10129,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10139,7 +10139,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10149,7 +10149,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10187,28 +10187,28 @@ MonoBehaviour:
     - text: Multiplication
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Addiction
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Subtraction
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Addition
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10243,14 +10243,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -10289,14 +10289,14 @@ MonoBehaviour:
     - text: 
       Sprite: 54
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 53
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10337,35 +10337,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -10403,7 +10403,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10413,7 +10413,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10423,7 +10423,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10461,28 +10461,28 @@ MonoBehaviour:
     - text: Feeling
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Craving
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: State
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Country
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10517,14 +10517,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10563,7 +10563,7 @@ MonoBehaviour:
     - text: 
       Sprite: 29
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10607,35 +10607,35 @@ MonoBehaviour:
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 0
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 2
       SequenceInfo: []
@@ -10673,7 +10673,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10683,7 +10683,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10693,7 +10693,7 @@ MonoBehaviour:
     - text: 
       Sprite: 19
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -10732,28 +10732,28 @@ MonoBehaviour:
     - text: My Kenedy
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: K2
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Hidden Peak
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Everest
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10788,14 +10788,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -10868,35 +10868,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -10944,21 +10944,21 @@ MonoBehaviour:
     - text: 
       Sprite: 54
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 53
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 92
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -10993,28 +10993,28 @@ MonoBehaviour:
     - text: 0.8
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0.08
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 8.00
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 80.0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11049,14 +11049,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -11129,35 +11129,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11205,21 +11205,21 @@ MonoBehaviour:
     - text: 
       Sprite: 52
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 51
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 34
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11254,28 +11254,28 @@ MonoBehaviour:
     - text: Continent
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Tour
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Lipstick
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Currency
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -11310,14 +11310,14 @@ MonoBehaviour:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11390,35 +11390,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11466,21 +11466,21 @@ MonoBehaviour:
     - text: 
       Sprite: 29
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 30
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 46
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11515,28 +11515,28 @@ MonoBehaviour:
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 5
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 6
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Infinite
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
@@ -11571,14 +11571,14 @@ MonoBehaviour:
     - text: 
       Sprite: 42
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 43
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11651,35 +11651,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11727,21 +11727,21 @@ MonoBehaviour:
     - text: 
       Sprite: 79
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 65
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 83
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11776,28 +11776,28 @@ MonoBehaviour:
     - text: Butter
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Vegetable
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: Nut
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: Fruit
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11832,14 +11832,14 @@ MonoBehaviour:
     - text: 
       Sprite: 58
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 57
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11912,35 +11912,35 @@ MonoBehaviour:
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 2
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
@@ -11988,21 +11988,21 @@ MonoBehaviour:
     - text: 
       Sprite: 77
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 87
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 74
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
