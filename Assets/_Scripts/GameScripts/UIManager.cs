@@ -523,7 +523,8 @@ public class UIManager : Singleton<UIManager>
     {
         for (int i = 0; i < OverallAttempts.Count; i++)
         {
-            OverallAttempts[i].text = GameDataManager.Instance.OverallAttemptsTaken.ToString();
+            //FIXME JUGAAD. OverallAttempts should not have to be incremented like this 
+            OverallAttempts[i].text = (GameDataManager.Instance.OverallAttemptsTaken + 1).ToString();
         }
     }
 

@@ -1466,6 +1466,8 @@ public class GameManager : Singleton<GameManager>
 
     private void LevelCompleted(bool comingFromSkippedQuestion = false)
     {
+        //Debug.Log("<color=red><--------------------------------------->Level Completed<-----------------------------------------------------></color>");
+
         GameDataManager.Instance.CurrentLevel++;
         GameDataManager.Instance.RemainingLevels = GameDataManager.Instance.TotalLevels - GameDataManager.Instance.CurrentLevel;
         GameDataManager.Instance.LevelFallBackQuestion = GameDataManager.Instance.CurrentQuestion;
@@ -1647,8 +1649,8 @@ public class GameManager : Singleton<GameManager>
                                     GameDataManager.Instance.Score += ScorePerQuestion;
                                     if (GameDataManager.Instance.CurrentLevelProgress > LevelIndex)
                                     {
-                                        LevelClearedContinue();
                                         LevelCompleted(comingFromSkippedQuestion);
+                                        LevelClearedContinue();
                                     }
                                     else
                                     {
@@ -1907,20 +1909,20 @@ public class GameManager : Singleton<GameManager>
         switch (type)
         {
             case Currency.Banana:
-                if(action == AddDeductAction.Add)
-                {
-                    UIManager.Instance.ShowPopUp("Successfully added "+amount+" Bananas!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
-                }
+                //if(action == AddDeductAction.Add)
+                //{
+                    //UIManager.Instance.ShowPopUp("Successfully added "+amount+" Bananas!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                //}
                 GameDataManager.Instance.TotalBananas += currency;
                 break;
 
             case Currency.Life:
                 if (GameDataManager.Instance.IsUnlimitedLives)
                     return;
-                if (action == AddDeductAction.Add)
-                {
-                    UIManager.Instance.ShowPopUp("Successfully added " + amount + " Life!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
-                }
+                //if (action == AddDeductAction.Add)
+                //{
+                //    UIManager.Instance.ShowPopUp("Successfully added " + amount + " Life!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                //}
                 GameDataManager.Instance.TotalLives += currency;
                 break;
         }

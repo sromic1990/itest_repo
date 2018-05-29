@@ -236,32 +236,39 @@ public class OrderIndexer : MonoBehaviour
     {
         #if UNITY_EDITOR
         EditorUtility.SetDirty(AnotherHolder);
+        EditorUtility.SetDirty(Buckets);
         #endif
 
 
-        for (int i = 0; i < AnotherHolder.Questions.Count; i++)
+        for (int i = 0; i < Buckets.Questions.Count; i++)
         {
-            if (AnotherHolder.Questions[i].Pattern == QPattern.CatchMonkey)
-            {
-                AnotherHolder.Questions[i].HasBoolValue = true;
-                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 2;
-            }
+//            if (AnotherHolder.Questions[i].Pattern == QPattern.CatchMonkey)
+//            {
+//                AnotherHolder.Questions[i].HasBoolValue = true;
+//                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 2;
+//            }
+//
+//            if (AnotherHolder.Questions[i].Pattern == QPattern.TouchBallsWrongCount)
+//            {
+//                AnotherHolder.Questions[i].AllowMultipleAnswers = true;
+//                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 4;
+//            }
+//
+//            if (AnotherHolder.Questions[i].Pattern == QPattern.KnockTheDoor || AnotherHolder.Questions[i].Pattern == QPattern.KnockTheDoor)
+//            {
+//                AnotherHolder.Questions[i].AllowMultipleAnswers = true;
+//                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 3;
+//            }
+//
+//            if (AnotherHolder.Questions[i].Pattern == QPattern.TestYourSight)
+//            {
+//                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 3;
+//            }
 
-            if (AnotherHolder.Questions[i].Pattern == QPattern.TouchBallsWrongCount)
+            if (Buckets.Questions[i].Pattern == QPattern.TrueFalse)
             {
-                AnotherHolder.Questions[i].AllowMultipleAnswers = true;
-                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 4;
-            }
-
-            if (AnotherHolder.Questions[i].Pattern == QPattern.KnockTheDoor || AnotherHolder.Questions[i].Pattern == QPattern.KnockTheDoor)
-            {
-                AnotherHolder.Questions[i].AllowMultipleAnswers = true;
-                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 3;
-            }
-
-            if (AnotherHolder.Questions[i].Pattern == QPattern.TestYourSight)
-            {
-                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 3;
+                Buckets.Questions[i].DelayTimeAfterQuestionShow = 0;
+                Debug.Log(AnotherHolder.Questions[i].Question);
             }
         }
     }

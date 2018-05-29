@@ -27,7 +27,7 @@ public class AchievementManager : Singleton<AchievementManager>
 
     public void OnStreakChanged_Regular(int streak)
     {
-        AchievementUnlocked(streak, AchievementType.Singleplayer_WinStreak);
+        AchievementUnlocked(streak - 1, AchievementType.Singleplayer_WinStreak);
     }
 
     public void OnAnsweredCorrectly(int totalCorrectlyAnswered)
@@ -51,12 +51,12 @@ public class AchievementManager : Singleton<AchievementManager>
 
     public void OnStreakChanged_Multiplayer(int streak)
     {
-        AchievementUnlocked(streak, AchievementType.Multiplayer_WinStreak);
+        AchievementUnlocked(streak - 1, AchievementType.Multiplayer_WinStreak);
     }
 
     public void OnLoseStreakChanged_Multiplayer(int Lstreak)
     {
-        AchievementUnlocked(Lstreak, AchievementType.Multiplayer_LoseStreak);
+        AchievementUnlocked(Lstreak - 1, AchievementType.Multiplayer_LoseStreak);
     }
 
     public void OnBananasChanged(int totalBananas)
@@ -74,12 +74,11 @@ public class AchievementManager : Singleton<AchievementManager>
 
         if (aData == null)
             return;
-
-        if (!GameDataManager.Instance.AchievementsContains(aData.AchievementName))
+        
+        if(GameDataManager.Instance.AddAchievement(aData.AchievementName))
         {
-            GameDataManager.Instance.AddAchievement(aData.AchievementName);
             Debug.Log("Achievement Unlocked  :::  " + aData.AchievementName.ToString());
-
+            
             GameManager.Instance.AddDeductCurrency(aData.CurrencyType, AddDeductAction.Add, aData.Reward);
             string achievementName = GetCorrectAchievementName(aData.AchievementName);
             UIManager.Instance.ShowAchievement(aData.AchievemnetImg, achievementName);

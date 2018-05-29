@@ -116,7 +116,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -275,7 +275,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -703,7 +703,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -861,7 +861,7 @@ MonoBehaviour:
     DelayTimeAfterQuestionShow: 0
     QuestionSprite:
     - text: 
-      Sprite: 6
+      Sprite: 8
       SecondarySprites: 
       TextColor: {r: 0, g: 0, b: 0, a: 0}
     - text: 
@@ -869,25 +869,25 @@ MonoBehaviour:
       SecondarySprites: 
       TextColor: {r: 0, g: 0, b: 0, a: 0}
     - text: 
-      Sprite: 8
+      Sprite: 9
       SecondarySprites: 
       TextColor: {r: 0, g: 0, b: 0, a: 0}
     - text: 
-      Sprite: 10
+      Sprite: 6
       SecondarySprites: 
       TextColor: {r: 0, g: 0, b: 0, a: 0}
     Options:
     - text: 
-      Sprite: 10
+      Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
       IsCorrect: 1
       ID: 0
       SequenceInfo: []
     - text: 
-      Sprite: 5
+      Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
       IsCorrect: 0
       ID: 0
       SequenceInfo: []
@@ -1187,8 +1187,8 @@ MonoBehaviour:
     QuestionType: 0
     TimeForQuestion: 3
     IntrosForQuestion:
-    - IntroText: 5 men will appear on screen. Identify and touch WeakMan very quickly.
-        Get ready and click play.
+    - IntroText: 5 men will appear on screen. Identify and touch ConfusedMan very
+        quickly. Get ready and click play.
       HasTimer: 0
       TimerValue: 0
       HideOkButton: 0
@@ -1203,7 +1203,7 @@ MonoBehaviour:
       Sprite: 31
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
-      IsCorrect: 0
+      IsCorrect: 1
       ID: 8
       SequenceInfo: []
     - text: 
@@ -1231,7 +1231,7 @@ MonoBehaviour:
       Sprite: 40
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
-      IsCorrect: 1
+      IsCorrect: 0
       ID: 12
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
@@ -1260,7 +1260,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -1522,7 +1522,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -1930,7 +1930,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -2259,7 +2259,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -2786,7 +2786,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -3381,7 +3381,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -3997,7 +3997,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -4572,7 +4572,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -4864,7 +4864,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -5493,7 +5493,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -5879,7 +5879,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -6248,7 +6248,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -6985,7 +6985,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -7664,7 +7664,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -8084,7 +8084,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -8894,7 +8894,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -10124,7 +10124,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -10741,7 +10741,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -11458,7 +11458,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 

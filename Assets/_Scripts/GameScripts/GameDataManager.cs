@@ -493,25 +493,15 @@ namespace IdiotTest.Scripts.GameScripts
 
         #region Achievements Releated
 
-        public bool AchievementsContains(Achievement achievement)
+        public bool AddAchievement(Achievement achievement)
         {
             if (data.Achievements.Contains(achievement))
             {
-                return true;
-            }
-            else
-            {
                 return false;
             }
-        }
-
-        public void AddAchievement(Achievement achievement)
-        {
-            if (!AchievementsContains(achievement))
-            {
-                data.Achievements.Add(achievement);
-                StateChanged();
-            }
+            data.Achievements.Add(achievement);
+            StateChanged();
+            return true;
         }
         #endregion
         #endregion

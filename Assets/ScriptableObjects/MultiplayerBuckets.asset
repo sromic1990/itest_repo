@@ -1773,7 +1773,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -2051,7 +2051,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -2301,7 +2301,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -2948,7 +2948,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -3235,7 +3235,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -6723,7 +6723,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -7001,7 +7001,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -7299,7 +7299,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -7929,7 +7929,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -8248,7 +8248,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -8552,7 +8552,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -8856,7 +8856,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -9124,7 +9124,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -9390,7 +9390,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -9677,7 +9677,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -9945,7 +9945,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -10237,7 +10237,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -10511,7 +10511,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -10782,7 +10782,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -11043,7 +11043,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
@@ -11304,7 +11304,7 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 

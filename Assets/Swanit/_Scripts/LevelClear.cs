@@ -20,9 +20,9 @@ public class LevelClear : MonoBehaviour
     {
         int currLevel = GameDataManager.Instance.CurrentLevel;
         //   int currLevel = 1;
-        clearedLevel.text = "Level " + (currLevel - 1).ToString();
-        reachedLevel.text = "Level " + currLevel.ToString();
-        nextLevel.text = "Level " + (currLevel + 1).ToString();
+        clearedLevel.text = "Level " + (currLevel).ToString();
+        reachedLevel.text = "Level " + (currLevel + 1).ToString();
+        nextLevel.text = "Level " + (currLevel + 2).ToString();
 
         Invoke("MoveBar", 2.5f);
         StartCoroutine(OpenDoor());

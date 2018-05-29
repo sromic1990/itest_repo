@@ -568,6 +568,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 244308433}
+    - target: {fileID: 1167547036193388, guid: 1afa846949d4c45d88d3f1c05b1729cb, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1afa846949d4c45d88d3f1c05b1729cb, type: 2}
   m_IsPrefabParent: 0
@@ -2435,7 +2439,7 @@ MonoBehaviour:
   BasePanel: {fileID: 256440623}
   MultiplayerJoinGameInput: {fileID: 660360900}
   AchievementPopup: {fileID: 866287565}
-  HideAchievementTime: 0
+  HideAchievementTime: 5
   Lives:
   - {fileID: 1986966625}
   - {fileID: 1167033750}
@@ -2695,6 +2699,53 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 796668718}
   m_Script: {fileID: 11500000, guid: c032507f31f964558900baf3290d1619, type: 3}
+--- !u!1001 &812985668
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1685445597}
+    m_Modifications:
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 97b0fdf9c57ed46728f1c23dc439c93f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &812985669 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4105767133507418, guid: 97b0fdf9c57ed46728f1c23dc439c93f,
+    type: 2}
+  m_PrefabInternal: {fileID: 812985668}
 --- !u!114 &817030789 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114604482756958132, guid: 172edb2e80432457aae1b5dc64ac6f10,
@@ -5339,6 +5390,7 @@ Transform:
   - {fileID: 205996927}
   - {fileID: 2066616702}
   - {fileID: 1921968160}
+  - {fileID: 812985669}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6074,6 +6126,7 @@ MonoBehaviour:
   currentQuestion: 0
   levelProgress: 0
   _status: 0
+  ToStoreFromGameplayDueToLackOfFunds: 0
   ResumeFrom: 0
   code: 
   MultiplayerQuestionIndex: 0
