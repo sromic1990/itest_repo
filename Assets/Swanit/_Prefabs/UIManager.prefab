@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1887881842534160}
+  m_IsPrefabParent: 1
+--- !u!1 &1887881842534160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4365348378045088}
+  - component: {fileID: 114648209847851404}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365348378045088
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887881842534160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114648209847851404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887881842534160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a271108f34fb4559a6bc137f8b18e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestionUIPanels:
+  - PatternString: CatchMonkey
+    Pattern: 0
+    Panel: {fileID: 0}
+  - PatternString: PictureAnd4Answers
+    Pattern: 5
+    Panel: {fileID: 0}
+  - PatternString: Homophone
+    Pattern: 2
+    Panel: {fileID: 0}
+  - PatternString: IfElse
+    Pattern: 3
+    Panel: {fileID: 0}
+  - PatternString: TrueFalse
+    Pattern: 16
+    Panel: {fileID: 0}
+  - PatternString: QuestionAnd4Answers
+    Pattern: 6
+    Panel: {fileID: 0}
+  - PatternString: SlowFast
+    Pattern: 7
+    Panel: {fileID: 0}
+  - PatternString: TouchOneManQuickly
+    Pattern: 15
+    Panel: {fileID: 0}
+  - PatternString: SmallestAndBiggest
+    Pattern: 8
+    Panel: {fileID: 0}
+  - PatternString: TextAnd4Answers
+    Pattern: 11
+    Panel: {fileID: 0}
+  - PatternString: TestYourSight
+    Pattern: 10
+    Panel: {fileID: 0}
+  - PatternString: TouchAppearOrder3
+    Pattern: 12
+    Panel: {fileID: 0}
+  - PatternString: TouchAppearOrder5
+    Pattern: 13
+    Panel: {fileID: 0}
+  - PatternString: XYZSeconds
+    Pattern: 17
+    Panel: {fileID: 0}
+  - PatternString: ObjectInPrevious
+    Pattern: 4
+    Panel: {fileID: 0}
+  - PatternString: Umbrellas
+    Pattern: 31
+    Panel: {fileID: 0}
+  - PatternString: Different_Umbrellas
+    Pattern: 33
+    Panel: {fileID: 0}
+  - PatternString: PlayButton
+    Pattern: 32
+    Panel: {fileID: 0}
+  - PatternString: Hifi
+    Pattern: 19
+    Panel: {fileID: 0}
+  - PatternString: LadyHands
+    Pattern: 22
+    Panel: {fileID: 0}
+  - PatternString: KnockTheDoor
+    Pattern: 21
+    Panel: {fileID: 0}
+  - PatternString: TouchFiveMen
+    Pattern: 14
+    Panel: {fileID: 0}
+  - PatternString: Giraffe
+    Pattern: 18
+    Panel: {fileID: 0}
+  - PatternString: MemorizeOrder
+    Pattern: 23
+    Panel: {fileID: 0}
+  - PatternString: MemorizeOrderHard
+    Pattern: 24
+    Panel: {fileID: 0}
+  - PatternString: TouchBallsWrongCount
+    Pattern: 29
+    Panel: {fileID: 0}
+  - PatternString: OpenCloseDoor
+    Pattern: 27
+    Panel: {fileID: 0}
+  - PatternString: NextThreeBalloons
+    Pattern: 26
+    Panel: {fileID: 0}
+  - PatternString: NextFiveBalloons
+    Pattern: 25
+    Panel: {fileID: 0}
+  - PatternString: TouchExceptYellowBall
+    Pattern: 30
+    Panel: {fileID: 0}
+  - PatternString: KeysLocks
+    Pattern: 20
+    Panel: {fileID: 0}
+  - PatternString: ThirdBalloon
+    Pattern: 28
+    Panel: {fileID: 0}
+  - PatternString: SpeedTouch
+    Pattern: 9
+    Panel: {fileID: 0}
+  - PatternString: ConfusionTouch
+    Pattern: 1
+    Panel: {fileID: 0}
+  - PatternString: SmallestBlueBall
+    Pattern: 34
+    Panel: {fileID: 0}
+  - PatternString: BouncingMonkey
+    Pattern: 37
+    Panel: {fileID: 0}
+  - PatternString: SpotMistake
+    Pattern: 35
+    Panel: {fileID: 0}
+  - PatternString: EyeIdiot
+    Pattern: 36
+    Panel: {fileID: 0}
+  LastClickedButton: {fileID: 0}
+  QuestionText: {fileID: 0}
+  UITimer: {fileID: 0}
+  IntroTimer: {fileID: 0}
+  QuestionFailedScreen: {fileID: 0}
+  Popup_Updated: {fileID: 0}
+  UICanvas: {fileID: 0}
+  HighScore_Regular: {fileID: 0}
+  HighScore_Multiplayer: {fileID: 0}
+  Store_Regular: {fileID: 0}
+  Store_Multiplayer: {fileID: 0}
+  Achievement_Multiplayer: {fileID: 0}
+  Achievement_Regular: {fileID: 0}
+  ResumeText_MainMenu: {fileID: 0}
+  Music_Buttons_On:
+  - {fileID: 0}
+  - {fileID: 0}
+  Music_Buttons_Off:
+  - {fileID: 0}
+  - {fileID: 0}
+  SFX_Buttons_On:
+  - {fileID: 0}
+  - {fileID: 0}
+  SFX_Buttons_Off:
+  - {fileID: 0}
+  - {fileID: 0}
+  QuestionIntro: {fileID: 0}
+  SkipQuestionButton: {fileID: 0}
+  CurrentQuestionPanel: {fileID: 0}
+  QuestionPanel: {fileID: 0}
+  LevelClearedAnimation: {fileID: 0}
+  SinglePlayerElements:
+  - {fileID: 0}
+  - {fileID: 0}
+  MultiPlayerElements:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MultiplayerUI: {fileID: 0}
+  BasePanel: {fileID: 0}
+  MultiplayerJoinGameInput: {fileID: 0}
+  Balloonburst_Red: {fileID: 1572344765892000, guid: 6f55d029e9c624a41abef5ebd4fb4a4b,
+    type: 2}
+  Balloonburst_Green: {fileID: 1817428723254836, guid: b3fb1739735f547f78f5fe677547741f,
+    type: 2}
+  Balloonburst_Yellow: {fileID: 1771113467863328, guid: 51831285bec2c498eaf7e378541321ab,
+    type: 2}
+  Balloonburst_Blue: {fileID: 1618683076974156, guid: 05c326f94f92b4521ae20b98fe79144f,
+    type: 2}
+  AchievementPopup: {fileID: 0}
+  HideAchievementTime: 5
+  Lives:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Bananas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  OverallAttempts:
+  - {fileID: 0}
+  - {fileID: 0}
+  LivesEarned: []
+  MultiplayerScoreTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MultiplayerOpponentScoreTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MultiplayerTimerTexts:
+  - {fileID: 0}
+  WonBananasTexts:
+  - {fileID: 0}
+  LostBananasTexts:
+  - {fileID: 0}
+  PlayerIDTexts:
+  - {fileID: 0}
+  ScoreTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  RemainingLevelsTexts:
+  - {fileID: 0}
+  Buttons_ToBe_Enabled_Disabled_On_Room_Occupancy_Change:
+  - {fileID: 0}
+  - {fileID: 0}
