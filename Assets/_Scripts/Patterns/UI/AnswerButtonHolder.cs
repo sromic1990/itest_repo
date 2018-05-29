@@ -12,6 +12,7 @@ public class AnswerButtonHolder : MonoBehaviour
     [SerializeField]
     private AnswerID ID;
     private Action<int, int, bool, List<SequenceOfClick>> OnClickAction;
+    [SerializeField]
     private int ClickCounter;
     [SerializeField]
     private bool isCorrect;
@@ -66,6 +67,7 @@ public class AnswerButtonHolder : MonoBehaviour
         this.sequenceOfClick = buttonProperties.SequenceInfo;
         this.secondaryImages = buttonProperties.secondaryImages;
         this.OnClickAction = buttonProperties.OnClickAction;
+        currentSelectedSecondarySprite = 0;
 
         SetAllData();
     }
@@ -92,7 +94,7 @@ public class AnswerButtonHolder : MonoBehaviour
         if (m_ButtonText != null)
         {
             m_ButtonText.text = ButtonText;
-            Debug.Log(ButtonTextColor.r + "   " + ButtonTextColor.g + "   " + ButtonTextColor.b + "   " + ButtonTextColor.a);
+            //Debug.Log(ButtonTextColor.r + "   " + ButtonTextColor.g + "   " + ButtonTextColor.b + "   " + ButtonTextColor.a);
             m_ButtonText.color = ButtonTextColor;
         }
 
@@ -112,6 +114,7 @@ public class AnswerButtonHolder : MonoBehaviour
 
     public void ResetClickCounter()
     {
+        Debug.Log("ResetClickCounter");
         ClickCounter = 0;
     }
 
@@ -153,7 +156,10 @@ public class AnswerButtonHolder : MonoBehaviour
     public void ChangeButtonImageToClickedImage()
     {
         if (secondaryImages == null)
+        {
+            Debug.Log("secondaryImages == null");
             return;
+        }
 
         if (secondaryImages.Count > 0 && currentSelectedSecondarySprite < secondaryImages.Count)
         {

@@ -196,6 +196,8 @@ public class MultiplayerBetSelection : MonoBehaviour
     #region Public Methods
     public void PrevNextButtonPressed(int PrevNext)
     {
+        Debug.Log("PrevNextButtonPressed");
+
         PrevNextButton button = (PrevNextButton)PrevNext;
         switch (button)
         {

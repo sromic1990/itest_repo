@@ -7,6 +7,7 @@ using System;
 using UnityEngine.UI;
 using Sourav.Utilities.Scripts.Attributes;
 using IdiotTest.Scripts.GameScripts;
+using SwanitLib;
 
 public class UIManager : Singleton<UIManager>
 {
@@ -59,6 +60,11 @@ public class UIManager : Singleton<UIManager>
 
     public InputField MultiplayerJoinGameInput;
 
+    public GameObject Balloonburst_Red;
+    public GameObject Balloonburst_Green;
+    public GameObject Balloonburst_Yellow;
+    public GameObject Balloonburst_Blue;
+
     #region Achievement related
 
     public AchievementPopup AchievementPopup;
@@ -84,6 +90,7 @@ public class UIManager : Singleton<UIManager>
     public List<Text> RemainingLevelsTexts;
 
     public List<Button> Buttons_ToBe_Enabled_Disabled_On_Room_Occupancy_Change;
+
     #endregion
 
     #endregion
@@ -255,6 +262,8 @@ public class UIManager : Singleton<UIManager>
 
     public void CheckForEffectsOnButtonClick()
     {
+        Debug.Log("CheckForEffectsOnButtonClick");
+
         if (LastClickedButton == null)
             return;
 
@@ -265,6 +274,7 @@ public class UIManager : Singleton<UIManager>
     }
 
     #region Multiplayer related
+
     public void SetMultiplayerUI(MultiplayerMode mode)
     {
         MultiplayerUI.Mode = mode;
@@ -281,7 +291,9 @@ public class UIManager : Singleton<UIManager>
             MultiplayerTimerTexts[i].text = time;
         }
     }
+
     #endregion
+
     #endregion
 
     #region Answer Specific
@@ -329,6 +341,33 @@ public class UIManager : Singleton<UIManager>
 
     private void BurstBalloon(AnswerID balloonType, Vector3 ButtonPosition)
     {
+        Debug.Log("BurstBalloon");
+
+        LastClickedButton.gameObject.Hide();
+        LastClickedButton = null;
+
+//        GameObject g;
+//
+//        switch (balloonType)
+//        {
+//            case AnswerID.Balloon_Blue:
+//                g = GameObject.Instantiate(Balloonburst_Blue, ButtonPosition, Quaternion.identity) as GameObject;
+//                break;
+//            case AnswerID.Balloon_Green:
+//                g = GameObject.Instantiate(Balloonburst_Blue, ButtonPosition, Quaternion.identity) as GameObject;
+//                break;
+//            case AnswerID.Balloon_Yellow:
+//                g = GameObject.Instantiate(Balloonburst_Blue, ButtonPosition, Quaternion.identity) as GameObject;
+//                break;
+//            case AnswerID.Balloon_Red:
+//                g = GameObject.Instantiate(Balloonburst_Blue, ButtonPosition, Quaternion.identity) as GameObject;
+//                break;
+//        }
+//
+//        EProz.INSTANCE.WaitAndCall(1.5f, () =>
+//            {
+//                Destroy(g);
+//            }); 
     }
 
     public void CompletedMonkeyLevelAnimation()
@@ -356,6 +395,7 @@ public class UIManager : Singleton<UIManager>
     public void AnsweredWrong()
     {
         HideQuestionPanel();
+        Debug.Log("FROM ANSWERED WRONG");
         CheckForEffectsOnButtonClick();
         ShowQuestionFailed("Wrong Answer", "Restart", ButtonID.Restart);
     }
@@ -365,8 +405,9 @@ public class UIManager : Singleton<UIManager>
         CurrentQuestionPanel.gameObject.Hide();
     }
 
-    public void AnsweredCorrect()
+    public void AnswerButtonAnimation()
     {
+        Debug.Log("FROM ANSWERED CORRECT");
         CheckForEffectsOnButtonClick();
         // Debug.Log("Correct alert");
         //ShowPopup("Correct Answer", "Next", ButtonID.NextQuestion);
@@ -614,6 +655,7 @@ public class UIManager : Singleton<UIManager>
     #endregion
 
     #region Multiplayer UI related
+
     public void Multiplayer_ScoreChanged(int score)
     {
         for (int i = 0; i < MultiplayerScoreTexts.Count; i++)
@@ -621,6 +663,7 @@ public class UIManager : Singleton<UIManager>
             MultiplayerScoreTexts[i].text = score.ToString();
         }
     }
+
     public void Multiplayer_OpponentScoreChanged(int score)
     {
         for (int i = 0; i < MultiplayerOpponentScoreTexts.Count; i++)
@@ -628,6 +671,7 @@ public class UIManager : Singleton<UIManager>
             MultiplayerOpponentScoreTexts[i].text = score.ToString();
         }
     }
+
     public void MultiplayerWin()
     {
         HideQuestionPanel();
@@ -663,6 +707,7 @@ public class UIManager : Singleton<UIManager>
             Buttons_ToBe_Enabled_Disabled_On_Room_Occupancy_Change[i].interactable = !isAlone;
         }
     }
+
     #endregion
 
     #region Utilities

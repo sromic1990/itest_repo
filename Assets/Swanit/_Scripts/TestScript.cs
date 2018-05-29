@@ -21,14 +21,9 @@ public class TestScript : MonoBehaviour
         int index = 0;
         for (int i = 0; i < qHolder.Questions.Count; i++)
         {
-            if (qHolder.Questions[i].Pattern == QPattern.SmallestAndBiggest)
+            if (qHolder.Questions[i].QuestionType == QuestionType.NoBase)
             {
-                //  Debug.Log(qHolder.Questions[i].Pattern.ToString() + "     @" + i);
-
-                for (int j = 0; j < qHolder.Questions[i].Options.Count; j++)
-                {
-                    Debug.Log(qHolder.Questions[i].Options[j].Sprite.ToString() + "     @" + i);
-                }
+                Debug.Log(qHolder.Questions[i].Pattern.ToString() + "     @" + i);
             }
             //    Debug.Log(qHolder.Questions[i].Question);
         }

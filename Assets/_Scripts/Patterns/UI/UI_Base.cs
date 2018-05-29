@@ -78,7 +78,8 @@ public abstract class UI_Base : MonoBehaviour, IUISetter
 
     private void ShowGamePanel()
     {
-        GameManager.Instance.ResetTimer();
+        Debug.Log("From ShowGamePanel");
+        //GameManager.Instance.ResetTimer();
     }
 
     public virtual void QuestionTurnOver()

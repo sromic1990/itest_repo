@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Sourav.Utilities.Extensions;
 using UnityEngine;
 
-public class QuestionPanel : MonoBehaviour 
+public class QuestionPanel : MonoBehaviour
 {
     //JUGAAD
     private void OnDisable()
@@ -21,7 +21,8 @@ public class QuestionPanel : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            if(transform.GetChild(i).gameObject.activeSelf)
+//            Debug.Log("Index ===  " + i + "   " + transform.GetChild(i).name);
+            if (transform.GetChild(i).gameObject.activeSelf)
             {
                 transform.GetChild(i).GetComponent<UI_Base>().Reset();
             }

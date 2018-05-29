@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Scripts.Utilities;
 using Sourav.Utilities.Scripts;
-using Sourav.Utilities.Extensions;
 
 namespace IdiotTest.Scripts.GameScripts
 {
@@ -275,6 +273,7 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.BetAmount = value;
+                Debug.Log("BetAmount = "+data.BetAmount.ToString());
                 StateChanged();
             }
         }

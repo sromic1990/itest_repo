@@ -118,11 +118,6 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
         PhotonNetwork.RaiseEvent((byte)OPCode.ScoreUpdate, (object)myScoreUpdate, false, null);
     }
 
-    public void SendRoom()
-    {
-        
-    }
-
     public void StartANewMultiplayerGame()
     {
         int questionIndex = GameManager.Instance.GetRandomMultiplayerIndex();

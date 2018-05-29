@@ -117,9 +117,14 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.Resume:
+                bool inBetweenSession = false;
+                if(GameManager.Instance.Status == GameStatus.InBetweenSession)
+                {
+                    inBetweenSession = true;
+                }
                 ScreenManager.Instance.SetANewScreen(ScreensEnum.GamePlay);
                 GameManager.Instance.Status = GameStatus.InSession;
-                GameManager.Instance.PlayGame();
+                GameManager.Instance.PlayGame(!inBetweenSession);
                 break;
 
             case ButtonID.Continue_From_Login:

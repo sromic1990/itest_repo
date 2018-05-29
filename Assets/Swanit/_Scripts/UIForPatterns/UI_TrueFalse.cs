@@ -17,8 +17,20 @@ public class UI_TrueFalse : UI_Base//MonoBehaviour
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
-
+        QPattern p = GameManager.Instance.GetCurrentQuestion().Pattern;
         //     QuestionDisplay.text = info.Question;
+        if(monkey != null)
+        {
+            if (p != QPattern.TrueFalse)
+            {
+                monkey.gameObject.SetActive(false);
+            }
+            else
+            {
+                monkey.gameObject.SetActive(true);
+            }
+        }
+
 
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
@@ -37,5 +49,6 @@ public class UI_TrueFalse : UI_Base//MonoBehaviour
 
     public override void Reset()
     {
+        
     }
 }

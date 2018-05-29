@@ -17,6 +17,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -33,79 +34,6 @@ MonoBehaviour:
     Options: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: -200
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 1
-  - Question: 
-    SecondaryQuestion: []
-    IgnoreClickCount: 0
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 1
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 23
-    QuestionType: 1
-    TimeForQuestion: 0
-    IntrosForQuestion:
-    - IntroText: Next question requires quick reaction. Get ready and click OK.
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    - IntroText: Memorize quickly! Touch green ball twice, red once and blue thrice.
-      HasTimer: 1
-      TimerValue: 6
-      HideOkButton: 1
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 6
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 25
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 2
-        ClickOnTime: 0
-    - text: 
-      Sprite: 8
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 23
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 1
-        ClickOnTime: 0
-    - text: 
-      Sprite: 5
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 22
-      SequenceInfo:
-      - SequenceNumber: 3
-        RequiredClicks: 3
-        ClickOnTime: 0
-    - text: 
-      Sprite: 7
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
     sortOrder: -1
     IfElseData:
       QuestionAppear: 0
@@ -118,6 +46,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -139,90 +68,46 @@ MonoBehaviour:
     - text: 9
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 10
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 0
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 11
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 0
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 0
       IfSecond: 0
     ObjectsInPreviousData:
       Mode: 0
-  - Question: Close a door but Open it first.
-    SecondaryQuestion: []
-    IgnoreClickCount: 0
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 1
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 27
-    QuestionType: 1
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 30
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 29
-      SecondarySprites: 1e0000001d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 5
-        ClickOnTime: 0
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 1
   - Question: 61 seconds is shorter than one hour
     SecondaryQuestion: []
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -234,29 +119,603 @@ MonoBehaviour:
     QuestionData_Float: []
     QuestionData_Int: 
     ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 2
+    DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
       Sprite: 73
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 72
       SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 0
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 0
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: If right is wrong then left is . . .
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 6
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: Wrong
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: Left
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: Right
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: Kong
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Count the number of 'i' on this screen
+    SecondaryQuestion:
+    - if i fail this test , i am a moron!
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 11
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: if i fail this test i am a moron!
+      Sprite: 86
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: five
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 7
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 8
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: Nine
+      Sprite: 1
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Choose the smallest Monkey
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 1
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 8
+    QuestionType: 0
+    TimeForQuestion: 3
+    IntrosForQuestion:
+    - IntroText: Next question requires your quick attention. Get ready and touch
+        play.
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 1
+    - 0.95
+    - 1.05
+    QuestionData_Int: 03000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 104
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 104
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 104
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 104
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: 
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 10
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: This question requires keen obeservation. Get ready and click play
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 0.5
+    QuestionData_Int: 03000000
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 7
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 2
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 2
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 3
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: To continue playing this round, Simply touch outside the play button
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 32
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: 
+      Sprite: 103
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 69
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 1
+  - Question: Touch the tape when monkey is between 3 and 4
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 1
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 0
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float:
+    - 3
+    - 4
+    - 2
+    QuestionData_Int: 
+    ReturnValue_Bool: 1
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: 
+      Sprite: 23
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 80
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 2
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch 'Desert'
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 2
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 42
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo: []
+    - text: 
+      Sprite: 43
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 0
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch the monkey from slowest to fastest
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 7
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: Next question requires fast reaction time. Get ready and click Play
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 5
+    - 5.25
+    - 4.75
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 19
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Pay attention
+    SecondaryQuestion:
+    - Which picture was on the previous screen?
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 4
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: Next question requires attention. Get ready and click play
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 4
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite:
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 0
+      SequenceInfo: []
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 0
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 0
+  - Question: Touch these balls in the order they appear
+    SecondaryQuestion: []
+    IgnoreClickCount: 1
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 12
+    QuestionType: 0
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: Next question requires fast reaction time. Get ready and click Play
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    QuestionData_Float:
+    - 0.7
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
       IfSecond: 0
     ObjectsInPreviousData:
       Mode: 0
@@ -265,6 +724,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -290,28 +750,28 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 25
       SequenceInfo: []
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 22
       SequenceInfo: []
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
       SequenceInfo:
@@ -321,7 +781,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -331,7 +791,7 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo:
@@ -341,7 +801,7 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
@@ -354,618 +814,12 @@ MonoBehaviour:
       IfSecond: 0
     ObjectsInPreviousData:
       Mode: 1
-  - Question: If right is wrong then left is . . .
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 6
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: Wrong
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: Left
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: Right
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    - text: Kong
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: 0
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 0
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Count the number of 'i' on this screen
-    SecondaryQuestion:
-    - if i fail this test , i am a moron!
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 11
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite:
-    - text: if i fail this test i am a moron!
-      Sprite: 86
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    Options:
-    - text: five
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 7
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 8
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: Nine
-      Sprite: 1
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Choose the smallest Monkey
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 1
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 8
-    QuestionType: 0
-    TimeForQuestion: 3
-    IntrosForQuestion:
-    - IntroText: Next question requires your quick attention. Get ready and touch
-        play.
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    QuestionData_Float:
-    - 1
-    - 0.95
-    - 1.05
-    QuestionData_Int: 03000000
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 21
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 21
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    - text: 
-      Sprite: 21
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 21
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
   - Question: 
     SecondaryQuestion: []
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 10
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion:
-    - IntroText: This question requires keen obeservation. Get ready and click play
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    QuestionData_Float:
-    - 0.5
-    QuestionData_Int: 03000000
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 7
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 2
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    - text: 
-      Sprite: 2
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 2
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 2
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 2
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 3
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Touch Umbrellas from right to left
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 1
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 33
-    QuestionType: 1
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 44
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 45
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 7
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 11
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    - text: 
-      Sprite: 47
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 3
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 46
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 4
-        RequiredClicks: 0
-        ClickOnTime: 0
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: 1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 1
-  - Question: Touch the tape when monkey is between 3 and 4
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 1
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 0
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float:
-    - 3
-    - 4
-    - 2
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite:
-    - text: 
-      Sprite: 23
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    Options:
-    - text: 
-      Sprite: 80
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Touch 'Desert'
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 2
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion: []
-    QuestionData_Float: []
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 42
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo: []
-    - text: 
-      Sprite: 43
-      SecondarySprites: 
-      TextColor: {r: 0.60294116, g: 0.06206746, b: 0.06206746, a: 1}
-      IsCorrect: 0
-      ID: 2
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: 0
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 0
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Touch the monkey from slowest to fastest
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 1
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 7
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion:
-    - IntroText: Next question requires fast reaction time. Get ready and click Play
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    QuestionData_Float:
-    - 5
-    - 5.25
-    - 4.75
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 19
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 19
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 19
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 3
-        RequiredClicks: 0
-        ClickOnTime: 0
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Pay attention
-    SecondaryQuestion:
-    - Which picture was not on the previous screen?
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 4
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion:
-    - IntroText: Next question requires attention. Get ready and click play
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    QuestionData_Float:
-    - 4
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite:
-    - text: 
-      Sprite: 8
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    - text: 
-      Sprite: 12
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    - text: 
-      Sprite: 5
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    - text: 
-      Sprite: 10
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-    Options:
-    - text: 
-      Sprite: 8
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 0
-      ID: 0
-      SequenceInfo: []
-    - text: 
-      Sprite: 9
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 0
-      SequenceInfo: []
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: Touch these balls in the order they appear
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 1
-    HasBoolValue: 0
-    HasTimerValue: 0
-    HasSequentialQuestions: 0
-    RepeatValue: 0
-    Pattern: 12
-    QuestionType: 0
-    TimeForQuestion: 0
-    IntrosForQuestion:
-    - IntroText: Next question requires fast reaction time. Get ready and click Play
-      HasTimer: 0
-      TimerValue: 0
-      HideOkButton: 0
-    QuestionData_Float:
-    - 0.7
-    QuestionData_Int: 
-    ReturnValue_Bool: 0
-    DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options:
-    - text: 
-      Sprite: 7
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 8
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 6
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 1
-      SequenceInfo:
-      - SequenceNumber: 3
-        RequiredClicks: 0
-        ClickOnTime: 0
-    WaitTimeAfterAnswer: 0
-    AllowMultipleAnswers: 0
-    sortOrder: -1
-    IfElseData:
-      QuestionAppear: 0
-      IfFirst: 2
-      IfSecond: 0
-    ObjectsInPreviousData:
-      Mode: 0
-  - Question: 
-    SecondaryQuestion: []
-    IgnoreClickCount: 1
-    IgnoreClickTime: 1
-    HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -974,7 +828,7 @@ MonoBehaviour:
     QuestionType: 0
     TimeForQuestion: 3
     IntrosForQuestion:
-    - IntroText: 5 men will appear on screen. Identify and touch StrongMan very quickly.
+    - IntroText: 5 men will appear on screen. Identify and touch WinnerMan very quickly.
         Get ready and click play.
       HasTimer: 0
       TimerValue: 0
@@ -989,36 +843,36 @@ MonoBehaviour:
     - text: 
       Sprite: 31
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
       ID: 8
       SequenceInfo: []
     - text: 
       Sprite: 41
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 9
       SequenceInfo: []
     - text: 
       Sprite: 35
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
       ID: 10
       SequenceInfo: []
     - text: 
       Sprite: 39
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
       ID: 11
       SequenceInfo: []
     - text: 
       Sprite: 40
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
       ID: 12
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
@@ -1035,6 +889,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 0
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -1060,19 +915,19 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 1
+      ID: 21
       SequenceInfo:
-      - SequenceNumber: 1
+      - SequenceNumber: 3
         RequiredClicks: 0
-        ClickOnTime: 6
+        ClickOnTime: 14
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 1
+      ID: 20
       SequenceInfo:
       - SequenceNumber: 2
         RequiredClicks: 0
@@ -1080,13 +935,13 @@ MonoBehaviour:
     - text: 
       Sprite: 21
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 1
+      ID: 19
       SequenceInfo:
-      - SequenceNumber: 3
+      - SequenceNumber: 1
         RequiredClicks: 0
-        ClickOnTime: 14
+        ClickOnTime: 6
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
     sortOrder: -1
@@ -1101,6 +956,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 1
@@ -1134,6 +990,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1154,7 +1011,7 @@ MonoBehaviour:
     Options: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 3
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1167,6 +1024,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1192,29 +1050,9 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 31
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 8
-      SequenceInfo:
-      - SequenceNumber: 1
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
-      Sprite: 41
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
-      IsCorrect: 1
-      ID: 9
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 0
-        ClickOnTime: 0
-    - text: 
       Sprite: 40
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 12
       SequenceInfo:
@@ -1222,9 +1060,19 @@ MonoBehaviour:
         RequiredClicks: 0
         ClickOnTime: 0
     - text: 
+      Sprite: 41
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 9
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
       Sprite: 35
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 10
       SequenceInfo:
@@ -1232,9 +1080,19 @@ MonoBehaviour:
         RequiredClicks: 0
         ClickOnTime: 0
     - text: 
+      Sprite: 31
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 8
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
       Sprite: 39
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 11
       SequenceInfo:
@@ -1255,6 +1113,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 1
@@ -1288,6 +1147,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1305,41 +1165,41 @@ MonoBehaviour:
     - text: CAN YOU
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: SPOT
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: SPOT
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: A MISTAKE HERE
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0.42352942, g: 0.24705882, b: 0.11372549, a: 1}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 1
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 4
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1351,6 +1211,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1373,7 +1234,7 @@ MonoBehaviour:
     - 0.8
     - 0.8
     - 1
-    QuestionData_Int: 
+    QuestionData_Int: 000000000100000002000000
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 3
     QuestionSprite: []
@@ -1381,23 +1242,23 @@ MonoBehaviour:
     - text: 
       Sprite: 54
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 53
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 92
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 0
+      ID: 2
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
@@ -1413,6 +1274,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1430,34 +1292,34 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 5
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1469,6 +1331,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1486,13 +1349,13 @@ MonoBehaviour:
     - text: 
       Sprite: 17
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 6
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1504,6 +1367,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1526,7 +1390,7 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1536,7 +1400,7 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1546,7 +1410,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1556,7 +1420,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1566,7 +1430,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1587,6 +1451,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1608,34 +1473,34 @@ MonoBehaviour:
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 27
       SequenceInfo: []
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 23
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 7
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1647,7 +1512,8 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
-    HasBoolValue: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
     RepeatValue: 0
@@ -1661,27 +1527,27 @@ MonoBehaviour:
       HideOkButton: 0
     QuestionData_Float: []
     QuestionData_Int: 0600000008000000
-    ReturnValue_Bool: 0
+    ReturnValue_Bool: 1
     DelayTimeAfterQuestionShow: 0
     QuestionSprite: []
     Options:
     - text: 
       Sprite: 54
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 53
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 8
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1693,6 +1559,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1713,8 +1580,8 @@ MonoBehaviour:
     Options:
     - text: 
       Sprite: 29
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      SecondarySprites: 1e0000001d000000
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -1723,7 +1590,7 @@ MonoBehaviour:
         ClickOnTime: 0
     WaitTimeAfterAnswer: 3
     AllowMultipleAnswers: 1
-    sortOrder: 9
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1735,6 +1602,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1751,7 +1619,7 @@ MonoBehaviour:
     Options: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 10
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1763,6 +1631,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1784,28 +1653,28 @@ MonoBehaviour:
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
       Sprite: 12
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 27
       SequenceInfo:
@@ -1815,7 +1684,7 @@ MonoBehaviour:
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
       SequenceInfo:
@@ -1825,7 +1694,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -1835,7 +1704,7 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 28
       SequenceInfo:
@@ -1845,7 +1714,7 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 26
       SequenceInfo:
@@ -1855,13 +1724,133 @@ MonoBehaviour:
     - text: 
       Sprite: 9
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 26
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 11
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 1
+  - Question: 
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 23
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion:
+    - IntroText: Next question requires quick reaction. Get ready and click OK.
+      HasTimer: 0
+      TimerValue: 0
+      HideOkButton: 0
+    - IntroText: Memorize quickly! Touch green ball twice, red once and blue thrice.
+      HasTimer: 1
+      TimerValue: 6
+      HideOkButton: 1
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 25
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 2
+        ClickOnTime: 0
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 23
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 1
+        ClickOnTime: 0
+    - text: 
+      Sprite: 5
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 22
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 3
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
+    IfElseData:
+      QuestionAppear: 0
+      IfFirst: 2
+      IfSecond: 0
+    ObjectsInPreviousData:
+      Mode: 1
+  - Question: Close a door but Open it first.
+    SecondaryQuestion: []
+    IgnoreClickCount: 0
+    IgnoreClickTime: 1
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 0
+    HasTimerValue: 0
+    HasSequentialQuestions: 0
+    RepeatValue: 0
+    Pattern: 27
+    QuestionType: 1
+    TimeForQuestion: 0
+    IntrosForQuestion: []
+    QuestionData_Float: []
+    QuestionData_Int: 
+    ReturnValue_Bool: 0
+    DelayTimeAfterQuestionShow: 0
+    QuestionSprite: []
+    Options:
+    - text: 
+      Sprite: 30
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 29
+      SecondarySprites: 1e0000001d000000
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 5
+        ClickOnTime: 0
+    WaitTimeAfterAnswer: 0
+    AllowMultipleAnswers: 0
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1872,7 +1861,8 @@ MonoBehaviour:
     SecondaryQuestion: []
     IgnoreClickCount: 1
     IgnoreClickTime: 1
-    HasSequenceAnswer: 0
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 1
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -1894,69 +1884,87 @@ MonoBehaviour:
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 11
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 28
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 1
+        ClickOnTime: 0
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 1
+        ClickOnTime: 0
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 1
+        ClickOnTime: 0
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 1
+        ClickOnTime: 0
     - text: 
       Sprite: 10
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 1
+        ClickOnTime: 0
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 6
+        RequiredClicks: 1
+        ClickOnTime: 0
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 14
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -1968,6 +1976,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1989,7 +1998,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 23
       SequenceInfo:
@@ -2002,17 +2011,14 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 24
-      SequenceInfo:
-      - SequenceNumber: 2
-        RequiredClicks: 2
-        ClickOnTime: 0
+      SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo:
@@ -2022,13 +2028,13 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 25
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 15
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -2041,6 +2047,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2058,7 +2065,7 @@ MonoBehaviour:
     - text: 
       Sprite: 6
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
       SequenceInfo:
@@ -2068,7 +2075,7 @@ MonoBehaviour:
     - text: 
       Sprite: 8
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 23
       SequenceInfo:
@@ -2078,14 +2085,14 @@ MonoBehaviour:
     - text: 
       Sprite: 7
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 24
       SequenceInfo: []
     - text: 
       Sprite: 5
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
       SequenceInfo:
@@ -2094,7 +2101,7 @@ MonoBehaviour:
         ClickOnTime: 0
     WaitTimeAfterAnswer: 4
     AllowMultipleAnswers: 1
-    sortOrder: 16
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -2106,6 +2113,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2123,7 +2131,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2133,7 +2141,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2143,7 +2151,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2153,7 +2161,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2163,7 +2171,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2173,7 +2181,7 @@ MonoBehaviour:
     - text: 
       Sprite: 46
       SecondarySprites: 2d000000
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo:
@@ -2182,7 +2190,7 @@ MonoBehaviour:
         ClickOnTime: 0
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 17
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -2194,7 +2202,8 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
-    HasBoolValue: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
     RepeatValue: 0
@@ -2208,7 +2217,7 @@ MonoBehaviour:
       HideOkButton: 0
     QuestionData_Float: []
     QuestionData_Int: 080000000a000000
-    ReturnValue_Bool: 0
+    ReturnValue_Bool: 1
     DelayTimeAfterQuestionShow: 0
     QuestionSprite:
     - text: 
@@ -2219,36 +2228,37 @@ MonoBehaviour:
     - text: 
       Sprite: 60
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
       Sprite: 59
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 19
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
       IfSecond: 0
     ObjectsInPreviousData:
       Mode: 1
-  - Question: To continue playing this round, Simply touch outside the play button
+  - Question: Touch Umbrellas from left to right
     SecondaryQuestion: []
     IgnoreClickCount: 1
     IgnoreClickTime: 1
-    HasSequenceAnswer: 0
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
     RepeatValue: 0
-    Pattern: 32
+    Pattern: 33
     QuestionType: 1
     TimeForQuestion: 0
     IntrosForQuestion: []
@@ -2256,22 +2266,65 @@ MonoBehaviour:
     QuestionData_Int: 
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 0
-    QuestionSprite:
-    - text: 
-      Sprite: 103
-      SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    QuestionSprite: []
     Options:
     - text: 
-      Sprite: 69
+      Sprite: 44
       SecondarySprites: 
-      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 45
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 2
+      SequenceInfo: []
+    - text: 
+      Sprite: 47
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
+    - text: 
+      Sprite: 46
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 1
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
-    sortOrder: 19
+    sortOrder: -1
     IfElseData:
       QuestionAppear: 0
       IfFirst: 2
@@ -2284,6 +2337,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2326,6 +2380,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2368,6 +2423,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2410,6 +2466,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2448,6 +2505,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 0
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2490,6 +2548,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2555,6 +2614,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2621,6 +2681,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -2728,6 +2789,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -2814,6 +2876,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2859,6 +2922,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -2916,6 +2980,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2981,6 +3046,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -3080,6 +3146,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3168,6 +3235,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3250,6 +3318,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0

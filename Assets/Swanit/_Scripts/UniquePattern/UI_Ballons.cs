@@ -51,7 +51,7 @@ public class UI_Ballons : UI_Base
         UIManager.Instance.ShowSecondaryQuestion();
 
         QPattern pattern = GameManager.Instance.GetCurrentQuestion().Pattern;
-
+        num = info.QuestionData_Int.Count;
         mInfo = info;
     }
 

@@ -56,6 +56,4 @@ public class LevelClear : MonoBehaviour
         slide.anchoredPosition = Vector2.zero;
 
     }
-
-
 }

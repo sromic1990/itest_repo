@@ -47,6 +47,8 @@ public class BaseQuestion
     public bool IgnoreClickTime;
     //Does the question has sequence to click.
     public bool HasSequenceAnswer;
+    //Count the sequence but ignore sequence number
+    public bool CountSequenceIgnoreValue;
     //Does the question has any dependency on the ReturnValue_Bool
     public bool HasBoolValue;
     //Does Question has any timer value or not. Which means at the end of this timer, question will be auto complete, whether it is answered or not.
@@ -123,6 +125,7 @@ public class BaseQuestion
             {
                 if (Options[i].SequenceInfo[j].SequenceNumber == sequenceNumber)
                 {
+                    Debug.Log("Sequence Number = " + Options[i].SequenceInfo[j].RequiredClicks);
                     sequenceOfClick = Options[i].SequenceInfo[j];
                     sequenceFound = true;
                     break;

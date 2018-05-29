@@ -17,6 +17,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -77,6 +78,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -133,6 +135,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -175,6 +178,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -208,6 +212,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -276,6 +281,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -336,6 +342,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -392,6 +399,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -434,6 +442,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -467,6 +476,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -536,6 +546,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -596,6 +607,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -652,6 +664,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -694,6 +707,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -759,6 +773,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -827,6 +842,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -887,6 +903,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -943,6 +960,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -985,6 +1003,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1050,6 +1069,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -1118,6 +1138,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1178,6 +1199,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1234,6 +1256,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1276,6 +1299,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1304,6 +1328,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -1372,6 +1397,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1433,6 +1459,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1490,6 +1517,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1550,6 +1578,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1660,6 +1689,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1702,6 +1732,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1762,6 +1793,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1805,6 +1837,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1865,6 +1898,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1938,6 +1972,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -1980,6 +2015,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2040,6 +2076,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2083,6 +2120,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2143,6 +2181,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2188,6 +2227,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2230,6 +2270,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2290,6 +2331,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2333,6 +2375,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2392,7 +2435,8 @@ MonoBehaviour:
     SecondaryQuestion: []
     IgnoreClickCount: 1
     IgnoreClickTime: 1
-    HasSequenceAnswer: 0
+    HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 1
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -2438,42 +2482,60 @@ MonoBehaviour:
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 22
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
       Sprite: 7
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
       Sprite: 6
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
       Sprite: 7
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 24
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
       Sprite: 10
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 29
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
       Sprite: 6
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 25
-      SequenceInfo: []
+      SequenceInfo:
+      - SequenceNumber: 6
+        RequiredClicks: 0
+        ClickOnTime: 0
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
     sortOrder: -1
@@ -2488,6 +2550,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2530,6 +2593,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2590,6 +2654,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2647,6 +2712,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2707,6 +2773,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2779,6 +2846,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2821,6 +2889,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2881,6 +2950,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2937,6 +3007,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -2980,6 +3051,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3045,6 +3117,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3108,6 +3181,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3168,6 +3242,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3224,6 +3299,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3266,6 +3342,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3354,6 +3431,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3417,6 +3495,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3477,6 +3556,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3533,6 +3613,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3575,7 +3656,8 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
-    HasBoolValue: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
     RepeatValue: 0
@@ -3625,6 +3707,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3688,6 +3771,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3749,6 +3833,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3805,6 +3890,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3847,6 +3933,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -3929,6 +4016,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4012,6 +4100,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4072,6 +4161,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4128,6 +4218,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4170,6 +4261,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -4178,7 +4270,8 @@ MonoBehaviour:
     QuestionType: 0
     TimeForQuestion: 3
     IntrosForQuestion:
-    - IntroText: 
+    - IntroText: 5 men will appear on screen. Identify and touch ConfusedMan very
+        quickly. Get ready and click play.
       HasTimer: 0
       TimerValue: 0
       HideOkButton: 0
@@ -4190,39 +4283,39 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 0
+      Sprite: 31
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
-      IsCorrect: 0
-      ID: 0
+      IsCorrect: 1
+      ID: 8
       SequenceInfo: []
     - text: 
-      Sprite: 0
+      Sprite: 41
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 9
       SequenceInfo: []
     - text: 
-      Sprite: 0
+      Sprite: 35
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 10
       SequenceInfo: []
     - text: 
-      Sprite: 0
+      Sprite: 39
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 11
       SequenceInfo: []
     - text: 
-      Sprite: 0
+      Sprite: 40
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
-      ID: 0
+      ID: 12
       SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
@@ -4238,6 +4331,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4321,6 +4415,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4381,6 +4476,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4437,6 +4533,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4479,6 +4576,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -4547,6 +4645,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4615,6 +4714,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4676,6 +4776,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4732,6 +4833,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4774,6 +4876,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -4842,6 +4945,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4910,6 +5014,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -4970,6 +5075,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5026,6 +5132,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5068,6 +5175,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -5136,6 +5244,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5204,6 +5313,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5264,6 +5374,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5320,6 +5431,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5348,6 +5460,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -5416,6 +5529,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5484,6 +5598,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5545,6 +5660,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5601,6 +5717,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5640,6 +5757,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5653,7 +5771,7 @@ MonoBehaviour:
     - 4
     - 2
     QuestionData_Int: 
-    ReturnValue_Bool: 0
+    ReturnValue_Bool: 1
     DelayTimeAfterQuestionShow: 0
     QuestionSprite:
     - text: 
@@ -5682,6 +5800,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5750,6 +5869,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5810,6 +5930,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5866,6 +5987,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5960,6 +6082,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -5973,7 +6096,7 @@ MonoBehaviour:
     - 8
     - 2
     QuestionData_Int: 
-    ReturnValue_Bool: 0
+    ReturnValue_Bool: 1
     DelayTimeAfterQuestionShow: 0
     QuestionSprite:
     - text: 
@@ -6002,6 +6125,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6070,6 +6194,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6130,6 +6255,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6186,6 +6312,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -6209,28 +6336,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 104
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 104
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 104
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 104
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -6250,6 +6377,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6292,6 +6420,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6360,6 +6489,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6420,6 +6550,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6476,6 +6607,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -6499,28 +6631,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 105
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 105
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 105
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 105
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -6540,6 +6672,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6582,6 +6715,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6651,6 +6785,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6712,6 +6847,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6754,6 +6890,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -6778,28 +6915,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 106
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 106
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 106
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 106
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -6819,6 +6956,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6861,6 +6999,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6930,6 +7069,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -6990,6 +7130,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7032,6 +7173,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -7056,28 +7198,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 108
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 108
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 108
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 108
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -7097,6 +7239,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7160,6 +7303,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7228,6 +7372,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7288,6 +7433,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7330,6 +7476,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -7353,28 +7500,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 115
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 115
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 115
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 115
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -7394,6 +7541,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7458,6 +7606,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7526,6 +7675,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7586,6 +7736,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7642,6 +7793,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -7665,28 +7817,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 113
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 113
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 113
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 113
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -7706,6 +7858,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7790,6 +7943,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7858,6 +8012,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7918,6 +8073,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -7960,6 +8116,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -7984,28 +8141,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 114
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 114
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 114
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 114
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -8025,6 +8182,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8109,6 +8267,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8177,6 +8336,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8237,6 +8397,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8279,6 +8440,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -8303,28 +8465,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 117
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 117
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 117
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 117
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -8344,6 +8506,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8413,6 +8576,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8481,6 +8645,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8541,6 +8706,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8583,6 +8749,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -8607,28 +8774,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 118
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 118
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 118
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 118
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -8648,6 +8815,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8717,6 +8885,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8785,6 +8954,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8845,6 +9015,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -8887,6 +9058,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 1
     HasSequentialQuestions: 0
@@ -8911,28 +9083,28 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 21
+      Sprite: 120
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 120
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
       ID: 2
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 120
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
       SequenceInfo: []
     - text: 
-      Sprite: 21
+      Sprite: 120
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 0
@@ -8952,6 +9124,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9020,6 +9193,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9053,6 +9227,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9113,6 +9288,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9155,6 +9331,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9218,6 +9395,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9286,6 +9464,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9319,6 +9498,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9379,6 +9559,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9421,6 +9602,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9477,6 +9659,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9545,6 +9728,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9610,6 +9794,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9666,6 +9851,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9708,6 +9894,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9744,6 +9931,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9756,6 +9944,11 @@ MonoBehaviour:
       HasTimer: 0
       TimerValue: 0
       HideOkButton: 0
+    - IntroText: 'Quick! Memorize order : ConfusedMan , WinnerMan , LoserMan , StrongMan
+        , WeakMan.'
+      HasTimer: 1
+      TimerValue: 10
+      HideOkButton: 0
     QuestionData_Float:
     - 10
     QuestionData_Int: 
@@ -9764,40 +9957,55 @@ MonoBehaviour:
     QuestionSprite: []
     Options:
     - text: 
-      Sprite: 0
+      Sprite: 35
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 0
-      SequenceInfo: []
+      ID: 10
+      SequenceInfo:
+      - SequenceNumber: 3
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
-      Sprite: 0
+      Sprite: 41
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 2
-      SequenceInfo: []
+      ID: 9
+      SequenceInfo:
+      - SequenceNumber: 2
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
-      Sprite: 0
+      Sprite: 40
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 2
-      SequenceInfo: []
+      ID: 12
+      SequenceInfo:
+      - SequenceNumber: 5
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
-      Sprite: 0
+      Sprite: 39
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 2
-      SequenceInfo: []
+      ID: 11
+      SequenceInfo:
+      - SequenceNumber: 4
+        RequiredClicks: 0
+        ClickOnTime: 0
     - text: 
-      Sprite: 0
+      Sprite: 31
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
-      ID: 2
-      SequenceInfo: []
+      ID: 8
+      SequenceInfo:
+      - SequenceNumber: 1
+        RequiredClicks: 0
+        ClickOnTime: 0
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
     sortOrder: -1
@@ -9812,6 +10020,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9878,6 +10087,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9934,6 +10144,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -9976,6 +10187,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10037,6 +10249,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10105,6 +10318,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10170,6 +10384,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10226,6 +10441,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10268,7 +10484,8 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
-    HasBoolValue: 0
+    CountSequenceIgnoreValue: 0
+    HasBoolValue: 1
     HasTimerValue: 0
     HasSequentialQuestions: 0
     RepeatValue: 0
@@ -10315,6 +10532,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10383,6 +10601,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10444,6 +10663,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10500,6 +10720,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10542,6 +10763,7 @@ MonoBehaviour:
     IgnoreClickCount: 0
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10562,7 +10784,7 @@ MonoBehaviour:
     Options:
     - text: 
       Sprite: 29
-      SecondarySprites: 
+      SecondarySprites: 1e0000001d000000
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
       IsCorrect: 1
       ID: 1
@@ -10585,6 +10807,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10653,6 +10876,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 1
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10715,6 +10939,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10771,6 +10996,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10809,10 +11035,12 @@ MonoBehaviour:
     ObjectsInPreviousData:
       Mode: 0
   - Question: Pay attention
-    SecondaryQuestion: []
+    SecondaryQuestion:
+    - Which picture was on the previous screen?
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10830,8 +11058,38 @@ MonoBehaviour:
     QuestionData_Int: 
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options: []
+    QuestionSprite:
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 12
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 9
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 9
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 1
+      ID: 0
+      SequenceInfo: []
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+      IsCorrect: 0
+      ID: 0
+      SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
     sortOrder: -1
@@ -10846,6 +11104,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10914,6 +11173,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -10936,7 +11196,7 @@ MonoBehaviour:
     - 0.8
     - 0.8
     - 1
-    QuestionData_Int: 
+    QuestionData_Int: 010000000000000002000000
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 3
     QuestionSprite: []
@@ -10945,7 +11205,7 @@ MonoBehaviour:
       Sprite: 54
       SecondarySprites: 
       TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
-      IsCorrect: 0
+      IsCorrect: 1
       ID: 2
       SequenceInfo: []
     - text: 
@@ -10976,6 +11236,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11032,6 +11293,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11070,10 +11332,12 @@ MonoBehaviour:
     ObjectsInPreviousData:
       Mode: 0
   - Question: Pay attention
-    SecondaryQuestion: []
+    SecondaryQuestion:
+    - Which picture was not on the previous screen?
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11091,8 +11355,38 @@ MonoBehaviour:
     QuestionData_Int: 
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 0
-    QuestionSprite: []
-    Options: []
+    QuestionSprite:
+    - text: 
+      Sprite: 10
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 8
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    - text: 
+      Sprite: 11
+      SecondarySprites: 
+      TextColor: {r: 0, g: 0, b: 0, a: 0}
+    Options:
+    - text: 
+      Sprite: 7
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 0
+      ID: 0
+      SequenceInfo: []
+    - text: 
+      Sprite: 6
+      SecondarySprites: 
+      TextColor: {r: 0.3882353, g: 0.17254902, b: 0.0627451, a: 1}
+      IsCorrect: 1
+      ID: 0
+      SequenceInfo: []
     WaitTimeAfterAnswer: 0
     AllowMultipleAnswers: 0
     sortOrder: -1
@@ -11107,6 +11401,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11175,6 +11470,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11237,6 +11533,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11293,6 +11590,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11335,6 +11633,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11368,6 +11667,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11436,6 +11736,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11498,6 +11799,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11554,6 +11856,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11596,6 +11899,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11629,6 +11933,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11697,6 +12002,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11759,6 +12065,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11815,6 +12122,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11857,6 +12165,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11890,6 +12199,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
@@ -11958,6 +12268,7 @@ MonoBehaviour:
     IgnoreClickCount: 1
     IgnoreClickTime: 1
     HasSequenceAnswer: 0
+    CountSequenceIgnoreValue: 0
     HasBoolValue: 0
     HasTimerValue: 0
     HasSequentialQuestions: 0
