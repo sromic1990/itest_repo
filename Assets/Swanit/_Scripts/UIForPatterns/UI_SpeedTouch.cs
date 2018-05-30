@@ -12,7 +12,7 @@ public class UI_SpeedTouch : UI_Base
     public override void SetUI(QuestionUIInfo info)
     {
         Debug.Log("SetUI_SpeedTouch");
-
+//        EProz.INSTANCE.cancelDelayCall = false;
         base.SetUI(info);
         UIManager.Instance.ShowSecondaryQuestion();
 

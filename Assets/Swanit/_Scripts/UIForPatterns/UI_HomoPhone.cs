@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using SwanitLib;
 
 public class UI_HomoPhone : UI_Base
 {
@@ -15,7 +16,7 @@ public class UI_HomoPhone : UI_Base
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
-
+//        EProz.INSTANCE.cancelDelayCall = false;
         // Quesion.text = info.Question;
 
         for (int i = 0; i < mButtonHolders.Count; i++)

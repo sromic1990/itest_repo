@@ -136,11 +136,7 @@ public class Evaluator : MonoBehaviour, IEvaluator
 
                     if (properTimed + properClicked == (byte)2)
                     {
-                        if (!question.AllowMultipleAnswers)
-                        {
-                            GameManager.Instance.ResetAnswerButtons();
-                        }
-
+                        
                         if (question.CountSequenceIgnoreValue)
                         {
                             GameManager.Instance.AnsweredCorrectly();

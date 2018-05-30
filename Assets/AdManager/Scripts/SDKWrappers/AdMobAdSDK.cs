@@ -183,13 +183,12 @@ namespace AdManager
 
             RewardBasedVideoAd.Instance.OnAdFailedToLoad += (sender, e) =>
             {
-                Debug.Log("<color=red>RewardAd failed to load</color>");
-                Debug.Log("<color=red>" + e.Message + "</color>");
+                UIManager.Instance.ChangeButtonFor_GetMoreLives(ActivateDeactivateAction.Deactivate, UIDeactivableButton.RewardAd);
             };
 
             RewardBasedVideoAd.Instance.OnAdLoaded += (sender, e) =>
             {
-                Debug.Log("<color=blue>RewardAd loaded</color>");
+                UIManager.Instance.ChangeButtonFor_GetMoreLives(ActivateDeactivateAction.Activate, UIDeactivableButton.RewardAd);
             };
 
             //RewardBasedVideoAd.Instance.LoadAd(new AdRequest.Builder().AddTestDevice(deviceId).Build(), adUnitId);

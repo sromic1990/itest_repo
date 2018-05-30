@@ -17,6 +17,7 @@ public class MultiplayerUI : MonoBehaviour
     public InputField InputField;
     public Button JoinGame_Button;
     public Button Back;
+    public Button Share;
 
     private MultiplayerMode _mode;
     public MultiplayerMode Mode
@@ -54,6 +55,7 @@ public class MultiplayerUI : MonoBehaviour
                 JoinGame_Button.interactable = false;
                 JoinGame_Button.gameObject.Hide();
                 Back.interactable = true;
+                Share.interactable = false;
                 break;
 
             case MultiplayerMode.FindingPlayer:
@@ -72,6 +74,7 @@ public class MultiplayerUI : MonoBehaviour
                 JoinGame_Button.interactable = false;
                 JoinGame_Button.gameObject.Hide();
                 Back.interactable = false;
+                Share.interactable = false;
                 break;
 
             case MultiplayerMode.Challenge:
@@ -90,11 +93,12 @@ public class MultiplayerUI : MonoBehaviour
                 JoinGame_Button.interactable = false;
                 JoinGame_Button.gameObject.Hide();
                 Back.interactable = true;
+                Share.interactable = true;
                 break;
 
             case MultiplayerMode.ChallengeWaitingForPlayer:
                 BetSelection.gameObject.Show();
-                //BetSelection.EnableDisablePrevNextButton(PrevNextButton.both, EnableDisableAction.Disable);
+                BetSelection.EnableDisablePrevNextButton(PrevNextButton.both, EnableDisableAction.Disable);
                 Random_FindPlayer.Hide();
                 Random_FindingPlayer.Hide();
                 Challenge.Hide();
@@ -108,6 +112,7 @@ public class MultiplayerUI : MonoBehaviour
                 JoinGame_Button.interactable = false;
                 JoinGame_Button.gameObject.Hide();
                 Back.interactable = true;
+                Share.interactable = false;
                 break;
 
             case MultiplayerMode.AcceptChallenge:
@@ -126,6 +131,7 @@ public class MultiplayerUI : MonoBehaviour
                 JoinGame_Button.interactable = true;
                 JoinGame_Button.gameObject.Show();
                 Back.interactable = true;
+                Share.interactable = false;
                 break;
         }
     }

@@ -22,6 +22,7 @@ namespace AdManager
         private void Start()
         {
             InitializeAdSDKs();
+            UIManager.Instance.ChangeButtonFor_GetMoreLives(ActivateDeactivateAction.Deactivate, UIDeactivableButton.RewardAd);
         }
 
         private void InitializeAdSDKs()

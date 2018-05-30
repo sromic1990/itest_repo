@@ -54,7 +54,7 @@ MonoBehaviour:
   mInAppProducts:
   - IAP_name: Buy brain pill
     mIap: 0
-    IAP_Id: 1
+    IAP_Id: IdiotTest.BrainPill
     displayValue: 0.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -62,7 +62,7 @@ MonoBehaviour:
     mCurrency: 0
   - IAP_name: Buy brain operation
     mIap: 1
-    IAP_Id: 0000002
+    IAP_Id: IdiotTest.BrainOperation
     displayValue: 2.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -70,7 +70,7 @@ MonoBehaviour:
     mCurrency: 0
   - IAP_name: Buy new brain
     mIap: 2
-    IAP_Id: 12123312
+    IAP_Id: IdiotTest.NewBrain
     displayValue: 9.99$
     mIAPtypes: 1
     isRemoveAds: 1
@@ -78,7 +78,7 @@ MonoBehaviour:
     mCurrency: 0
   - IAP_name: Buy banana plate
     mIap: 3
-    IAP_Id: 2434234
+    IAP_Id: IdiotTest.BananaPlate
     displayValue: 0.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -86,7 +86,7 @@ MonoBehaviour:
     mCurrency: 1
   - IAP_name: Buy banana basket
     mIap: 4
-    IAP_Id: 334546345
+    IAP_Id: IdiotTest.BananaBasket
     displayValue: 2.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -94,7 +94,7 @@ MonoBehaviour:
     mCurrency: 1
   - IAP_name: Buy banana tree
     mIap: 5
-    IAP_Id: 33435745457
+    IAP_Id: IdiotTest.BananaTree
     displayValue: 9.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -102,7 +102,7 @@ MonoBehaviour:
     mCurrency: 1
   - IAP_name: Buy banana farm
     mIap: 6
-    IAP_Id: 234234
+    IAP_Id: IdiotTest.BananaFarm
     displayValue: 29.99$
     mIAPtypes: 0
     isRemoveAds: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
     mCurrency: 1
   - IAP_name: Buy banana market
     mIap: 7
-    IAP_Id: 49038409283
+    IAP_Id: IdiotTest.BananaMarket
     displayValue: 99.99$
     mIAPtypes: 0
     isRemoveAds: 1

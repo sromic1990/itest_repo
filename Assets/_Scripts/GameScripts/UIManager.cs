@@ -37,14 +37,19 @@ public class UIManager : Singleton<UIManager>
     public GameObject Achievement_Multiplayer;
     public GameObject Achievement_Regular;
     public GameObject ResumeText_MainMenu;
+    public GameObject HideItems_MainMenu;
+    public GameObject RegularButton;
+    public GameObject MultiplayerButton;
+    public UI_Button_Deactivable GetBack5Questions;
+    public UI_Button_Deactivable RewardAdButton;
     public List<GameObject> Music_Buttons_On;
     public List<GameObject> Music_Buttons_Off;
     public List<GameObject> SFX_Buttons_On;
     public List<GameObject> SFX_Buttons_Off;
+    public List<GameObject> Test_Buttons_On;
+    public List<GameObject> Test_Buttons_Off;
 
     public IntroPanel QuestionIntro;
-
-    public GameObject SkipQuestionButton;
 
     public UI_Base CurrentQuestionPanel;
     public QuestionPanel QuestionPanel;
@@ -90,6 +95,8 @@ public class UIManager : Singleton<UIManager>
     public List<Text> RemainingLevelsTexts;
 
     public List<Button> Buttons_ToBe_Enabled_Disabled_On_Room_Occupancy_Change;
+
+    public List<GameObject> PlusInLifeScreen;
 
     #endregion
 
@@ -164,6 +171,7 @@ public class UIManager : Singleton<UIManager>
         {
             if (CurrentQuestionPanel != null)
             {
+                Debug.LogError("From ShowGameplay");
                 CurrentQuestionPanel.Reset();
             }
         }
@@ -324,9 +332,9 @@ public class UIManager : Singleton<UIManager>
 
     #region Popup Related
 
-    public void ShowPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
+    public void ShowPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed, string Heading = "")
     {
-        Popup_Updated.SetupPopUp(popupText, ButtonTexts, PopUpButtonType, PopUpType, Time, OnYesPressed, OnNoPressed);
+        Popup_Updated.SetupPopUp(popupText, ButtonTexts, PopUpButtonType, PopUpType, Time, OnYesPressed, OnNoPressed, Heading);
         Popup_Updated.gameObject.Show();
     }
 
@@ -548,7 +556,29 @@ public class UIManager : Singleton<UIManager>
     {
         for (int i = 0; i < Lives.Count; i++)
         {
-            Lives[i].text = GameDataManager.Instance.TotalLives.ToString();
+            if(GameDataManager.Instance.IsUnlimitedLives)
+            {
+                Lives[i].text = "Unlimited";
+            }
+            else
+            {
+                Lives[i].text = GameDataManager.Instance.TotalLives.ToString();
+            }
+        }
+
+        if(GameDataManager.Instance.IsUnlimitedLives)
+        {
+            for (int i = 0; i < PlusInLifeScreen.Count; i++)
+            {
+                PlusInLifeScreen[i].Hide();
+            }
+        }
+        else
+        {
+            for (int i = 0; i < PlusInLifeScreen.Count; i++)
+            {
+                PlusInLifeScreen[i].Show();
+            }
         }
     }
 
@@ -618,6 +648,85 @@ public class UIManager : Singleton<UIManager>
         for (int i = 0; i < RemainingLevelsTexts.Count; i++)
         {
             RemainingLevelsTexts[i].text = remainingLevels.ToString();
+        }
+    }
+
+    public void TestButtonChanged()
+    {
+        switch (GameDataManager.Instance.TestButton)
+        {
+            case OnOffButton.On:
+                for (int i = 0; i < Test_Buttons_On.Count; i++)
+                {
+                    Test_Buttons_On[i].Show();
+                }
+                for (int i = 0; i < Test_Buttons_Off.Count; i++)
+                {
+                    Test_Buttons_Off[i].Hide();
+                }
+                break;
+
+            case OnOffButton.Off:
+                for (int i = 0; i < Test_Buttons_On.Count; i++)
+                {
+                    Test_Buttons_On[i].Hide();
+                }
+                for (int i = 0; i < Test_Buttons_Off.Count; i++)
+                {
+                    Test_Buttons_Off[i].Show();
+                }
+                break;
+        }
+    }
+
+    public void ShowMainMenuItems()
+    {
+        HideItems_MainMenu.Show();
+        ShowButtons();
+    }
+
+    public void HideMainMenuItems()
+    {
+        HideItems_MainMenu.Hide();
+    }
+
+    public void HideGamePlayButtons()
+    {
+        RegularButton.Hide();
+        MultiplayerButton.Hide();
+    }
+
+    public void ShowButtons()
+    {
+        RegularButton.Show();
+        MultiplayerButton.Show();
+    }
+
+    public void ChangeButtonFor_GetMoreLives(ActivateDeactivateAction action, UIDeactivableButton Button)
+    {
+        switch(Button)
+        {
+            case UIDeactivableButton.GoBack5Questions:
+                ActivateDeactivateButton(action, GetBack5Questions);
+                break;
+
+            case UIDeactivableButton.RewardAd:
+                ActivateDeactivateButton(action, RewardAdButton);
+                break;
+        }
+    }
+
+    private void ActivateDeactivateButton(ActivateDeactivateAction action, UI_Button_Deactivable Button)
+    {
+        switch(action)
+        {
+            case ActivateDeactivateAction.Activate:
+                Button.ActivateButton();
+                break;
+
+            case ActivateDeactivateAction.Deactivate:
+                Button.DeActivateButton();
+                break;
         }
     }
 

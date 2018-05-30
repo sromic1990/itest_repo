@@ -180,6 +180,11 @@ MonoBehaviour:
   Achievement_Multiplayer: {fileID: 0}
   Achievement_Regular: {fileID: 0}
   ResumeText_MainMenu: {fileID: 0}
+  HideItems_MainMenu: {fileID: 0}
+  RegularButton: {fileID: 0}
+  MultiplayerButton: {fileID: 0}
+  GetBack5Questions: {fileID: 0}
+  RewardAdButton: {fileID: 0}
   Music_Buttons_On:
   - {fileID: 0}
   - {fileID: 0}
@@ -192,8 +197,11 @@ MonoBehaviour:
   SFX_Buttons_Off:
   - {fileID: 0}
   - {fileID: 0}
+  Test_Buttons_On:
+  - {fileID: 0}
+  Test_Buttons_Off:
+  - {fileID: 0}
   QuestionIntro: {fileID: 0}
-  SkipQuestionButton: {fileID: 0}
   CurrentQuestionPanel: {fileID: 0}
   QuestionPanel: {fileID: 0}
   LevelClearedAnimation: {fileID: 0}

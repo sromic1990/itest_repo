@@ -28,6 +28,7 @@ public class UI_XYZseconds : UI_Base
             SetSize(mButtonHolder[i]);
         }
 
+        CancelInvoke("animate");
         InvokeRepeating("animate", 0, 2.5f);
     }
 

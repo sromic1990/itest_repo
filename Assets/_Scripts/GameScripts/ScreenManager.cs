@@ -29,15 +29,23 @@ public class ScreenManager : Singleton<ScreenManager>
     {
         Screens screens = GetCorrectScreen(Screen);
 
-        if (!screens.CanGoBackFromScreen)
+        if(CurrentScreen == ScreensEnum.GetMoreLives)
         {
-            PreviousScreen = Screen;
-            ScreenStack.ClearStack();
+            ScreenStack.Push(ScreensEnum.GamePlay);
+            PreviousScreen = ScreensEnum.GamePlay;
         }
         else
         {
-            ScreenStack.Push(CurrentScreen);
-            PreviousScreen = CurrentScreen;
+            if (!screens.CanGoBackFromScreen)
+            {
+                PreviousScreen = Screen;
+                ScreenStack.ClearStack();
+            }
+            else
+            {
+                ScreenStack.Push(CurrentScreen);
+                PreviousScreen = CurrentScreen;
+            }
         }
 
         ShowScreen(Screen);
@@ -63,10 +71,18 @@ public class ScreenManager : Singleton<ScreenManager>
             }
         }
 
-        HideAllScreens();
+        if(Screen != ScreensEnum.Settings && Screen != ScreensEnum.Login)
+        {
+            HideAllScreens();
+        }
         UIManager.Instance.HideIntro();
 
         CurrentScreen = Screen;
+
+        if(screens.Screen == ScreensEnum.GetMoreLives && isBack)
+        {
+            screens.Screen = ScreensEnum.GamePlay;
+        }
 
         if (screens.Screen == ScreensEnum.GamePlay)
         {
@@ -83,6 +99,22 @@ public class ScreenManager : Singleton<ScreenManager>
             GameManager.Instance.Pause();
             //HideQuestionPanel();
         }
+
+        if(screens.Screen == ScreensEnum.MainMenu)
+        {
+            GameManager.Instance.ToStoreFromGameplayDueToLackOfFunds = false;
+            UIManager.Instance.ShowMainMenuItems();
+        }
+        else
+        {
+            UIManager.Instance.HideMainMenuItems();
+        }
+
+        if(screens.Screen == ScreensEnum.Login)
+        {
+            UIManager.Instance.HideGamePlayButtons();
+        }
+
 
         screens.ScreenObj.Show();
     }
@@ -167,5 +199,6 @@ public enum ScreensEnum
     MultiplayerWin = 1 << 15,
     MultiplayerLose = 1 << 16,
     Achievements = 1 << 17,
-    MultiplayerDrawn = 1 << 18
+    MultiplayerDrawn = 1 << 18,
+    GetMoreLives = 1 << 19
 }

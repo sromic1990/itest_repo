@@ -44,6 +44,14 @@ namespace IdiotTest.Scripts.GameScripts
             {
                 data.CurrentlevelProgress = value;
                 StateChanged();
+                if(data.CurrentlevelProgress < 5)
+                {
+                    UIManager.Instance.ChangeButtonFor_GetMoreLives(ActivateDeactivateAction.Deactivate, UIDeactivableButton.GoBack5Questions);
+                }
+                else
+                {
+                    UIManager.Instance.ChangeButtonFor_GetMoreLives(ActivateDeactivateAction.Activate, UIDeactivableButton.GoBack5Questions);
+                }
             }
         }
 
@@ -83,6 +91,16 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.currentQuestion = value;
+                StateChanged();
+            }
+        }
+
+        public int CurrentTestQuestion
+        {
+            get { return data.currentTestQuestion; }
+            set
+            {
+                data.currentTestQuestion = value;
                 StateChanged();
             }
         }
@@ -232,7 +250,7 @@ namespace IdiotTest.Scripts.GameScripts
                     data.TotalBananas = 0;
                 }
 
-                //AchievementManager.Instance.OnBananasChanged(data.TotalBananas);
+                AchievementManager.Instance.OnBananasChanged(data.TotalBananas);
                 StateChanged();
             }
         }
@@ -267,6 +285,16 @@ namespace IdiotTest.Scripts.GameScripts
             }
         }
 
+        public OnOffButton TestButton
+        {
+            get { return data.TestButton; }
+            set
+            {
+                data.TestButton = value;
+                StateChanged();
+            }
+        }
+
         public BetAmount BetAmount
         {
             get { return data.BetAmount; }
@@ -295,7 +323,7 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.WinStreak_Regular = value;
-                AchievementManager.Instance.OnStreakChanged_Regular(data.WinStreak_Regular);
+                AchievementManager.Instance.OnStreakChanged_Regular(data.WinStreak_Regular + 1);
             }
         }
 
@@ -305,7 +333,7 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.WinStreak_Multiplayer = value;
-                //AchievementManager.Instance.OnStreakChanged_Multiplayer(data.WinStreak_Multiplayer);
+                AchievementManager.Instance.OnStreakChanged_Multiplayer(data.WinStreak_Multiplayer + 1);
             }
         }
 
@@ -315,7 +343,7 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.LoseStreak_Multiplayer = value;
-                //AchievementManager.Instance.OnStreakChanged_Multiplayer(data.LoseStreak_Multiplayer);
+                AchievementManager.Instance.OnStreakChanged_Multiplayer(data.LoseStreak_Multiplayer + 1);
             }
         }
 
@@ -325,7 +353,7 @@ namespace IdiotTest.Scripts.GameScripts
             set
             {
                 data.QuestionPassed = value;
-                //AchievementManager.Instance.OnQuestionPassed(data.QuestionPassed);
+                AchievementManager.Instance.OnQuestionPassed(data.QuestionPassed + 1);
             }
         }
 
@@ -453,6 +481,7 @@ namespace IdiotTest.Scripts.GameScripts
             GameManager.Instance.BananasChanged();
             GameManager.Instance.MusicStateChanged();
             GameManager.Instance.SFXStateChanged();
+            GameManager.Instance.TestStateChanged();
             GameManager.Instance.BetChanged();
             GameManager.Instance.LevelsChanged();
             GameManager.Instance.ScoreChanged();
@@ -516,6 +545,7 @@ namespace IdiotTest.Scripts.GameScripts
         // say 5 answered, so will look like 5/11
         public int NumberOfAttemptsInThisLevel;
         public int currentQuestion;
+        public int currentTestQuestion;
         public int currentLevel;
         //LEVEL SPECIFIC------------------------>
         public int LivesEarned;
@@ -541,6 +571,7 @@ namespace IdiotTest.Scripts.GameScripts
 
         public OnOffButton MusicButton;
         public OnOffButton SFXButton;
+        public OnOffButton TestButton;
         public string PlayerName;
 
         public BetAmount BetAmount;
@@ -583,6 +614,7 @@ namespace IdiotTest.Scripts.GameScripts
             //QuestionList = new List<int>();
             SetQuestions();
             currentQuestion = 0;
+            currentTestQuestion = 0;
             currentLevel = 1;
             LivesEarned = 0;
             QuestionsLeft = 250;
@@ -619,6 +651,7 @@ namespace IdiotTest.Scripts.GameScripts
             HasNameBeenEntered = false;
             MusicButton = OnOffButton.On;
             SFXButton = OnOffButton.On;
+            TestButton = OnOffButton.Off;
             PlayerName = string.Empty;
 
             WinStreak_Regular = 0;

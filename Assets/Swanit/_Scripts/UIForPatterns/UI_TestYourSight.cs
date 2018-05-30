@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using SwanitLib;
 using DG.Tweening;
 
-// TODO Fix animation issue on Pause
+
 public class UI_TestYourSight : UI_Base
 {
     public Text QuestionDisplay;
@@ -28,6 +28,8 @@ public class UI_TestYourSight : UI_Base
 
     private bool isPaused;
 
+    private bool isUISet = false;
+
     private int babushkaNo;
     private int iterationCompleted = 0;
 
@@ -44,12 +46,21 @@ public class UI_TestYourSight : UI_Base
     }
 
     public override void SetUI(QuestionUIInfo info)
-    {
+    {        
         base.SetUI(info);
-       
+
+        if (isUISet)
+            return;
+
+        isUISet = true;
+//        EProz.INSTANCE.cancelDelayCall = false;
+        //   Debug.LogError("Game Staus :" + GameManager.Instance.Status.ToString());
+
         BoxPositions = new List<Vector2>();
         defaultPos = new List<Vector2>();
 
+
+        //   Debug.LogError(".....Set UI Called.....");
 
         babushkaNo = info.QuestionData_Int[0];
         duration = info.QuestionData_Float[0];
@@ -59,7 +70,7 @@ public class UI_TestYourSight : UI_Base
             mButtonHolder[i].gameObject.SetActive(true);
             mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
             SetCorrectIndex(info.ButtonAnswer[i], i);
-            Debug.Log("<color=blue>Correct Index = </color>" + correctIndex);
+            //      Debug.Log("<color=blue>Correct Index = </color>" + correctIndex);
         }
 
         setAllBabushkaPos();
@@ -68,10 +79,10 @@ public class UI_TestYourSight : UI_Base
 
     private void setAllBabushkaPos()
     {
-        Debug.Log(answers.rect.width);
+        //    Debug.Log(answers.rect.width);
         float posTect = answers.rect.width - offset;
 
-        Debug.Log(babushkaNo);
+        //    Debug.Log(babushkaNo);
 
         for (int i = 0; i < babushkaNo; i++)
         {
@@ -86,9 +97,7 @@ public class UI_TestYourSight : UI_Base
 
     public override void Reset()
     {
-        Debug.Log("Reset Calleeedddd");
-
-
+        //    Debug.LogError("Reset Calleeedddd");
         mBabushka[correctIndex].Monkey.DOPause();
         mBabushka[correctIndex].Top.DOPause();
 
@@ -99,13 +108,12 @@ public class UI_TestYourSight : UI_Base
 
         iterationCompleted = 0;
 
-
-
         for (int i = 0; i < babushkaNo; i++)
         {
             RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
             rt.anchoredPosition = defaultPos[i];
         }
+        isUISet = false;
     }
 
     private void SetCorrectIndex(ButtonProperties bProp, int index)
@@ -136,6 +144,8 @@ public class UI_TestYourSight : UI_Base
         //  {
         float val = mBabushka[correctIndex].Top.anchoredPosition.y;
 
+        //    Debug.LogError("//.......Animate Babushkaaaaaa.......");
+
         EProz.INSTANCE.WaitAndCall(0.5f, () =>
             {
                 mBabushka[correctIndex].Top.DOAnchorPosY(val + 400.0f, 0.5f, false);
@@ -165,7 +175,9 @@ public class UI_TestYourSight : UI_Base
 
     private IEnumerator AnimateAll(int minus = 0)
     {
-        Debug.Log(iteration - iterationCompleted);
+        //   Debug.Log(iteration - iterationCompleted);
+
+        //  Debug.LogError("Animation Started Again : Iterration = " + (iteration - iterationCompleted).ToString());
 
         for (int i = 0; i < iteration - minus; i++)
         {
@@ -224,15 +236,23 @@ public class UI_TestYourSight : UI_Base
     private void OnGamePause()
     {
         if (gameObject.activeSelf)
+        {
             isPaused = true;
+            //  Debug.LogError("OnGamePause" + isPaused);
+        }
     }
 
     private void OnGameResume()
     {
-        if (gameObject.activeSelf && isPaused)
+        if (isPaused)
         {
-            isPaused = false;
-            StartCoroutine(waitAndAnimate());
+            gameObject.SetActive(true);
+            EProz.INSTANCE.WaitAndCall(0.05f, () =>
+                {
+                    StartCoroutine(waitAndAnimate());
+                    //     Debug.LogError("On Resume =" + isPaused);
+                    isPaused = false;
+                });
         }
     }
 
@@ -248,7 +268,7 @@ public class UI_TestYourSight : UI_Base
             yield return null;
 
         ReAssignPos();
-        StartCoroutine(AnimateAll(iterationCompleted));
+        StartCoroutine(AnimateAll(iterationCompleted + 1));
     }
 
 }

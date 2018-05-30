@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Text.RegularExpressions;
+
 //using GooglePlayServices;
 namespace SwanitLib
 {
@@ -42,19 +43,40 @@ namespace SwanitLib
         /// <param name="delay">Delay.</param>
         /// <param name="onComplete">On completeWait.</param>
        
+        // public bool cancelDelayCall = false;
+
         public void WaitAndCall(float delay, Action onComplete)
         {
-            StartCoroutine(wait_and_call(delay, onComplete));
+            StartCoroutine(wait_and_call(delay, Time.unscaledTime, onComplete));
+            //      Debug.LogError("Unscaled Time = " + Time.unscaledTime);
         }
 
-        private IEnumerator wait_and_call(float t, Action a)
+        private IEnumerator wait_and_call(float t, float time, Action a)
         {
+            //      Debug.LogError("Unscaled Time = " + time + "Wait time=" + t);
+
             yield return new WaitForSeconds(t);
-//            Debug.Log(a.Target.ToString());
+
             Debug.Log("<color=#19F333>Called Afert  " + t + "  Seconds</color>");
-            a();
+
+            //     Debug.LogError("Time.unscaledTime - t" + (Time.unscaledTime - t).ToString());
+
+            if (approx(time, Time.unscaledTime - t))
+                a();
+
         }
 
+        private bool approx(float f1, float f2)
+        {
+            float temp = Mathf.Abs(f1 - f2);
+
+            Debug.LogError("Temp = " + temp + "   " + (temp > 0.0f && temp < 0.05f));
+
+            if (temp > 0.0f && temp < 0.1f)
+                return true;
+            else
+                return false;
+        }
 
         public string Texture2DToBase64(Texture2D tex)
         {
@@ -104,7 +126,7 @@ namespace SwanitLib
             while (t <= 1)
             {
                 t += 0.1f;
-
+                //    t += Time.deltaTime;
                 Vector2 p = ((1 - t) * (1 - t) * p0) + (2 * (1 - t) * t * p1) + (t * t * p2);
                 path.Add(p);
 
@@ -139,6 +161,7 @@ namespace SwanitLib
                 }
 
                 count += 1;
+                //    Debug.Log("point=" + count);
                 yield return null;
             }
 
@@ -167,7 +190,7 @@ namespace SwanitLib
         {
             int x = System.Environment.TickCount;
            
-            x = (x > 0) ? x : -x; //Tickcount gets nagative values sometimes
+            x = (x > 0) ? x : -x; 
        
             x = x % max;
 

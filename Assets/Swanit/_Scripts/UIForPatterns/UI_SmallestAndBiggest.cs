@@ -24,6 +24,8 @@ public class UI_SmallestAndBiggest : UI_Base
     {
         base.SetUI(info);
 
+//        EProz.INSTANCE.cancelDelayCall = false;
+
         //    QuestionDisplay.text = info.Question;
         TotalBallNo = info.QuestionData_Int[0];
         setPositions();

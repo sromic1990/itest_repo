@@ -11,7 +11,7 @@ public class UI_PictureAndFourAnswers : UI_Base
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
-
+//        EProz.INSTANCE.cancelDelayCall = false;
         this.Question.text = info.Question;
         this.Q_Image.sprite = GetCorrectSpriteByID.Instance.GetSpriteFromID(info.Q_Image.Sprite);
 

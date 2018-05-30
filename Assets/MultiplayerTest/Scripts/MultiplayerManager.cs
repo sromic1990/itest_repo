@@ -299,11 +299,11 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
                 //NotConnectedPanel.Hide();
                 //ConnectedPanel.Hide();
                 //RoomPanel.gameObject.Hide();
-                UIManager.Instance.ShowPopUp("Connecting To Network", null, TypeOfPopUpButtons.NoButton, TypeOfPopUp.Evented, 0, null, null);
+                UIManager.Instance.ShowPopUp("Connecting To Network", null, TypeOfPopUpButtons.NoButton, TypeOfPopUp.Evented, 0, null, null, "Wait!");
                 break;
 
             case ConnectionStatus.Disconnected:
-                UIManager.Instance.ShowPopUp("You are disconnected from Network", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                UIManager.Instance.ShowPopUp("You are disconnected from Network", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null, "Sorry!");
                 GameDataManager.Instance.CurrentGameMode = GameMode.SinglePlayer;
                 UIManager.Instance.HideAllQuestionPanels();
                 ScreenManager.Instance.SetANewScreen(ScreensEnum.MainMenu);
@@ -381,7 +381,7 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
         }
         else if(RoomType == RoomType.Challenge)
         {
-            UIManager.Instance.ShowPopUp("Sorry! Room unavilable!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, GameManager.Instance.ChallengeRoomJoinFailed, null );
+            UIManager.Instance.ShowPopUp("Room unavilable!", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, GameManager.Instance.ChallengeRoomJoinFailed, null, "Sorry!");
         }
         //throw new System.NotImplementedException();
     }
@@ -636,7 +636,7 @@ public class MultiplayerManager : Singleton<MultiplayerManager>, IPunCallbacks, 
                 break;
 
             case OPCode.RematchRejected:
-                UIManager.Instance.ShowPopUp("Opponent has declined your challenge.", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                UIManager.Instance.ShowPopUp("Opponent has declined your challenge.", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null, "Sorry!");
                 break;
                 
         }

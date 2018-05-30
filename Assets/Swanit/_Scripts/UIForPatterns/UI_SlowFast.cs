@@ -17,6 +17,8 @@ public class UI_SlowFast : UI_Base
 
         monkeySpeed = new List<float>();
 
+//        EProz.INSTANCE.cancelDelayCall = false;
+
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
             mButtonHolder[i].gameObject.Show();
@@ -56,6 +58,8 @@ public class UI_SlowFast : UI_Base
 
     public override void Reset()
     {
+        Debug.LogError("RESET");
+
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
             //   Debug.Log("Stopping Tween");

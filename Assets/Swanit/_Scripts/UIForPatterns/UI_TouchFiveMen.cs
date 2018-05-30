@@ -19,6 +19,9 @@ public class UI_TouchFiveMen : UI_Base
     //  [SerializeField]
     private List<Vector2> positions = new List<Vector2>();
 
+
+    private bool isUISet = false;
+
     void Awake()
     {
         for (int i = 0; i < AnswerParent.childCount; i++)
@@ -36,6 +39,10 @@ public class UI_TouchFiveMen : UI_Base
 
     public override void SetUI(QuestionUIInfo info)
     {
+        if (isUISet)
+            return;
+        
+        isUISet = true;
         base.SetUI(info);
 
         //    displayTime = info.QuestionData_Float[0];
@@ -63,8 +70,8 @@ public class UI_TouchFiveMen : UI_Base
 
     public override void Reset()
     {
+        isUISet = false;
         AnswerParent.gameObject.SetActive(false);
-
         //   Mathf.Lerp(2, 52, 0.1f);
     }
 }

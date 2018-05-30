@@ -20,6 +20,18 @@ public class UI_TouchOrder3 : UI_Base
     private float appearTime;
     private QuestionUIInfo info;
 
+    private bool isUISet = false;
+
+    private bool IsFirstShown;
+    private bool IsSecondShown;
+    private bool IsThirdShown;
+    private bool IsSwapped;
+    private int appearTime1 = 40;
+    private int appearTime2 = 40;
+    private int appearTime3 = 40;
+    private int swapTime = 40;
+
+
     void Awake()
     {
         BoxPosition = new List<Vector2>();
@@ -32,25 +44,29 @@ public class UI_TouchOrder3 : UI_Base
 		
     }
 
-    void Start()
+    private void OnDisable()
     {
-
+        GameManager.Instance.TimeTicker += Ticker;
     }
 
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
+        if (isUISet)
+            return;
+
+        GameManager.Instance.TimeTicker += Ticker;
 
         this.info = info;
 
         appearTime = info.QuestionData_Float[0];
-        //  QuestionDisplay.text = this.info.Question;
-
-        //for (int i = 0; i < mButtonHolder.Count; i++) 
-        //      {
-        //	mButtonHolder [i].SetAnswerButtonProperties (info.ButtonAnswer [i]);
-        //}
+        appearTime1 = (int)info.QuestionData_Float[0] + 1;
+        appearTime2 = appearTime1 + (int)info.QuestionData_Float[0] + 1;
+        appearTime3 = appearTime2 + (int)info.QuestionData_Float[0] + 1;
+        swapTime = appearTime3 + (int)info.QuestionData_Float[0] + 1;
         setOrder();
+        GameManager.Instance.CanProcessInput = false;
+        isUISet = true;
     }
 
     private void setOrder()
@@ -61,57 +77,50 @@ public class UI_TouchOrder3 : UI_Base
             order.Add(i);
 
         order.Shuffle();
-        // StartCoroutine(showImages());
-        showImages();
     }
 
-    private void showImages()
+    private void Ticker(int timer)
     {
-//        for (int i = 0; i < mImages.Count; i++)
-//        {
-//            yield return new WaitForSeconds(appearTime);
-//            mImages[i].anchoredPosition = BoxPosition[order[i]];
-//            mImages[i].gameObject.SetActive(true);
-//            mImages[i].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[i]);
-//        }
+        if(timer > appearTime1 && !IsFirstShown)
+        {
+            mImages[0].anchoredPosition = BoxPosition[order[0]];
+            mImages[0].gameObject.SetActive(true);
+            mImages[0].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[0]);
 
-        EProz.INSTANCE.WaitAndCall(appearTime, () =>
-            {
-                mImages[0].anchoredPosition = BoxPosition[order[0]];
-                mImages[0].gameObject.SetActive(true);
-                mImages[0].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[0]);
+            IsFirstShown = true;
+        }
 
-                EProz.INSTANCE.WaitAndCall(appearTime, () =>
-                    {
-                        mImages[1].anchoredPosition = BoxPosition[order[1]];
-                        mImages[1].gameObject.SetActive(true);
-                        mImages[1].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[1]);
+        if (timer > appearTime2 && !IsSecondShown)
+        {
+            mImages[1].anchoredPosition = BoxPosition[order[1]];
+            mImages[1].gameObject.SetActive(true);
+            mImages[1].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[1]);
 
-                        EProz.INSTANCE.WaitAndCall(appearTime, () =>
-                            {
-                                mImages[2].anchoredPosition = BoxPosition[order[2]];
-                                mImages[2].gameObject.SetActive(true);
-                                mImages[2].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[2]);
+            IsSecondShown = true;
+        }
 
-                            });
-                    });
+        if (timer > appearTime3 && !IsThirdShown)
+        {
+            mImages[2].anchoredPosition = BoxPosition[order[2]];
+            mImages[2].gameObject.SetActive(true);
+            mImages[2].GetComponent<AnswerButtonHolder>().SetAnswerButtonProperties(info.ButtonAnswer[2]);
 
-            });
+            IsThirdShown = true;
+        }
 
+        if(timer > swapTime && !IsSwapped)
+        {
+            ReassignPos();
 
-        EProz.INSTANCE.WaitAndCall(appearTime * mImages.Count + 0.5f, () =>
-            {
-                ReassignPos();
+            int no1 = Random.Range(0, 3);
+            int no2 = getRandom(no1);
+            mImages[no2].DOAnchorPos(BoxPosition[no1], appearTime, false);
+            mImages[no1].DOAnchorPos(BoxPosition[no2], appearTime, false);
 
-                int no1 = Random.Range(0, 3);
-                int no2 = getRandom(no1);
-                mImages[no2].DOAnchorPos(BoxPosition[no1], appearTime, false);
-                mImages[no1].DOAnchorPos(BoxPosition[no2], appearTime, false);
-            });
-
-      
+            IsSwapped = true;
+            GameManager.Instance.CanProcessInput = true;
+        }
     }
-
 
     private int getRandom(int no)
     {
@@ -131,11 +140,21 @@ public class UI_TouchOrder3 : UI_Base
 
     public override void Reset()
     {
+        IsFirstShown = false;
+        IsSecondShown = false;
+        IsThirdShown = false;
+        IsSwapped = false;
+        isUISet = false;
+        appearTime1 = 40;
+        appearTime2 = 40;
+        appearTime3 = 40;
+        swapTime = 40;
         for (int i = 0; i < mImages.Count; i++)
         {
             mImages[i].gameObject.Hide();
         }
     }
+
 }
 
 public static class IListExtensions

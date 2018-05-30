@@ -348,7 +348,13 @@ Prefab:
         type: 2}
       propertyPath: testHold
       value: 
-      objectReference: {fileID: 11400000, guid: 69cd48a912d3c43d1bb75df83b140539,
+      objectReference: {fileID: 11400000, guid: 8899a8b6328ff4dcea13cefae1084e5c,
+        type: 2}
+    - target: {fileID: 114497424934626638, guid: 8452aa628b1af4e868128e6d030a8a29,
+        type: 2}
+      propertyPath: AnotherHolder
+      value: 
+      objectReference: {fileID: 11400000, guid: 8899a8b6328ff4dcea13cefae1084e5c,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8452aa628b1af4e868128e6d030a8a29, type: 2}

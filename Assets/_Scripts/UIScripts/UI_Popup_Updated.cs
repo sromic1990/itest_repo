@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class UI_Popup_Updated : MonoBehaviour 
 {
+    public Text Heading;
     public Text PopUpText;
     public TypeOfPopUpButtons PopUpType;
     public List<PopUpButtonInfo> Buttons;
@@ -43,8 +44,9 @@ public class UI_Popup_Updated : MonoBehaviour
     }
 
     //TODO setup popup
-    public void SetupPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed)
+    public void SetupPopUp(string popupText, List<string> ButtonTexts, TypeOfPopUpButtons PopUpButtonType, TypeOfPopUp PopUpType, float Time, Action OnYesPressed, Action OnNoPressed, string HeadingText = "")
     {
+        Heading.text = HeadingText;
         PopUpText.text = popupText;
         if(ButtonTexts != null)
         {

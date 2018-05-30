@@ -10,15 +10,22 @@ public class UI_ScareTactic : UI_Base
     public GameObject Skull;
     public GameObject ScareTactic;
 
+    private bool isUISet;
+
     public override void Reset()
     {
         ScareTactic.Hide();
         Skull.Hide();
         spotDiif.Show();
+        isUISet = false;
     }
 
     public override void SetUI(QuestionUIInfo info)
     {
+        if (isUISet)
+            return;
+
+        isUISet = true;
         base.SetUI(info);
 
         EProz.INSTANCE.WaitAndCall(7.0f, () =>
@@ -31,7 +38,7 @@ public class UI_ScareTactic : UI_Base
                         Skull.Hide();
                         ScareTactic.SetActive(true);
                         //UIManager.Instance.ShowSecondaryQuestion();
-                        Invoke("Clear", 1.0f);
+                        Invoke("Clear", 3.0f);
                     });
             });
     }
@@ -39,6 +46,6 @@ public class UI_ScareTactic : UI_Base
     private void Clear()
     {
         Debug.Log("Calling Correct Answer");
-        GameManager.Instance.AnsweredCorrectly(); 
+        GameManager.Instance.AnsweredCorrectly();
     }
 }

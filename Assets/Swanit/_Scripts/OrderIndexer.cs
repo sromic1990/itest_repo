@@ -240,7 +240,7 @@ public class OrderIndexer : MonoBehaviour
         #endif
 
 
-        for (int i = 0; i < Buckets.Questions.Count; i++)
+        for (int i = 0; i < AnotherHolder.Questions.Count; i++)
         {
 //            if (AnotherHolder.Questions[i].Pattern == QPattern.CatchMonkey)
 //            {
@@ -265,10 +265,21 @@ public class OrderIndexer : MonoBehaviour
 //                AnotherHolder.Questions[i].WaitTimeAfterAnswer = 3;
 //            }
 
-            if (Buckets.Questions[i].Pattern == QPattern.TrueFalse)
+//            if (Buckets.Questions[i].Pattern == QPattern.TrueFalse)
+//            {
+//                Buckets.Questions[i].DelayTimeAfterQuestionShow = 0;
+//                Debug.Log(AnotherHolder.Questions[i].Question);
+//            }
+
+
+            if (AnotherHolder.Questions[i].Pattern == QPattern.TouchAppearOrder3 || AnotherHolder.Questions[i].Pattern == QPattern.TouchAppearOrder5)
             {
-                Buckets.Questions[i].DelayTimeAfterQuestionShow = 0;
-                Debug.Log(AnotherHolder.Questions[i].Question);
+                float delay = AnotherHolder.Questions[i].QuestionData_Float[0];
+                delay *= AnotherHolder.Questions[i].Options.Count;
+                delay += 0.5f;
+                Debug.LogError("Pattern=" + AnotherHolder.Questions[i].Pattern.ToString() + "  Delay = " + delay);
+                AnotherHolder.Questions[i].DelayTimeAfterQuestionShow = delay;
+
             }
         }
     }

@@ -110,7 +110,7 @@ public class IAPMangager : Singleton<IAPMangager>
                 {
                     if (iap.mIAPtypes == IAP_Type.NonConsumable)
                     {
-                        UIManager.Instance.ShowPopUp("All purchases have been restored", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+                        UIManager.Instance.ShowPopUp("All purchases have been restored", null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null, "Restore Successful!");
                         GameManager.Instance.AddDeductCurrency(iap.mCurrency, AddDeductAction.Add, iap.prodValue);
                     }
                     else
@@ -203,11 +203,11 @@ public class IAPMangager : Singleton<IAPMangager>
         #if UNITY_ANDROID
         if (mIap.mIAPtypes == IAP_Type.NonConsumable)
         {
-            UIManager.Instance.ShowPopUp("Purchase Success : " + mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+            UIManager.Instance.ShowPopUp(mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null, "Purchase Success!");
         }
         else
         {
-            UIManager.Instance.ShowPopUp("Purchase Success : " + mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null);
+            UIManager.Instance.ShowPopUp(mIap.IAP_name, null, TypeOfPopUpButtons.Ok, TypeOfPopUp.Buttoned, 0, null, null, "Purchase Success!");
             StartCoroutine(OnConsume(mIap));
         }
         #endif

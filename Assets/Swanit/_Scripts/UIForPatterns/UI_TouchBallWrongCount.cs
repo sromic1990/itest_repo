@@ -13,10 +13,10 @@ public class UI_TouchBallWrongCount : UI_Base
     private List<Vector2> defaultPos;
     private Transform parent;
 
-
     void OnEnable()
     {
         GameManager.Instance.Clicked += ButtonClicked;
+
     }
 
     public override void SetUI(QuestionUIInfo info)
@@ -24,6 +24,8 @@ public class UI_TouchBallWrongCount : UI_Base
         base.SetUI(info);
 
         parent = ButtonRects[0].parent;
+
+//        EProz.INSTANCE.cancelDelayCall = false;
 
         defaultPos = new List<Vector2>();
         currentPosList = new List<Vector2>();

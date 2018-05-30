@@ -13,6 +13,7 @@ public class UI_QuestionAndFourAnswer : UI_Base
         base.SetUI(info);
 
         //QuestionDisplay.text = info.Question;
+//        EProz.INSTANCE.cancelDelayCall = false;
 
         for (int i = 0; i < mButtonHolder.Count; i++)
         {

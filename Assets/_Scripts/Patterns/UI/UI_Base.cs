@@ -6,6 +6,7 @@ public abstract class UI_Base : MonoBehaviour, IUISetter
 {
     public UI_Base prevPanel;
     public UI_Base nextPanel;
+    //  public bool isUISet;
 
     private void OnEnable()
     {

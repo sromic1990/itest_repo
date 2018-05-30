@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using AdManager;
 using IdiotTest.Scripts.GameScripts;
 using Scripts.Utilities;
 using UnityEngine;
@@ -26,19 +27,30 @@ public class ButtonScript : Singleton<ButtonScript>
 
             case ButtonID.Regular:
                 //Debug.Log("Regular");
-                ScreenManager.Instance.SetANewScreen(ScreensEnum.GamePlay);
+                GameManager.Instance.OpenGameplay();
                 GameDataManager.Instance.CurrentGameMode = GameMode.SinglePlayer;
                 GameManager.Instance.PlayGame();
                 break;
 
             case ButtonID.Store_Life:
                 UIManager.Instance.Store_SinglePlayer();
-                GameManager.Instance.OpenStore();
+                if(!GameDataManager.Instance.IsUnlimitedLives)
+                {
+                    GameManager.Instance.OpenStore();
+                }
                 break;
 
             case ButtonID.Store_Banana:
                 UIManager.Instance.Store_MultiPlayer();
                 GameManager.Instance.OpenStore();
+                break;
+
+            case ButtonID.GetBack5Questions:
+                GameManager.Instance.GetBack5Questions();
+                break;
+
+            case ButtonID.WatchVideo:
+                AdManagerMain.Instance.ShowAds(AdsSDKs.AdMob, AdType.VideoRewardAd, GameManager.Instance.RewardAdFailed, GameManager.Instance.RewardAdWatched, GameManager.Instance.RewardAdSkipped);
                 break;
 
             case ButtonID.HighScore:
@@ -78,6 +90,7 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.SFX_OnOff:
+                Debug.Log("SFXOnOff");
                 switch (GameDataManager.Instance.SFXButton)
                 {
                     case OnOffButton.On:
@@ -86,6 +99,20 @@ public class ButtonScript : Singleton<ButtonScript>
 
                     case OnOffButton.Off:
                         GameDataManager.Instance.SFXButton = OnOffButton.On;
+                        break;
+                }
+                break;
+
+            case ButtonID.Test_OnOff:
+                Debug.Log("TestOnOff");
+                switch(GameDataManager.Instance.TestButton)
+                {
+                    case OnOffButton.On:
+                        GameDataManager.Instance.TestButton = OnOffButton.Off;
+                        break;
+
+                    case OnOffButton.Off:
+                        GameDataManager.Instance.TestButton = OnOffButton.On;
                         break;
                 }
                 break;
@@ -112,8 +139,7 @@ public class ButtonScript : Singleton<ButtonScript>
                 break;
 
             case ButtonID.Play:
-                ScreenManager.Instance.SetANewScreen(ScreensEnum.GamePlay);
-                //GameManager.Instance.Status = GameStatus.InSession;
+                GameManager.Instance.OpenGameplay();
                 break;
 
             case ButtonID.Resume:
@@ -122,7 +148,7 @@ public class ButtonScript : Singleton<ButtonScript>
                 {
                     inBetweenSession = true;
                 }
-                ScreenManager.Instance.SetANewScreen(ScreensEnum.GamePlay);
+                GameManager.Instance.OpenGameplay();
                 GameManager.Instance.Status = GameStatus.InSession;
                 GameManager.Instance.PlayGame(!inBetweenSession);
                 break;
@@ -359,5 +385,8 @@ public enum ButtonID : int
     JoinGame = 50,
     BackWithinMultiplayer = 51,
         Achievement_Singleplayer = 52,
-        Achievement_Multiplayer = 53
+        Achievement_Multiplayer = 53,
+        Test_OnOff = 54,
+        GetBack5Questions = 55,
+        WatchVideo = 56
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Sourav.Utilities.Scripts.Attributes;
-using SwanitLib;
 using DG.Tweening;
 
 public class UI_CatchMonkey : UI_Base
@@ -124,9 +123,12 @@ public class UI_CatchMonkey : UI_Base
 
         //Debug.LogError("Class :" + this.name);
         //   QuestionDisplay.text = info.Question;
+
+//        EProz.INSTANCE.cancelDelayCall = false;
+
         Debug.Log("Number = " + GameManager.Instance.GetCurrentQuestion().QuestionData_Float[0]);
         LowerLimit = GameManager.Instance.GetCurrentQuestion().QuestionData_Float[0]; // First element contains lower Limit
-        Debug.Log("LowerLimit = "+LowerLimit);
+        Debug.Log("LowerLimit = " + LowerLimit);
         UpperLimit = GameManager.Instance.GetCurrentQuestion().QuestionData_Float[1]; // Second element contains Upper Limit
         MonkeySpeed = GameManager.Instance.GetCurrentQuestion().QuestionData_Float[2]; // Third element is speed duration
 

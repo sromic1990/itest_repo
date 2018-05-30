@@ -18,6 +18,7 @@ public class UI_TextAndFourAnswers : UI_Base
     {
         base.SetUI(info);
 
+//        EProz.INSTANCE.cancelDelayCall = false;
         // QuestionDisplay.text = info.Question;
         textDisplay.text = info.Q_Image.text;
         QImage.sprite = GetCorrectSpriteByID.Instance.GetSpriteFromID(info.Q_Image.Sprite);

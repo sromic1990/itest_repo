@@ -176,6 +176,18 @@ public enum ShowHideAction
     Show
 }
 
+public enum ActivateDeactivateAction
+{
+    Activate,
+    Deactivate
+}
+
+public enum UIDeactivableButton
+{
+    GoBack5Questions,
+    RewardAd
+}
+
 public enum AnswerResult
 {
     Correct,

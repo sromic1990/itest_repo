@@ -6,13 +6,22 @@ using SwanitLib;
 
 public class UI_IfElse : UI_Base
 {
-    public float DelayTime = 1.5f;
+    public float DelayTime = 0.7f;
     public Text QuestionDisplay;
     public List<AnswerButtonHolder> mButtonHolder;
+
+    private bool isUISet = false;
 
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
+
+        if (isUISet)
+            return;
+
+        isUISet = true;
+
+//        EProz.INSTANCE.cancelDelayCall = false;
 
         for (int i = 0; i < mButtonHolder.Count; i++)
         {
@@ -36,6 +45,8 @@ public class UI_IfElse : UI_Base
 
     public override void Reset()
     {
+        isUISet = false;
+
         for (int i = 0; i < mButtonHolder.Count; i++)
             mButtonHolder[i].gameObject.SetActive(false);
     }

@@ -120,7 +120,6 @@ public class AnswerButtonHolder : MonoBehaviour
 
     public void OnClickedButton()
     {
-
         Debug.Log("<color=#0000AA>On CLick Btnn Entered</color>");
 
         if (Time.time - lastClickTime < debounceDelay)
