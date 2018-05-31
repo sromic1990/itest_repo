@@ -17,6 +17,8 @@ public class UI_Giraffe : UI_Base
     private bool checkData;
     private QuestionUIInfo info;
 
+    private bool isUISet;
+
     public void OnDisable()
     {
         GameManager.Instance.TimeTicker += TimerTick;
@@ -37,24 +39,25 @@ public class UI_Giraffe : UI_Base
         callResetOnQuestion = data2 + 2;
 
         GameManager.Instance.GetCurrentQuestion().ReturnValue_Bool = false;
+        isUISet = true;
     }
 
     private void TimerTick(int timer)
     {
-        if(timer > data1 && showData1)
+        if (timer > data1 && showData1)
         {
             mButtonHolder[0].gameObject.SetActive(true);
             mButtonHolder[0].SetAnswerButtonProperties(info.ButtonAnswer[0]);
             showData1 = false;
         }
-        if(timer > data2 && showData2)
+        if (timer > data2 && showData2)
         {
             mButtonHolder[1].gameObject.SetActive(true);
             mButtonHolder[1].SetAnswerButtonProperties(info.ButtonAnswer[1]);
             showData2 = false;
             GameManager.Instance.GetCurrentQuestion().ReturnValue_Bool = true;
         }
-        if(timer > callResetOnQuestion && checkData)
+        if (timer > callResetOnQuestion && checkData)
         {
             GameManager.Instance.GetCurrentQuestion().ReturnValue_Bool = false;
             if (!GameManager.Instance.Answered)
@@ -67,12 +70,16 @@ public class UI_Giraffe : UI_Base
 
     public override void Reset()
     {
-        showData1 = false;
-        showData2 = false;
-        checkData = false;
-        for (int i = 0; i < mButtonHolder.Count; i++)
+        if (isUISet)
         {
-            mButtonHolder[i].gameObject.SetActive(false);
+            showData1 = false;
+            showData2 = false;
+            checkData = false;
+            for (int i = 0; i < mButtonHolder.Count; i++)
+            {
+                mButtonHolder[i].gameObject.SetActive(false);
+            }
+            isUISet = false;
         }
     }
 }

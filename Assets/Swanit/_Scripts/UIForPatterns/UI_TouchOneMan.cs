@@ -9,6 +9,7 @@ public class UI_TouchOneMan : UI_Base
     public Text QuestionDisplay;
     public List<AnswerButtonHolder> mButtonHolder;
 
+    private bool isUIset = false;
 
     public override void SetUI(QuestionUIInfo info)
     {
@@ -33,9 +34,12 @@ public class UI_TouchOneMan : UI_Base
 
     public override void Reset()
     {
-        for (int i = 0; i < mButtonHolder.Count; i++)
+        if (isUIset)
         {
-            mButtonHolder[i].gameObject.SetActive(false);
+            for (int i = 0; i < mButtonHolder.Count; i++)
+            {
+                mButtonHolder[i].gameObject.SetActive(false);
+            }
         }
     }
 }

@@ -253,8 +253,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 1
   androidSplashScreen: {fileID: 2800000, guid: 5f1e38e5c5c2946dc964b88fe1daa36c, type: 3}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: Keystore/IdiotTest.keystore
+  AndroidKeyaliasName: idiottest
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0

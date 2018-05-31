@@ -72,7 +72,7 @@ namespace SwanitLib
 
             Debug.LogError("Temp = " + temp + "   " + (temp > 0.0f && temp < 0.05f));
 
-            if (temp > 0.0f && temp < 0.1f)
+            if (temp > 0.0f && temp < 0.2f)
                 return true;
             else
                 return false;

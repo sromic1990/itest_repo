@@ -97,23 +97,26 @@ public class UI_TestYourSight : UI_Base
 
     public override void Reset()
     {
-        //    Debug.LogError("Reset Calleeedddd");
-        mBabushka[correctIndex].Monkey.DOPause();
-        mBabushka[correctIndex].Top.DOPause();
-
-        mBabushka[correctIndex].Top.DOKill();
-        mBabushka[correctIndex].Monkey.DOKill();
-
-        hasAnsweredQuestion = false;
-
-        iterationCompleted = 0;
-
-        for (int i = 0; i < babushkaNo; i++)
+        if (isUISet)
         {
-            RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
-            rt.anchoredPosition = defaultPos[i];
+            Debug.LogError("Reset Calleeedddd");
+            isUISet = false;
+            mBabushka[correctIndex].Monkey.DOPause();
+            mBabushka[correctIndex].Top.DOPause();
+
+            mBabushka[correctIndex].Top.DOKill();
+            mBabushka[correctIndex].Monkey.DOKill();
+
+            hasAnsweredQuestion = false;
+
+            iterationCompleted = 0;
+
+            for (int i = 0; i < babushkaNo; i++)
+            {
+                RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
+                rt.anchoredPosition = defaultPos[i];
+            } 
         }
-        isUISet = false;
     }
 
     private void SetCorrectIndex(ButtonProperties bProp, int index)

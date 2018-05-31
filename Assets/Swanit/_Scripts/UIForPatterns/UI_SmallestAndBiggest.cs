@@ -15,6 +15,8 @@ public class UI_SmallestAndBiggest : UI_Base
 
     private int TotalBallNo;
 
+    private bool isUISet = false;
+
     private void Awake()
     {
         
@@ -38,6 +40,8 @@ public class UI_SmallestAndBiggest : UI_Base
             mAnswerHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
             SetSize(mAnswerHolder[i], info, i);
         }
+
+        isUISet = true;
 
     }
 
@@ -63,9 +67,13 @@ public class UI_SmallestAndBiggest : UI_Base
 
     public override void Reset()
     {
-        for (int i = 0; i < TotalBallNo; i++)
+        if (isUISet)
         {
-            mAnswerHolder[i].GetComponent<RectTransform>().sizeDelta = defaultSize[i];
+            for (int i = 0; i < TotalBallNo; i++)
+            {
+                mAnswerHolder[i].GetComponent<RectTransform>().sizeDelta = defaultSize[i];
+            }
+            isUISet = false;
         }
     }
 

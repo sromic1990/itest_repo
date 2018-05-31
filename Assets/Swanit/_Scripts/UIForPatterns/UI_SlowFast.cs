@@ -11,6 +11,8 @@ public class UI_SlowFast : UI_Base
     public List<AnswerButtonHolder> mButtonHolder;
     private List<float> monkeySpeed;
 
+    private bool isUISet = false;
+
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
@@ -28,7 +30,7 @@ public class UI_SlowFast : UI_Base
         }
        
         SetSpeedMonkey();
-
+        isUISet = true;
     }
 
     private void SetSpeedMonkey()
@@ -58,16 +60,21 @@ public class UI_SlowFast : UI_Base
 
     public override void Reset()
     {
-        Debug.LogError("RESET");
-
-        for (int i = 0; i < mButtonHolder.Count; i++)
+        if (isUISet)
         {
-            //   Debug.Log("Stopping Tween");
-            RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
-            rt.DOPause();
-            rt.gameObject.Hide();
-            rt.anchoredPosition = new Vector2(200.0f, rt.anchoredPosition.y);
+            Debug.LogError("RESET");
+
+            for (int i = 0; i < mButtonHolder.Count; i++)
+            {
+                //   Debug.Log("Stopping Tween");
+                RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
+                rt.DOPause();
+                rt.gameObject.Hide();
+                rt.anchoredPosition = new Vector2(200.0f, rt.anchoredPosition.y);
+            }
+            isUISet = false;
         }
+
     }
 
 }

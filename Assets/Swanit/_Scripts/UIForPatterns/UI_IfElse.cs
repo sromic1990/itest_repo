@@ -45,10 +45,14 @@ public class UI_IfElse : UI_Base
 
     public override void Reset()
     {
-        isUISet = false;
+        if (isUISet)
+        {
+            isUISet = false;
 
-        for (int i = 0; i < mButtonHolder.Count; i++)
-            mButtonHolder[i].gameObject.SetActive(false);
+            for (int i = 0; i < mButtonHolder.Count; i++)
+                mButtonHolder[i].gameObject.SetActive(false);  
+        }
+
     }
      
 }

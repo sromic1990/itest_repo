@@ -14,6 +14,8 @@ public class UI_Ballons : UI_Base
 
     private QuestionUIInfo mInfo;
 
+    private bool isUISet = false;
+
     void OnEnable()
     {
         GameManager.Instance.TimeTicker += GetTime;
@@ -53,14 +55,18 @@ public class UI_Ballons : UI_Base
         QPattern pattern = GameManager.Instance.GetCurrentQuestion().Pattern;
         num = info.QuestionData_Int.Count;
         mInfo = info;
+        isUISet = true;
     }
 
     public override void Reset()
     {
-        StopAllCoroutines();
-
-        for (int i = 0; i < num; i++)
-            mButtonHolder[i].gameObject.SetActive(false);
+        if (isUISet)
+        {
+            StopAllCoroutines();
+            
+            for (int i = 0; i < num; i++)
+                mButtonHolder[i].gameObject.SetActive(false);
+        }
 
         //  base.Reset();
     }

@@ -81,7 +81,7 @@ public class UI_TouchOrder3 : UI_Base
 
     private void Ticker(int timer)
     {
-        if(timer > appearTime1 && !IsFirstShown)
+        if (timer > appearTime1 && !IsFirstShown)
         {
             mImages[0].anchoredPosition = BoxPosition[order[0]];
             mImages[0].gameObject.SetActive(true);
@@ -108,7 +108,7 @@ public class UI_TouchOrder3 : UI_Base
             IsThirdShown = true;
         }
 
-        if(timer > swapTime && !IsSwapped)
+        if (timer > swapTime && !IsSwapped)
         {
             ReassignPos();
 
@@ -140,18 +140,21 @@ public class UI_TouchOrder3 : UI_Base
 
     public override void Reset()
     {
-        IsFirstShown = false;
-        IsSecondShown = false;
-        IsThirdShown = false;
-        IsSwapped = false;
-        isUISet = false;
-        appearTime1 = 40;
-        appearTime2 = 40;
-        appearTime3 = 40;
-        swapTime = 40;
-        for (int i = 0; i < mImages.Count; i++)
+        if (isUISet)
         {
-            mImages[i].gameObject.Hide();
+            IsFirstShown = false;
+            IsSecondShown = false;
+            IsThirdShown = false;
+            IsSwapped = false;
+            isUISet = false;
+            appearTime1 = 40;
+            appearTime2 = 40;
+            appearTime3 = 40;
+            swapTime = 40;
+            for (int i = 0; i < mImages.Count; i++)
+            {
+                mImages[i].gameObject.Hide();
+            }
         }
     }
 

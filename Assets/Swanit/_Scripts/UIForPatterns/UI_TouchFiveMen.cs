@@ -12,7 +12,7 @@ public class UI_TouchFiveMen : UI_Base
 
     public List<AnswerButtonHolder> mButtonHolder;
 
-    public float displayTime = 0.0f;
+    //public float displayTime = 0.0f;
 
     //  [SerializeField]
     private List<int> order = new List<int>();
@@ -42,36 +42,39 @@ public class UI_TouchFiveMen : UI_Base
         if (isUISet)
             return;
         
-        isUISet = true;
         base.SetUI(info);
 
         //    displayTime = info.QuestionData_Float[0];
         //   QuestionDisplay.text = info.Question;
 
         AnswerParent.gameObject.SetActive(false);
-//		for (int i = 0; i < mButtonHolder.Count; i++)
-//			mButtonHolder [i].SetAnswerButtonProperties (info.ButtonAnswer [i]);
+//      for (int i = 0; i < mButtonHolder.Count; i++)
+//          mButtonHolder [i].SetAnswerButtonProperties (info.ButtonAnswer [i]);
 
-        EProz.INSTANCE.WaitAndCall(displayTime, () =>
-            {
-                order.Shuffle();
-                // QuestionDisplay.text = info.SecondaryQuestion[0];
-                UIManager.Instance.ShowSecondaryQuestion();
+        isUISet = true;
+        //  EProz.INSTANCE.WaitAndCall(displayTime, () =>
+        //     {
+        order.Shuffle();
+        // QuestionDisplay.text = info.SecondaryQuestion[0];
+        UIManager.Instance.ShowSecondaryQuestion();
 
-                AnswerParent.gameObject.SetActive(true);
+        AnswerParent.gameObject.SetActive(true);
 
-                for (int i = 0; i < mButtonHolder.Count; i++)
-                {
-                    mButtonHolder[i].GetComponent<RectTransform>().anchoredPosition = positions[order[i]];
-                    mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
-                }
-            });
+        for (int i = 0; i < mButtonHolder.Count; i++)
+        {
+            mButtonHolder[i].GetComponent<RectTransform>().anchoredPosition = positions[order[i]];
+            mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
+        }
+        //     });
     }
 
     public override void Reset()
     {
-        isUISet = false;
-        AnswerParent.gameObject.SetActive(false);
+        if (isUISet)
+        {
+            isUISet = false;
+            AnswerParent.gameObject.SetActive(false);
+        }
         //   Mathf.Lerp(2, 52, 0.1f);
     }
 }

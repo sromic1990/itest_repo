@@ -13,6 +13,8 @@ public class UI_TouchBallWrongCount : UI_Base
     private List<Vector2> defaultPos;
     private Transform parent;
 
+    private bool isUISet = false;
+
     void OnEnable()
     {
         GameManager.Instance.Clicked += ButtonClicked;
@@ -37,6 +39,7 @@ public class UI_TouchBallWrongCount : UI_Base
             defaultPos.Add(ButtonRects[i].anchoredPosition);
             currentPosList.Add(ButtonRects[i].anchoredPosition);
         }
+        isUISet = true;
     }
 
     private void ButtonClicked(int count, int a)
@@ -126,13 +129,18 @@ public class UI_TouchBallWrongCount : UI_Base
 
     public override void Reset()
     {
-        countNo.text = "";
-
-        for (int i = 0; i < ButtonRects.Count; i++)
+        if (isUISet)
         {
-            ButtonRects[i].anchoredPosition = defaultPos[i];
-            ButtonRects[i].localScale = Vector3.one;
+            countNo.text = "";
+
+            for (int i = 0; i < ButtonRects.Count; i++)
+            {
+                ButtonRects[i].anchoredPosition = defaultPos[i];
+                ButtonRects[i].localScale = Vector3.one;
+            }
+            isUISet = false;
         }
+
     }
 
     void OnDisable()

@@ -10,12 +10,15 @@ public class UI_BurstBaloon : UI_Base
     public Text QuestionDisplay;
     public List<AnswerButtonHolder> mButtonHolders;
 
+    private bool isUISet = false;
+
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
 
         // QuestionDisplay.text = info.Question;
         StartCoroutine(DisplayBalloons(info));
+        isUISet = true;
     }
 
     IEnumerator DisplayBalloons(QuestionUIInfo info)
@@ -30,7 +33,12 @@ public class UI_BurstBaloon : UI_Base
 
     public override void Reset()
     {
-        for (int i = 0; i < mButtonHolders.Count; i++)
-            mButtonHolders[i].gameObject.SetActive(false);
+        if (isUISet)
+        {
+            for (int i = 0; i < mButtonHolders.Count; i++)
+                mButtonHolders[i].gameObject.SetActive(false);
+
+            isUISet = false;
+        }
     }
 }

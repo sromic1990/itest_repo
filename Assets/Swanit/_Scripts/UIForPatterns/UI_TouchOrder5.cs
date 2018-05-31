@@ -134,14 +134,14 @@ public class UI_TouchOrder5 : UI_Base
 
 
         //EProz.INSTANCE.WaitAndCall(appearTime * mImages.Count + 0.5f, () =>
-            //{
-            //    ReassignPos();
+        //{
+        //    ReassignPos();
 
-            //    int no1 = Random.Range(0, 5);
-            //    int no2 = getRandom(no1);
-            //    mImages[no2].DOAnchorPos(BoxPosition[no1], appearTime, false);
-            //    mImages[no1].DOAnchorPos(BoxPosition[no2], appearTime, false);
-            //});
+        //    int no1 = Random.Range(0, 5);
+        //    int no2 = getRandom(no1);
+        //    mImages[no2].DOAnchorPos(BoxPosition[no1], appearTime, false);
+        //    mImages[no1].DOAnchorPos(BoxPosition[no2], appearTime, false);
+        //});
         
     }
 
@@ -183,7 +183,7 @@ public class UI_TouchOrder5 : UI_Base
             HasFourthAppeared = true;
         }
 
-        if(timer > appearTime5 && !HasFiveAppeared)
+        if (timer > appearTime5 && !HasFiveAppeared)
         {
             mImages[4].anchoredPosition = BoxPosition[order[4]];
             mImages[4].gameObject.SetActive(true);
@@ -224,22 +224,25 @@ public class UI_TouchOrder5 : UI_Base
 
     public override void Reset()
     {
-        isUISet = false;
-        HasFirstAppeared = false;
-        HasSecondAppeared = false;
-        HasThirdAppeared = false;
-        HasFourthAppeared = false;
-        HasFiveAppeared = false;
-        HasSwapped = false;
-        appearTime1 = 40;
-        appearTime2 = 40;
-        appearTime3 = 40;
-        appearTime4 = 40;
-        appearTime5 = 40;
-        swapTime = 40;
-        for (int i = 0; i < mImages.Count; i++)
+        if (isUISet)
         {
-            mImages[i].gameObject.SetActive(false);
+            isUISet = false;
+            HasFirstAppeared = false;
+            HasSecondAppeared = false;
+            HasThirdAppeared = false;
+            HasFourthAppeared = false;
+            HasFiveAppeared = false;
+            HasSwapped = false;
+            appearTime1 = 40;
+            appearTime2 = 40;
+            appearTime3 = 40;
+            appearTime4 = 40;
+            appearTime5 = 40;
+            swapTime = 40;
+            for (int i = 0; i < mImages.Count; i++)
+            {
+                mImages[i].gameObject.SetActive(false);
+            }
         }
     }
 }

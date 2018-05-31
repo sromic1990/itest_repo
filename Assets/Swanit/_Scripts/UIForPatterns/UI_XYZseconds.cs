@@ -13,10 +13,11 @@ public class UI_XYZseconds : UI_Base
     public List<Animator> monkeyAnimator = new List<Animator>();
     private List<Vector2> defaultSize = new List<Vector2>();
 
+    private bool isUIset = false;
+
     public override void SetUI(QuestionUIInfo info)
     {
         base.SetUI(info);
-
         QuestionDisplay.text = info.Question;
 
         for (int i = 0; i < mButtonHolder.Count; i++)
@@ -28,6 +29,7 @@ public class UI_XYZseconds : UI_Base
             SetSize(mButtonHolder[i]);
         }
 
+        isUIset = true;
         CancelInvoke("animate");
         InvokeRepeating("animate", 0, 2.5f);
     }
@@ -103,10 +105,13 @@ public class UI_XYZseconds : UI_Base
 
     public override void Reset()
     {
-        for (int i = 0; i < mButtonHolder.Count; i++)
+        if (isUIset)
         {
-            mButtonHolder[i].gameObject.Hide();
-            mButtonHolder[i].gameObject.transform.localScale = defaultSize[i];//Vector2.one;
+            for (int i = 0; i < mButtonHolder.Count; i++)
+            {
+                mButtonHolder[i].gameObject.Hide();
+                mButtonHolder[i].gameObject.transform.localScale = defaultSize[i];//Vector2.one;
+            }
         }
     }
 }

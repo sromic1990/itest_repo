@@ -18,6 +18,7 @@
   <!-- Next two permissions only required if you use the video recorder -->
   <uses-permission android:name="android.permission.RECORD_VIDEO" />
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="com.android.vending.BILLING" />
   <!-- Next two permissions only required if you access the camera -->
   <uses-permission android:name="android.permission.CAMERA" />
   <uses-feature android:name="android.hardware.camera" />

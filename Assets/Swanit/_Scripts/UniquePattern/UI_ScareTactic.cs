@@ -14,10 +14,14 @@ public class UI_ScareTactic : UI_Base
 
     public override void Reset()
     {
-        ScareTactic.Hide();
-        Skull.Hide();
-        spotDiif.Show();
-        isUISet = false;
+        if (isUISet)
+        {
+            ScareTactic.Hide();
+            Skull.Hide();
+            spotDiif.Show();
+            isUISet = false;
+        }
+
     }
 
     public override void SetUI(QuestionUIInfo info)
@@ -25,8 +29,8 @@ public class UI_ScareTactic : UI_Base
         if (isUISet)
             return;
 
-        isUISet = true;
         base.SetUI(info);
+        isUISet = true;
 
         EProz.INSTANCE.WaitAndCall(7.0f, () =>
             {

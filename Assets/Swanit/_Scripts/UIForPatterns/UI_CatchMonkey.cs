@@ -33,6 +33,7 @@ public class UI_CatchMonkey : UI_Base
 
     private float Ypos = -314.0f;
     //  private float Xpos = 30;
+    private bool isUISet;
 
     [SerializeField]
     private Vector2 pencilPos;
@@ -71,22 +72,27 @@ public class UI_CatchMonkey : UI_Base
 
     public override void Reset()
     {
-        Debug.Log("<color=#9BFF00>Reset Called......</color>");
-        tapeClicked = false;
-//
-//        EProz.INSTANCE.WaitAndCall(3.0f, () =>
-//            {
-        QuestionImage.rectTransform.anchoredPosition = new Vector2(InitStart, Ypos);
-        QuestionImage.rectTransform.pivot = new Vector2(0, 0.5f);
-        QuestionImage.rectTransform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-        xScale = 1;
 
-        start = InitStart;
-        end = InitEnd;
-        tVal = t = 0;
-        _pencil.DOKill(false);
-        _pencil.anchoredPosition = pencilPos;
-        _pencil.rotation = Quaternion.Euler(0, 0, 0);
+        if (isUISet)
+        {
+            Debug.Log("<color=#9BFF00>Reset Called......</color>");
+            tapeClicked = false;
+            //
+            //        EProz.INSTANCE.WaitAndCall(3.0f, () =>
+            //            {
+            QuestionImage.rectTransform.anchoredPosition = new Vector2(InitStart, Ypos);
+            QuestionImage.rectTransform.pivot = new Vector2(0, 0.5f);
+            QuestionImage.rectTransform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+            xScale = 1;
+            
+            start = InitStart;
+            end = InitEnd;
+            tVal = t = 0;
+            _pencil.DOKill(false);
+            _pencil.anchoredPosition = pencilPos;
+            _pencil.rotation = Quaternion.Euler(0, 0, 0);
+            isUISet = false;
+        }
 //            });
     }
 
@@ -137,9 +143,9 @@ public class UI_CatchMonkey : UI_Base
         //Debug.Log("L limit = " + LowerLimit + "\tU Limit = " + UpperLimit);
 
         mAnswerButton.SetAnswerButtonProperties(info.ButtonAnswer[0]);
-
         StartCoroutine(MoveMonkey());
         StartCoroutine(DetectMonkey());
+        isUISet = true;
 
     }
 

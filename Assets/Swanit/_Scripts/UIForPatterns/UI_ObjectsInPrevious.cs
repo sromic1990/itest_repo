@@ -52,25 +52,25 @@ public class UI_ObjectsInPrevious : UI_Base
 
 
         //EProz.INSTANCE.WaitAndCall(displayTime, () =>
-            //{
-                //QimageParent.gameObject.SetActive(false);
-                ////QuestionDisplay.text = info.SecondaryQuestion [0];
-                //
-                //UIManager.Instance.ShowSecondaryQuestion();
-                //AnswerParent.gameObject.SetActive(true);
-                ////    UIManager.Instance.ShowSecondaryQuestion();
-                //
-                //for (int i = 0; i < mButtonHolder.Count; i++)
-                //{
-                //    mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
-                //}
-                //
-            //});
+        //{
+        //QimageParent.gameObject.SetActive(false);
+        ////QuestionDisplay.text = info.SecondaryQuestion [0];
+        //
+        //UIManager.Instance.ShowSecondaryQuestion();
+        //AnswerParent.gameObject.SetActive(true);
+        ////    UIManager.Instance.ShowSecondaryQuestion();
+        //
+        //for (int i = 0; i < mButtonHolder.Count; i++)
+        //{
+        //    mButtonHolder[i].SetAnswerButtonProperties(info.ButtonAnswer[i]);
+        //}
+        //
+        //});
     }
 
     public void TimerTick(int timer)
     {
-        if(timer > showAfterSeconds && hasQuestionStarted)
+        if (timer > showAfterSeconds && hasQuestionStarted)
         {
             hasQuestionStarted = false;
             QimageParent.gameObject.Hide();
@@ -90,11 +90,15 @@ public class UI_ObjectsInPrevious : UI_Base
 
     public override void Reset()
     {
-        AnswerParent.gameObject.Hide();
-        QimageParent.gameObject.Show();
-        isUISet = false;
-        hasQuestionStarted = false;
-        showAfterSeconds = 40;
+        if (isUISet)
+        {
+            AnswerParent.gameObject.Hide();
+            QimageParent.gameObject.Show();
+            isUISet = false;
+            hasQuestionStarted = false;
+            showAfterSeconds = 40;
+        }
+
 
     }
 }
