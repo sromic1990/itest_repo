@@ -8578,7 +8578,6 @@ MonoBehaviour:
   - {fileID: 114278756886766280}
   - {fileID: 114476121090685800}
   - {fileID: 114309134617456108}
-  displayTime: 0
 --- !u!114 &114145908095965930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14665,7 +14664,6 @@ MonoBehaviour:
   - {fileID: 114652776844687458}
   - {fileID: 114738995454895150}
   - {fileID: 114867611023696898}
-  displayTime: 5
 --- !u!114 &114489178075618498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18368,7 +18366,6 @@ MonoBehaviour:
   - {fileID: 114991814889898170}
   - {fileID: 114471702633573212}
   - {fileID: 114151552114045560}
-  displayTime: 5
 --- !u!114 &114699347394345032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19905,7 +19902,7 @@ MonoBehaviour:
   answers: {fileID: 224515128086414140}
   iteration: 10
   BoxPositions: []
-  defaultPos: []
+  correctIndex: 0
   duration: 0.5
   offset: 900
   hasAnsweredQuestion: 0
@@ -23408,7 +23405,7 @@ MonoBehaviour:
   - {fileID: 114890419896261390}
   - {fileID: 114646674947618234}
   - {fileID: 114523995458527464}
-  - {fileID: 114523995458527464}
+  - {fileID: 114197943136362242}
 --- !u!114 &114985886595981272
 MonoBehaviour:
   m_ObjectHideFlags: 1

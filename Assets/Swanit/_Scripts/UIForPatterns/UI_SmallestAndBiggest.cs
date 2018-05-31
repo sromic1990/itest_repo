@@ -11,7 +11,7 @@ public class UI_SmallestAndBiggest : UI_Base
     [Space(20)]
     public List<AnswerButtonHolder> mAnswerHolder;
     private List<Vector2> defaultSize = new List<Vector2>();
-    private List<Vector2> defaultPos = new List<Vector2>();
+    // private List<Vector2> defaultPos = new List<Vector2>();
 
     private int TotalBallNo;
 
@@ -61,7 +61,8 @@ public class UI_SmallestAndBiggest : UI_Base
     private void SetSize(AnswerButtonHolder mBtnHolder, QuestionUIInfo info, int index)
     {
         RectTransform rt = mBtnHolder.GetComponent<RectTransform>();
-        defaultSize.Add(rt.sizeDelta);
+        Debug.Log("Index=" + index);
+        //      defaultSize.Add(rt.sizeDelta);
         rt.sizeDelta *= info.QuestionData_Float[index];
     }
 
@@ -69,9 +70,11 @@ public class UI_SmallestAndBiggest : UI_Base
     {
         if (isUISet)
         {
-            for (int i = 0; i < TotalBallNo; i++)
+            for (int i = 0; i < mAnswerHolder.Count; i++)
             {
-                mAnswerHolder[i].GetComponent<RectTransform>().sizeDelta = defaultSize[i];
+                mAnswerHolder[i].GetComponent<RectTransform>().sizeDelta = new Vector2(300, 300);//defaultSize[i];
+                mAnswerHolder[i].GetComponent<RectTransform>().anchoredPosition = new Vector2(1218, -155);
+                mAnswerHolder[i].gameObject.SetActive(false);
             }
             isUISet = false;
         }

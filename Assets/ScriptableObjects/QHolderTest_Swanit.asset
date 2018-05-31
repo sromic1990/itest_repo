@@ -349,7 +349,7 @@ MonoBehaviour:
       HideOkButton: 0
     QuestionData_Float:
     - 0.5
-    QuestionData_Int: 03000000
+    QuestionData_Int: 04000000
     ReturnValue_Bool: 0
     DelayTimeAfterQuestionShow: 7
     QuestionSprite: []

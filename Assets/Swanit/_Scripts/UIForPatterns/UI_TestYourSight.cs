@@ -17,7 +17,7 @@ public class UI_TestYourSight : UI_Base
     [SerializeField]
     private List<Vector2> BoxPositions;
     [SerializeField]
-    private List<Vector2> defaultPos;
+    //   private List<Vector2> defaultPos;
     private int correctIndex;
 
     public float duration = 1.0f;
@@ -57,7 +57,7 @@ public class UI_TestYourSight : UI_Base
         //   Debug.LogError("Game Staus :" + GameManager.Instance.Status.ToString());
 
         BoxPositions = new List<Vector2>();
-        defaultPos = new List<Vector2>();
+        //   defaultPos = new List<Vector2>();
 
 
         //   Debug.LogError(".....Set UI Called.....");
@@ -89,7 +89,7 @@ public class UI_TestYourSight : UI_Base
             Vector2 xpos = new Vector2(posTect * i / (babushkaNo - 1) + offset * 0.5f, -70.0f);
             mBabushka[i].Babushka_Parent.anchoredPosition = xpos;
             BoxPositions.Add(xpos);
-            defaultPos.Add(xpos);
+            //     defaultPos.Add(xpos);
         }
     }
 
@@ -111,10 +111,11 @@ public class UI_TestYourSight : UI_Base
 
             iterationCompleted = 0;
 
-            for (int i = 0; i < babushkaNo; i++)
+            for (int i = 0; i < mButtonHolder.Count; i++)
             {
                 RectTransform rt = mButtonHolder[i].GetComponent<RectTransform>();
-                rt.anchoredPosition = defaultPos[i];
+                rt.anchoredPosition = new Vector2(1218.0f, -70.0f);//defaultPos[i];
+                rt.gameObject.SetActive(false);
             } 
         }
     }
